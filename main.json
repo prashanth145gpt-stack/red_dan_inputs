@@ -1,0 +1,686 @@
+{
+  "llm_json": {
+  "data":{
+  "request_id": "test_updated",
+  "dan_app_id": "MAI0000062",
+  "company_name": "Tata Capital Limited",
+  "web_result": {
+    "material_adverse_observations_web_media_news_compliance": {
+      "value": [
+        {
+          "date": "December 2024",
+          "observation": "SEBI settlement case regarding unlisted CRPS distribution - Company paid Rs 14.4 lakh settlement amount for violating private placement norms by down-selling CRPSs to more than 200 investors within 6 months of allotment",
+          "source": "Economic Times, Moneylife",
+          "severity": "Medium"
+        },
+        {
+          "date": "June 2026",
+          "observation": "FIR lodged against Tata Capital officials in alleged loan fraud case involving forged documents and signatures for mortgaging property without owner's consent",
+          "source": "Garhwal Post",
+          "severity": "High"
+        }
+      ]
+    },
+    "material_adverse_observations_web_media_news_remarks": {
+      "value": [
+        {
+          "observation": "The company has faced regulatory scrutiny over compliance with private placement norms, requiring settlement with SEBI",
+          "impact": "Indicates gaps in regulatory compliance processes though financial impact was limited",
+          "mitigation": "Company has taken corrective measures through settlement"
+        },
+        {
+          "observation": "Recent allegations of fraud by officials raises concerns about internal controls and governance",
+          "impact": "Could affect reputation and trigger increased regulatory oversight",
+          "mitigation": "Investigation ongoing, final outcome pending"
+        }
+      ],
+      "confidence": "medium",
+      "notes": "While there are some adverse observations, they appear to be specific incidents rather than systemic issues. Company has generally maintained stable regulatory compliance record."
+    }
+  },
+  "group1_results": [
+    {
+      "status": "SUCCESS",
+      "company": "Tata Capital Limited",
+      "folders": [
+        "External Rating Report collection"
+      ],
+      "result": {
+        "credit_rating_compliance": {
+          "value": "C2"
+        },
+        "external_credit_rating_trend_complaince": {
+          "value": "C2"
+        },
+        "external_credit_rating_remarks": {
+          "remarks": "CRISIL: AAA/Stable reaffirmed in September 2024. CARE: AAA/Stable reaffirmed in April 2026. ICRA: AAA/Stable for subordinated debt and AA+/Stable for perpetual debt reaffirmed in 2025."
+        },
+        "external_credit_rating_trend_remark": {
+          "remarks": "There has been no change in rating since the past 3 years. All three agencies CRISIL, CARE, and ICRA have maintained AAA/Stable for long-term instruments."
+        }
+      }
+    },
+    {
+      "status": "SUCCESS",
+      "company": "Tata Capital Limited",
+      "folders": [
+        "RAM Rating Collection"
+      ],
+      "result": {
+        "ram_rating_compliance": {
+          "value": "C2/S2",
+          "confidence": "high"
+        },
+        "ram_rating_movement_compliance": {
+          "value": "No movement — C2/S2 maintained. No change in rating since past 3 years.",
+          "confidence": "high"
+        },
+        "ram_rating_remarks": {
+          "remarks": "RAM Rating C2/S2 found in multiple reports for FY25 and FY26."
+        },
+        "ram_rating_movement_remarks": {
+          "remarks": "Consistent C2/S2 rating found across FY23, FY24, and FY25 reports."
+        }
+      }
+    }
+  ],
+  "group2_results": [
+    {
+      "status": "SUCCESS",
+      "company": "Tata Capital Limited",
+      "folders": [
+        "Investor Presentations"
+      ],
+      "result": {
+        "Product Concentration": {
+          "value": "NOT_FOUND",
+          "as_of_date": "",
+          "source": "",
+          "confidence": "low",
+          "notes": "No product concentration breakdown found in the available presentation slides."
+        },
+        "Geographic Concentration": {
+          "value": "NOT_FOUND",
+          "as_of_date": "",
+          "source": "",
+          "confidence": "low",
+          "notes": "No geographic concentration data found in the available presentation slides."
+        },
+        "Portfolio Mix": {
+          "value": "NOT_FOUND",
+          "as_of_date": "",
+          "source": "",
+          "confidence": "low",
+          "notes": "No portfolio mix breakdown found in the available presentation slides."
+        },
+        "Borrowing Mix": {
+          "value": "NOT_FOUND",
+          "as_of_date": "",
+          "source": "",
+          "confidence": "low",
+          "notes": "No borrowing mix information found in the available presentation slides."
+        },
+        "Shareholding Pattern": {
+          "value": "NOT_FOUND",
+          "as_of_date": "",
+          "source": "",
+          "confidence": "low",
+          "notes": "No shareholding pattern data found in the available presentation slides."
+        }
+      }
+    },
+    {
+      "status": "SUCCESS",
+      "company": "Tata Capital Limited",
+      "folders": [
+        "Saverisk"
+      ],
+      "result": {
+        "Type of NBFC": {
+          "value": "Tata Capital Limited is registered with RBI as an NBFC-Investment and Credit Company (NBFC-ICC), is a non-deposit-taking entity (NBFC-ND), and is classified under the Upper Layer of RBI's Scale-Based Regulation framework.",
+          "as_of_date": "2024-01-09",
+          "source": "RBI NBFC List, latest entry",
+          "confidence": "high",
+          "notes": ""
+        },
+        "shareholding_pattern_(%_stake)": {
+          "value": "not_found",
+          "as_of_date": "",
+          "source": "",
+          "confidence": "not_found",
+          "notes": "Shareholding pattern details not found in provided SaveRisk data after multiple search attempts."
+        },
+        "High_risk_litigation_as_respondent_saverisk": {
+          "value": "High-risk litigation data not available in SaveRisk Portal. (RM to comment)",
+          "as_of_date": "2026-04-15",
+          "source": "SaveRisk report, Litigation section",
+          "confidence": "high",
+          "notes": "No specific high-risk litigation summary table found after extensive search."
+        },
+        "material_adverse_observations_saverisk_compliance": {
+          "value": "",
+          "as_of_date": "",
+          "source": "",
+          "confidence": "not_found",
+          "notes": "No specific material adverse observations found in compliance context after multiple searches."
+        },
+        "material_adverse_observations_saverisk_remarks": {
+          "value": "",
+          "as_of_date": "",
+          "source": "",
+          "confidence": "not_found",
+          "notes": "No specific material adverse observations or remarks found after multiple searches."
+        },
+        "connected_lending_compliance": {
+          "value": "",
+          "as_of_date": "",
+          "source": "",
+          "confidence": "not_found",
+          "notes": "No information found on connected lending compliance after multiple searches."
+        },
+        "connected_lending_remarks": {
+          "value": "",
+          "as_of_date": "",
+          "source": "",
+          "confidence": "not_found",
+          "notes": "No remarks found related to connected lending after multiple searches."
+        }
+      }
+    }
+  ],
+  "group3_results": [
+    {
+      "status": "SUCCESS",
+      "company": "Tata Capital Limited",
+      "folders": [
+        "Annual Reports",
+        "Concall Transcripts",
+        "Investor Presentations",
+        "Scorecard"
+      ],
+      "result": {
+        "{{lcr_2023}}": "112.00",
+        "{{lcr_2024}}": "105.00",
+        "{{lcr_2025}}": "215.67",
+        "{{lcr_yoy}}": "105.40%",
+        "lcr_threshold": "<100%",
+        "lcr_breach": "NOT_FOUND",
+        "lcr_movement_justification": "LCR increased significantly from 105% in FY 2024 to 215.67% in FY 2025, indicating a substantial improvement in the company's liquidity position. This rise suggests enhanced ability to meet short-term obligations and withstand potential liquidity stress.",
+        "{{borrowings_2023}}": "53621.10",
+        "{{borrowings_2024}}": "55016.54",
+        "{{borrowings_2025}}": "62309.61",
+        "{{top5_lender_summary}}": "NOT_FOUND",
+        "{{average_cost_of_borrowing}}": "7.1",
+        "{{borrowings_yoy}}": "13.26%",
+        "borrowings_trend": "Increasing",
+        "borrowings_remarks": "Borrowings have shown an increasing trend, growing from Rs 53,621.10 crore in FY 2023 to Rs 62,309.61 crore in FY 2025. The year-on-year growth rate from FY 2024 to FY 2025 was 13.26%."
+      }
+    },
+    {
+      "status": "SUCCESS",
+      "company": "Tata Capital Limited",
+      "folders": [
+        "Annual Reports",
+        "Concall Transcripts",
+        "Investor Presentations",
+        "Scorecard"
+      ],
+      "result": {
+        "{{NIM_FY2023}}": "3.84",
+        "{{NIM_FY2024}}": "3.90",
+        "{{NIM_FY2025}}": "3.94",
+        "{{NIM_YoY}}": "0.10",
+        "nim_trend": "improving",
+        "nim_threshold": "<4%",
+        "nim_breach": "false",
+        "nim_justification": "NIM has shown a steady improvement from 3.84% in FY 2023 to 3.94% in FY 2025, indicating a positive trend in the company's core lending profitability. The increase of 10 basis points over two years suggests gradual enhancement in spread management.",
+        "{{Yield_FY2023}}": "10.99",
+        "{{Yield_FY2024}}": "11.18",
+        "{{Yield_FY2025}}": "10.76",
+        "{{Yield_YoY}}": "-0.23",
+        "yield_trend": "deteriorating",
+        "yield_threshold": "<10%",
+        "yield_breach": "false",
+        "yield_justification": "Portfolio yield increased from 10.99% in FY 2023 to 11.18% in FY 2024, but then decreased to 10.76% in FY 2025. The overall trend shows a slight decline of 23 basis points from FY 2023 to FY 2025, indicating some pressure on yields.",
+        "{{ROA_FY2023}}": "1.59",
+        "{{ROA_FY2024}}": "2.19",
+        "{{ROA_FY2025}}": "2.52",
+        "{{ROA_YoY}}": "0.93",
+        "roa_trend": "improving",
+        "roa_threshold": "<2.5%",
+        "roa_breach": "false",
+        "roa_justification": "ROA has shown significant improvement, increasing from 1.59% in FY 2023 to 2.52% in FY 2025. This represents a substantial increase of 93 basis points over two years, indicating enhanced profitability and asset utilization.",
+        "{{Interest_income_2023}}": "6445.94",
+        "{{Interest_income_2024}}": "6979.13",
+        "{{Interest_income_2025}}": "7605.54",
+        "{{Interest_income_YoY}}": "1159.60",
+        "interest_income_trend": "improving",
+        "interest_income_justification": "Interest income has shown consistent growth, increasing from ₹ 6,445.94 crore in FY 2023 to ₹ 7,605.54 crore in FY 2025. This represents a total increase of ₹ 1,159.60 crore over two years, indicating strong growth in the company's core lending business.",
+        "{{Total_income_2023}}": "6492.39",
+        "{{Total_income_2024}}": "7023.98",
+        "{{Total_income_2025}}": "7661.22",
+        "{{Total_income_YoY}}": "1168.83",
+        "total_income_trend": "improving",
+        "total_income_justification": "Total income has grown consistently from ₹ 6,492.39 crore in FY 2023 to ₹ 7,661.22 crore in FY 2025. This represents an increase of ₹ 1,168.83 crore over two years, showing strong overall revenue growth.",
+        "{{Exceptional_income_2023}}": "0",
+        "{{Exceptional_income_2024}}": "0",
+        "{{Exceptional_income_2025}}": "0",
+        "{{Exceptional_income_YoY}}": "0",
+        "exceptional_income_justification": "No extraordinary income was reported for FY 2023, FY 2024, or FY 2025, indicating that the company's income growth was driven by core business activities.",
+        "{{Opex_2023}}": "474.62",
+        "{{Opex_2024}}": "557.30",
+        "{{Opex_2025}}": "701.94",
+        "{{Opex_YoY}}": "227.32",
+        "opex_trend": "deteriorating",
+        "opex_justification": "Operating expenses have increased from ₹ 474.62 crore in FY 2023 to ₹ 701.94 crore in FY 2025. This represents an increase of ₹ 227.32 crore over two years, indicating rising operational costs.",
+        "{{PAT_2023}}": "1056.27",
+        "{{PAT_2024}}": "1527.42",
+        "{{PAT_2025}}": "1948.95",
+        "{{PAT_YoY}}": "892.68",
+        "pat_trend": "improving",
+        "pat_justification": "Profit After Tax (PAT) has shown significant growth, increasing from ₹ 1,056.27 crore in FY 2023 to ₹ 1,948.95 crore in FY 2025. This represents a substantial increase of ₹ 892.68 crore over two years, indicating strong improvement in overall profitability.",
+        "{{Cost_income_2023}}": "7.31",
+        "{{Cost_income_2024}}": "7.93",
+        "{{Cost_income_2025}}": "9.16",
+        "{{Cost_income_YoY}}": "1.85",
+        "cost_income_trend": "deteriorating",
+        "cost_income_threshold": ">20%",
+        "cost_income_breach": "false",
+        "cost_income_justification": "The Cost to Income Ratio has increased from 7.31% in FY 2023 to 9.16% in FY 2025. This represents an increase of 1.85 percentage points over two years, indicating a slight deterioration in operational efficiency.",
+        "{{Credit_cost_2023}}": "1.18",
+        "{{Credit_cost_2024}}": "0.27",
+        "{{Credit_cost_2025}}": "-0.22",
+        "{{Credit_cost_YoY}}": "-1.40",
+        "credit_cost_trend": "improving",
+        "credit_cost_threshold": ">3%",
+        "credit_cost_breach": "false",
+        "credit_cost_justification": "Credit cost has significantly improved, decreasing from 1.18% in FY 2023 to -0.22% in FY 2025. This represents a substantial improvement of 140 basis points over two years, indicating better asset quality and lower provisioning requirements."
+      }
+    }
+  ],
+  "group4_results": [
+    {
+      "status": "SUCCESS",
+      "company": "Tata Capital Limited",
+      "folders": [
+        "ASM Report"
+      ],
+      "result": {
+        "material_adverse_observations_asm_report_compliance": {
+          "value": "NOT_FOUND",
+          "as_of_date": "",
+          "source": "",
+          "confidence": "not_found"
+        },
+        "material_adverse_observations_asm_report_remarks": {
+          "value": "NOT_FOUND",
+          "as_of_date": "",
+          "source": "",
+          "confidence": "not_found",
+          "notes": ""
+        }
+      }
+    },
+    {
+      "status": "SUCCESS",
+      "company": "Tata Capital Limited",
+      "folders": [
+        "Annual Reports",
+        "Concall Transcripts",
+        "Investor Presentations",
+        "Scorecard"
+      ],
+      "result": {
+        "1. AUM – Total": {
+          "total_aum_fy2023": "66617",
+          "total_aum_fy2024": "71243",
+          "total_aum_fy2025": "80397",
+          "total_aum_yoy_change": "Improving Trend"
+        },
+        "2. AUM – On-book (Trend)": {
+          "onbook_aum_fy2023": "59341",
+          "onbook_aum_fy2024": "65454",
+          "onbook_aum_fy2025": "75887",
+          "onbook_aum_yoy_change": "Improving Trend"
+        },
+        "3. AUM – On-book (Threshold)": "Threshold: >20%",
+        "4. AUM – Off-book": {
+          "offbook_aum_fy2023": "7276",
+          "offbook_aum_fy2024": "5789",
+          "offbook_aum_fy2025": "4510",
+          "offbook_aum_yoy_change": "Deteriorating Trend"
+        }
+      }
+    },
+    {
+      "status": "SUCCESS",
+      "company": "Tata Capital Limited",
+      "folders": [
+        "Annual Reports",
+        "Concall Transcripts",
+        "Investor Presentations",
+        "Scorecard"
+      ],
+      "result": {
+        "{{overall_gnpa_pct_fy2023}}": "1.7",
+        "{{overall_gnpa_pct_fy2024}}": "1.5",
+        "{{overall_gnpa_pct_fy2025}}": "1.9",
+        "{{overall_gnpa_pct_yoy_change}}": "0.4",
+        "{{overall_nnpa_pct_fy2023}}": "0.4",
+        "{{overall_nnpa_pct_fy2024}}": "0.4",
+        "{{overall_nnpa_pct_fy2025}}": "0.8",
+        "{{overall_nnpa_pct_yoy_change}}": "0.4",
+        "{{overall_writeoff_fy2023}}": "NOT_FOUND",
+        "{{overall_writeoff_fy2024}}": "NOT_FOUND",
+        "{{overall_writeoff_fy2025}}": "NOT_FOUND",
+        "{{overall_writeoff_yoy_change}}": "NOT_FOUND",
+        "{{overall_gnpa_writeoff_ratio_fy2023}}": "NOT_FOUND",
+        "{{overall_gnpa_writeoff_ratio_fy2024}}": "NOT_FOUND",
+        "{{overall_gnpa_writeoff_ratio_fy2025}}": "NOT_FOUND",
+        "{{overall_gnpa_writeoff_ratio_yoy_change}}": "NOT_FOUND",
+        "gnpa_nnpa_writeoff_ratio_movement_justification": "GNPA increased from 1.5% in FY 2024 to 1.9% in FY 2025, while NNPA increased from 0.4% to 0.8% over the same period. This indicates a deterioration in asset quality. The increase of 0.4 percentage points in both GNPA and NNPA suggests a consistent rise in non-performing assets. Without write-off data, the full impact on asset quality cannot be assessed."
+      }
+    }
+  ],
+  "group5_results": [
+    {
+      "status": "SUCCESS",
+      "company": "Tata Capital Limited",
+      "folders": [
+        "Annual Reports",
+        "Concall Transcripts",
+        "Investor Presentations",
+        "Scorecard"
+      ],
+      "result": {
+        "{{pcr_stage_3_fy2023}}": "28.77",
+        "{{pcr_stage_3_fy2024}}": "37.35",
+        "{{pcr_stage_3_fy2025}}": "36.05",
+        "{{pcr_stage_3_yoy_change}}": "7.28",
+        "trend": "Improving",
+        "remarks": "PCR-Stage 3 increased from 28.77% in FY2023 to 37.35% in FY2024, but decreased slightly to 36.05% in FY2025. Overall trend is improving."
+      }
+    },
+    {
+      "status": "SUCCESS",
+      "company": "Tata Capital Limited",
+      "folders": [
+        "Annual Reports",
+        "Concall Transcripts",
+        "Investor Presentations",
+        "Scorecard"
+      ],
+      "result": {
+        "{{equity_2023}}": "169",
+        "{{equity_2024}}": "260",
+        "{{equity_2025}}": "260",
+        "{{equity_yoy}}": "53.8%",
+        "equity_justification": "Share capital increased from ₹169 crore in FY 2023 to ₹260 crore in FY 2024, representing a 53.8% year-over-year growth. It remained stable at ₹260 crore in FY 2025.",
+        "{{tangible_networth_2023}}": "10790",
+        "{{tangible_networth_2024}}": "14779",
+        "{{tangible_networth_2025}}": "16628",
+        "{{tangible_networth_yoy}}": "12.5%",
+        "tangible_networth_justification": "Tangible Net Worth grew from ₹10,790 crore in FY 2023 to ₹14,779 crore in FY 2024, and further to ₹16,628 crore in FY 2025. The year-over-year growth from FY 2024 to FY 2025 was 12.5%. This growth was likely driven by retained earnings and possibly capital infusion.",
+        "{{net_owned_funds_2023}}": "9471",
+        "{{net_owned_funds_2024}}": "13532",
+        "{{net_owned_funds_2025}}": "15573",
+        "{{net_owned_funds_yoy}}": "15.1%",
+        "net_owned_funds_justification": "Net Owned Funds increased from ₹9,471 crore in FY 2023 to ₹13,532 crore in FY 2024, and further to ₹15,573 crore in FY 2025. The year-over-year growth from FY 2024 to FY 2025 was 15.1%. This growth closely aligns with the Tangible Net Worth growth.",
+        "leverage_ratio_threshold": ">4",
+        "leverage_ratio_breach": "NOT_FOUND",
+        "{{gearing_2023}}": "4.97",
+        "{{gearing_2024}}": "3.72",
+        "{{gearing_2025}}": "3.75",
+        "{{gearing_yoy}}": "0.8%",
+        "gearing_justification": "The leverage ratio (TOL/TNW) decreased from 4.97 in FY 2023 to 3.72 in FY 2024, and then slightly increased to 3.75 in FY 2025. The year-over-year change from FY 2024 to FY 2025 was a 0.8% increase. The overall trend shows improved leverage position over the three-year period.",
+        "crar_threshold": "<17%",
+        "crar_breach": "NOT_FOUND",
+        "{{crar_2023}}": "24.43",
+        "{{crar_2024}}": "29.26",
+        "{{crar_2025}}": "29.38",
+        "{{crar_yoy}}": "0.4%",
+        "crar_justification": "CRAR improved from 24.43% in FY 2023 to 29.26% in FY 2024, and further to 29.38% in FY 2025. The year-over-year growth from FY 2024 to FY 2025 was 0.4%. The CRAR remains well above the regulatory threshold, indicating a strong capital position.",
+        "{{crar_tier1_2023}}": "22.40",
+        "{{crar_tier1_2024}}": "27.90",
+        "{{crar_tier1_2025}}": "28.39",
+        "{{crar_tier1_yoy}}": "1.8%",
+        "crar_tier1_threshold": "<15%",
+        "crar_tier1_breach": "NOT_FOUND",
+        "crar_tier1_justification": "CRAR (Tier 1) improved from 22.40% in FY 2023 to 27.90% in FY 2024, and further to 28.39% in FY 2025. The year-over-year growth from FY 2024 to FY 2025 was 1.8%. The Tier 1 CRAR remains significantly above the threshold, indicating a strong core capital position."
+      }
+    },
+    {
+      "status": "SUCCESS",
+      "company": "Tata Capital Limited",
+      "folders": [
+        "BOR PROF EXCEL"
+      ],
+      "result": {
+        "{{top5_lender_1}}": {
+          "name": "HDFC Bank Ltd",
+          "exposure": "12083"
+        },
+        "{{top5_lender_2}}": {
+          "name": "State Bank of India",
+          "exposure": "11500"
+        },
+        "{{top5_lender_3}}": {
+          "name": "Canara Bank",
+          "exposure": "9688"
+        },
+        "{{top5_lender_4}}": {
+          "name": "Punjab National Bank",
+          "exposure": "6080"
+        },
+        "{{top5_lender_5}}": {
+          "name": "Small Industries Development",
+          "exposure": "5767"
+        }
+      }
+    }
+  ],
+  "group6_results": [
+    {
+      "status": "SUCCESS",
+      "company": "Tata Capital Limited",
+      "folders": [
+        "Annual Reports"
+      ],
+      "result": {
+        "Details about Last Capital Infusion": {
+          "value": [],
+          "as_of_date": "",
+          "source": "",
+          "confidence": "not_found",
+          "notes": "No information found about recent capital infusions in the provided context."
+        },
+        "Proposed Equity Infusion": {
+          "value": "No proposed equity infusion disclosed",
+          "as_of_date": "",
+          "source": "",
+          "confidence": "high",
+          "notes": "No information found about proposed equity infusions in the provided context."
+        },
+        "Average Cost of Borrowing": {
+          "value": "Not Available",
+          "as_of_date": "",
+          "source": "",
+          "confidence": "not_found",
+          "notes": "No specific information found about average cost of borrowing in the provided context."
+        },
+        "Top_5_lenders_summary": {},
+        "Top 5 Lenders": {
+          "name of lender": "Not Available",
+          "expsoure": [],
+          "as_of_date": "",
+          "source": "",
+          "confidence": "not_found",
+          "notes": "No information found about top 5 lenders in the provided context."
+        },
+        "Secured vs Unsecured Mix": {
+          "value": [],
+          "as_of_date": "",
+          "source": "",
+          "confidence": "not_found",
+          "notes": "No information found about secured vs unsecured loan mix in the provided context."
+        },
+        "Cash in Hand": {
+          "value": "Not Available",
+          "as_of_date": "",
+          "source": "",
+          "confidence": "not_found",
+          "notes": "No specific information found about cash in hand or liquidity position in the provided context."
+        },
+        "Related Party Exposure": {
+          "value": "FY2023: 44,376 lakh\nFY2022: 77,988 lakh",
+          "as_of_date": "March 31, 2023",
+          "source": "Annual Report 2022-23, Notes forming part of standalone financial statements, Page 317",
+          "confidence": "high",
+          "notes": "The values represent loans granted to related parties that are repayable on demand."
+        },
+        "Regulatory Penalties": {
+          "value": "As per disclosures, no regulatory penalties were reported.",
+          "as_of_date": "",
+          "source": "",
+          "confidence": "low",
+          "notes": "No specific information found about regulatory penalties in the provided context."
+        }
+      }
+    },
+    {
+      "status": "SUCCESS",
+      "company": "Tata Capital Limited",
+      "folders": [
+        "Annual Reports"
+      ],
+      "result": {
+        "Shareholding Pattern": {
+          "value": "| Shareholder / Category | % Stake |\n|---|---|\n| Tata Sons Private Limited | N/A |\n| Others | N/A |",
+          "as_of_date": "March 31, 2023",
+          "source": "Annual Report 2022-23",
+          "confidence": "low",
+          "notes": "Exact shareholding percentages not found. Tata Sons Private Limited mentioned as holding company. (RM needs to validate)"
+        },
+        "Key Management": {
+          "value": "Rajiv Sabharwal – Managing Director & CEO | Rakesh Bhatia – Chief Financial Officer | Sarita Kamath – Head - Legal and Compliance & Company Secretary",
+          "as_of_date": "April 27, 2023",
+          "source": "Annual Report 2022-23",
+          "confidence": "high",
+          "notes": ""
+        },
+        "Brief on the Board of Directors": {
+          "value": "The Board of Directors includes Radhakrishnan (Director), Mathew Cyriac (Director), Aarthi Subramanian (Director), and Rajiv Sabharwal (Managing Director & CEO). The board composition includes both Executive and Non-Executive directors. (as of FY 2023)",
+          "as_of_date": "March 31, 2023",
+          "source": "Annual Report 2022-23",
+          "confidence": "medium",
+          "notes": "Exact breakdown of Executive/Non-Executive/Independent directors not found. Limited information on director backgrounds available."
+        },
+        "Changes in Directorship in last 1 year": {
+          "value": "No changes in directorship during FY 2023",
+          "as_of_date": "March 31, 2023",
+          "source": "Annual Report 2022-23",
+          "confidence": "low",
+          "notes": "No explicit mention of changes or lack thereof found. Inferred from consistent board composition. (RM needs to validate)"
+        },
+        "If any changes in directorship, rationale": {
+          "value": "Not applicable as no changes in directorship were identified for FY 2023",
+          "as_of_date": "March 31, 2023",
+          "source": "Annual Report 2022-23",
+          "confidence": "low",
+          "notes": "Based on lack of information about changes. (RM needs to validate)"
+        },
+        "Details of Holding / Subsidiary Companies, if any": {
+          "value": "Holding company: Tata Sons Private Limited\nSubsidiaries: Information available in Form AOC-1 on pages 268 to 270 of the Annual Report",
+          "as_of_date": "March 31, 2023",
+          "source": "Annual Report 2022-23",
+          "confidence": "medium",
+          "notes": "Exact list of subsidiaries and stake percentages not extracted. Refer to Form AOC-1 in Annual Report for details."
+        },
+        "prudential_rating_AAA_and_upper_layer_compilance": "CRISIL AAA/Stable rating for Unsecured NCDs and Bank Facilities. ICRA AAA/Stable and IND AAA/Stable for Unsecured NCDs. Company classified as Middle Layer NBFC (NBFC-ML) as per RBI Scale Based Regulations.",
+        "nbfc_registered_compilance": "Registered with the Reserve Bank of India (RBI) as a Systemically Important Non-Deposit Accepting Core Investment Company (CIC)",
+        "track_record_compilance": "32nd Annual Report presented, indicating at least 32 years of operation. Consolidated Return on Assets (RoA) for FY 2022-23 was 2.9% and Return on Equity (RoE) was 23%."
+      }
+    },
+    {
+      "status": "SUCCESS",
+      "company": "Tata Capital Limited",
+      "folders": [
+        "Annual Reports"
+      ],
+      "result": {
+        "Financial Performance": {
+          "value": "Tata Capital Limited reported strong financial performance in FY 2022-23. Total income grew 32% to Rs 13,637 crore. Net profit increased 80% to Rs 2,975 crore, including some one-time gains. Excluding one-time gains, net profit grew 46% to Rs 2,414 crore. Return on Equity improved from 15.6% to 23% (17.2% excluding one-time gains). The loan book expanded 28% to Rs 120,940 crore, with 80% in retail and SME segments. Asset quality improved, with GNPA decreasing from 1.9% to 1.7% and NNPA from 0.6% to 0.4%.",
+          "as_of_date": "2023-03-31",
+          "source": "Annual Report 2022-23",
+          "confidence": "high",
+          "notes": "Data extracted from consolidated financial results and management commentary in annual report"
+        },
+        "Material Adverse Observations: Auditor's Report": {
+          "value": "No adverse observations noted in Auditors report of FY 2023",
+          "as_of_date": "2023-03-31",
+          "source": "Annual Report 2022-23",
+          "confidence": "high",
+          "notes": "No qualifications or adverse remarks found in auditor's report section"
+        },
+        "Material Adverse Observations: Web Media / News": {
+          "value": "No adverse news found in Web Media/News.",
+          "as_of_date": "2023-07-21",
+          "source": "Web search",
+          "confidence": "medium",
+          "notes": "No significant negative news found after multiple searches"
+        },
+        "RBI Registration: NBFC-ICC": {
+          "value": "not_found",
+          "as_of_date": "",
+          "source": "",
+          "confidence": "not_found",
+          "notes": "Unable to confirm NBFC-ICC registration status after multiple searches"
+        },
+        "SBR Categorisation: NBFC-Upper Layer": {
+          "value": "not_found",
+          "as_of_date": "",
+          "source": "",
+          "confidence": "not_found",
+          "notes": "Unable to confirm Upper Layer NBFC status after multiple searches"
+        },
+        "Connected Lending Applicability": {
+          "value": "not_found",
+          "as_of_date": "",
+          "source": "",
+          "confidence": "not_found",
+          "notes": "Unable to find information on connected lending after multiple searches"
+        },
+        "Material Adverse Observations: SaveRisk": {
+          "value": "not_found",
+          "as_of_date": "",
+          "source": "",
+          "confidence": "not_found",
+          "notes": "Unable to find SaveRisk observations after multiple searches"
+        },
+        "Cash and Cash Equivalent": {
+          "notes": "Information not found in provided extracts"
+        },
+        "total_aum_latest_fy_compliance": {
+          "value": "120940"
+        },
+        "total_aum_latest_fy_remarks": {
+          "value": "The total loan book stood at Rs 120,940 crore as at March 31, 2023, up by 28% YoY"
+        },
+        "borrowings_2023": {
+          "value": ""
+        },
+        "borrowings_2024": {
+          "value": ""
+        },
+        "borrowings_2025": {
+          "value": ""
+        },
+        "borrowings_yoy": {
+          "value": ""
+        }
+      }
+    }
+  ]
+  }},
+  "mis_json": {}
+}
