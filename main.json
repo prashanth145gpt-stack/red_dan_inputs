@@ -1,686 +1,1349 @@
 {
-  "llm_json": {
-  "data":{
-  "request_id": "test_updated",
-  "dan_app_id": "MAI0000062",
-  "company_name": "Tata Capital Limited",
-  "web_result": {
-    "material_adverse_observations_web_media_news_compliance": {
-      "value": [
-        {
-          "date": "December 2024",
-          "observation": "SEBI settlement case regarding unlisted CRPS distribution - Company paid Rs 14.4 lakh settlement amount for violating private placement norms by down-selling CRPSs to more than 200 investors within 6 months of allotment",
-          "source": "Economic Times, Moneylife",
-          "severity": "Medium"
-        },
-        {
-          "date": "June 2026",
-          "observation": "FIR lodged against Tata Capital officials in alleged loan fraud case involving forged documents and signatures for mortgaging property without owner's consent",
-          "source": "Garhwal Post",
-          "severity": "High"
-        }
-      ]
-    },
-    "material_adverse_observations_web_media_news_remarks": {
-      "value": [
-        {
-          "observation": "The company has faced regulatory scrutiny over compliance with private placement norms, requiring settlement with SEBI",
-          "impact": "Indicates gaps in regulatory compliance processes though financial impact was limited",
-          "mitigation": "Company has taken corrective measures through settlement"
-        },
-        {
-          "observation": "Recent allegations of fraud by officials raises concerns about internal controls and governance",
-          "impact": "Could affect reputation and trigger increased regulatory oversight",
-          "mitigation": "Investigation ongoing, final outcome pending"
-        }
-      ],
-      "confidence": "medium",
-      "notes": "While there are some adverse observations, they appear to be specific incidents rather than systemic issues. Company has generally maintained stable regulatory compliance record."
-    }
+  "mis_json": {
+    "danAiId": "RAI00000148",
+    "nbfcName": "PIRAMAL FINANCE LIMITED",
+    "pan": "AAACD1977A",
+    "cif": "000070613",
+    "applnName": "NBFC",
+    "nbfcId": "332",
+    "productType": "REF",
+    "schemeType": "4W",
+    "danApplStatus": "GN",
+    "highutil": 0,
+    "outstandingAmount": 1184.21,
+    "repaytrack": "Excellent",
+    "pastassodesc": "Existing SIDBI Customer since 0 years",
+    "pastassotl": 2,
+    "pasttermloans": 2,
+    "pasttlos": 1184.21,
+    "danAiRequestId": "4a918d9f-8ed1-4be7-a712-c6812cbd9af0",
+    "creditLimit": "Rs 5000 crore",
+    "validityOfLimit": "JUN-2027",
+    "prodName": "NBFC-REF",
+    "schName": "SCHEME OF REFINANCE TO NBFCS UNDER RISK EXPOSURE FRAMEWORK (REF)",
+    "objDocObj": [
+      {
+        "danAIId": "RAI00000148",
+        "slNo": 469,
+        "documentId": "TRANS_001",
+        "docDesc": "Commentary: Concall Transcripts/ Investor Presentation",
+        "createdDt": "2026-06-30T17:23:02.29828",
+        "docUrlPath": "/app/Reports/000070613/RAI00000148/TRANS_001/469/piramalfinance-earnings-jan23-2026.pdf",
+        "id": null,
+        "saveStatus": "NW",
+        "modifyDt": null,
+        "fileName": "piramalfinance-earnings-jan23-2026.pdf",
+        "fileType": "application/pdf",
+        "userId": "nikhitaj",
+        "userName": "Nikhita Laxmikant Janpage",
+        "docType": null,
+        "finYear": "2025",
+        "quarter": "Q2",
+        "asondocDt": "2025-09-30T00:00:00"
+      },
+      {
+        "danAIId": "RAI00000148",
+        "slNo": 470,
+        "documentId": "TRANS_001",
+        "docDesc": "Commentary: Concall Transcripts/ Investor Presentation",
+        "createdDt": "2026-06-30T17:23:02.304714",
+        "docUrlPath": "/app/Reports/000070613/RAI00000148/TRANS_001/470/transcript-piramalfinance-earnings-oct17-2025.pdf",
+        "id": null,
+        "saveStatus": "NW",
+        "modifyDt": null,
+        "fileName": "transcript-piramalfinance-earnings-oct17-2025.pdf",
+        "fileType": "application/pdf",
+        "userId": "nikhitaj",
+        "userName": "Nikhita Laxmikant Janpage",
+        "docType": null,
+        "finYear": "2025",
+        "quarter": "Q1",
+        "asondocDt": "2025-06-30T00:00:00"
+      },
+      {
+        "danAIId": "RAI00000148",
+        "slNo": 471,
+        "documentId": "INV_001",
+        "docDesc": "Investor presentation",
+        "createdDt": "2026-06-30T17:23:02.31511",
+        "docUrlPath": "/app/Reports/000070613/RAI00000148/INV_001/471/q4-and-full-year-fy26-results-presentation.pdf",
+        "id": null,
+        "saveStatus": "NW",
+        "modifyDt": null,
+        "fileName": "q4-and-full-year-fy26-results-presentation.pdf",
+        "fileType": "application/pdf",
+        "userId": "nikhitaj",
+        "userName": "Nikhita Laxmikant Janpage",
+        "docType": null,
+        "finYear": "2026",
+        "quarter": "Q1",
+        "asondocDt": "2026-06-30T00:00:00"
+      },
+      {
+        "danAIId": "RAI00000148",
+        "slNo": 472,
+        "documentId": "INV_001",
+        "docDesc": "Investor presentation",
+        "createdDt": "2026-06-30T17:23:02.329228",
+        "docUrlPath": "/app/Reports/000070613/RAI00000148/INV_001/472/q3-fy26-results-presentation.pdf",
+        "id": null,
+        "saveStatus": "NW",
+        "modifyDt": null,
+        "fileName": "q3-fy26-results-presentation.pdf",
+        "fileType": "application/pdf",
+        "userId": "nikhitaj",
+        "userName": "Nikhita Laxmikant Janpage",
+        "docType": null,
+        "finYear": "2026",
+        "quarter": "Q2",
+        "asondocDt": "2026-09-30T00:00:00"
+      },
+      {
+        "danAIId": "RAI00000148",
+        "slNo": 473,
+        "documentId": "INV_001",
+        "docDesc": "Investor presentation",
+        "createdDt": "2026-06-30T17:23:02.339765",
+        "docUrlPath": "/app/Reports/000070613/RAI00000148/INV_001/473/q2fy26-results-presentation.pdf",
+        "id": null,
+        "saveStatus": "NW",
+        "modifyDt": null,
+        "fileName": "q2fy26-results-presentation.pdf",
+        "fileType": "application/pdf",
+        "userId": "nikhitaj",
+        "userName": "Nikhita Laxmikant Janpage",
+        "docType": null,
+        "finYear": "2026",
+        "quarter": "Q2",
+        "asondocDt": "2026-09-30T00:00:00"
+      },
+      {
+        "danAIId": "RAI00000148",
+        "slNo": 474,
+        "documentId": "CR_001",
+        "docDesc": "All available External Credit rating reports of current FY and last FY",
+        "createdDt": "2026-06-30T17:23:02.35944",
+        "docUrlPath": "/app/Reports/000070613/RAI00000148/CR_001/474/RatingReport24-Jun-2026.xlsx",
+        "id": null,
+        "saveStatus": "NW",
+        "modifyDt": null,
+        "fileName": "RatingReport24-Jun-2026.xlsx",
+        "fileType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        "userId": "nikhitaj",
+        "userName": "Nikhita Laxmikant Janpage",
+        "docType": null,
+        "finYear": "NA",
+        "quarter": "NA",
+        "asondocDt": "2026-06-02T00:00:00"
+      },
+      {
+        "danAIId": "RAI00000148",
+        "slNo": 475,
+        "documentId": "CR_001",
+        "docDesc": "All available External Credit rating reports of current FY and last FY",
+        "createdDt": "2026-06-30T17:23:02.375986",
+        "docUrlPath": "/app/Reports/000070613/RAI00000148/CR_001/475/ICRA.pdf",
+        "id": null,
+        "saveStatus": "NW",
+        "modifyDt": null,
+        "fileName": "ICRA.pdf",
+        "fileType": "application/pdf",
+        "userId": "nikhitaj",
+        "userName": "Nikhita Laxmikant Janpage",
+        "docType": null,
+        "finYear": "NA",
+        "quarter": "NA",
+        "asondocDt": "2026-06-30T00:00:00"
+      },
+      {
+        "danAIId": "RAI00000148",
+        "slNo": 476,
+        "documentId": "CR_001",
+        "docDesc": "All available External Credit rating reports of current FY and last FY",
+        "createdDt": "2026-06-30T17:23:02.392102",
+        "docUrlPath": "/app/Reports/000070613/RAI00000148/CR_001/476/CareEdge Rating.pdf",
+        "id": null,
+        "saveStatus": "NW",
+        "modifyDt": null,
+        "fileName": "CareEdge Rating.pdf",
+        "fileType": "application/pdf",
+        "userId": "nikhitaj",
+        "userName": "Nikhita Laxmikant Janpage",
+        "docType": null,
+        "finYear": "NA",
+        "quarter": "NA",
+        "asondocDt": "2026-06-23T00:00:00"
+      },
+      {
+        "danAIId": "RAI00000148",
+        "slNo": 477,
+        "documentId": "CR_001",
+        "docDesc": "All available External Credit rating reports of current FY and last FY",
+        "createdDt": "2026-06-30T17:23:02.407327",
+        "docUrlPath": "/app/Reports/000070613/RAI00000148/CR_001/477/Rating Rationale.mhtml",
+        "id": null,
+        "saveStatus": "NW",
+        "modifyDt": null,
+        "fileName": "Rating Rationale.mhtml",
+        "fileType": "multipart/related",
+        "userId": "nikhitaj",
+        "userName": "Nikhita Laxmikant Janpage",
+        "docType": null,
+        "finYear": "NA",
+        "quarter": "NA",
+        "asondocDt": "2026-06-30T00:00:00"
+      },
+      {
+        "danAIId": "RAI00000148",
+        "slNo": 478,
+        "documentId": "RAM_001",
+        "docDesc": "RAM rating report pdf (CY + PY)",
+        "createdDt": "2026-06-30T17:23:02.421385",
+        "docUrlPath": "/app/Reports/000070613/RAI00000148/RAM_001/478/Final RAM Rating FY2025.pdf",
+        "id": null,
+        "saveStatus": "NW",
+        "modifyDt": null,
+        "fileName": "Final RAM Rating FY2025.pdf",
+        "fileType": "application/pdf",
+        "userId": "nikhitaj",
+        "userName": "Nikhita Laxmikant Janpage",
+        "docType": null,
+        "finYear": "NA",
+        "quarter": "NA",
+        "asondocDt": "2026-06-30T00:00:00"
+      },
+      {
+        "danAIId": "RAI00000148",
+        "slNo": 479,
+        "documentId": "AY_001",
+        "docDesc": "Annual report for last 3 years",
+        "createdDt": "2026-06-30T17:23:02.448256",
+        "docUrlPath": "/app/Reports/000070613/RAI00000148/AY_001/479/PFL - Signed Financials 2025-26.pdf",
+        "id": null,
+        "saveStatus": "NW",
+        "modifyDt": null,
+        "fileName": "PFL - Signed Financials 2025-26.pdf",
+        "fileType": "application/pdf",
+        "userId": "nikhitaj",
+        "userName": "Nikhita Laxmikant Janpage",
+        "docType": null,
+        "finYear": "2026",
+        "quarter": "NA",
+        "asondocDt": "2026-06-30T00:00:00"
+      },
+      {
+        "danAIId": "RAI00000148",
+        "slNo": 480,
+        "documentId": "AY_001",
+        "docDesc": "Annual report for last 3 years",
+        "createdDt": "2026-06-30T17:23:02.466337",
+        "docUrlPath": "/app/Reports/000070613/RAI00000148/AY_001/480/PFL-Annual-Report-2024-25.pdf",
+        "id": null,
+        "saveStatus": "NW",
+        "modifyDt": null,
+        "fileName": "PFL-Annual-Report-2024-25.pdf",
+        "fileType": "application/pdf",
+        "userId": "nikhitaj",
+        "userName": "Nikhita Laxmikant Janpage",
+        "docType": null,
+        "finYear": "2026",
+        "quarter": "NA",
+        "asondocDt": "2026-06-30T00:00:00"
+      },
+      {
+        "danAIId": "RAI00000148",
+        "slNo": 481,
+        "documentId": "AY_001",
+        "docDesc": "Annual report for last 3 years",
+        "createdDt": "2026-06-30T17:23:02.502254",
+        "docUrlPath": "/app/Reports/000070613/RAI00000148/AY_001/481/pchfl-annual-report-2023-24.pdf",
+        "id": null,
+        "saveStatus": "NW",
+        "modifyDt": null,
+        "fileName": "pchfl-annual-report-2023-24.pdf",
+        "fileType": "application/pdf",
+        "userId": "nikhitaj",
+        "userName": "Nikhita Laxmikant Janpage",
+        "docType": null,
+        "finYear": "2025",
+        "quarter": "NA",
+        "asondocDt": "2026-06-30T00:00:00"
+      },
+      {
+        "danAIId": "RAI00000148",
+        "slNo": 482,
+        "documentId": "REG_001",
+        "docDesc": "List of NBFCs and ARCs registered with RBI",
+        "createdDt": "2026-06-30T17:23:02.520397",
+        "docUrlPath": "/app/Reports/000070613/RAI00000148/REG_001/482/List_of_NBFCs_and_ARCs_registered_with_.pdf",
+        "id": null,
+        "saveStatus": "NW",
+        "modifyDt": null,
+        "fileName": "List_of_NBFCs_and_ARCs_registered_with_.pdf",
+        "fileType": "application/pdf",
+        "userId": "nikhitaj",
+        "userName": "Nikhita Laxmikant Janpage",
+        "docType": null,
+        "finYear": "NA",
+        "quarter": "NA",
+        "asondocDt": "2026-06-30T00:00:00"
+      },
+      {
+        "danAIId": "RAI00000148",
+        "slNo": 483,
+        "documentId": "BPR_001",
+        "docDesc": "Borrowing profile excel",
+        "createdDt": "2026-06-30T17:23:02.526551",
+        "docUrlPath": "/app/Reports/000070613/RAI00000148/BPR_001/483/PFL Bank Lines - 31 Mar 26.xlsx",
+        "id": null,
+        "saveStatus": "NW",
+        "modifyDt": null,
+        "fileName": "PFL Bank Lines - 31 Mar 26.xlsx",
+        "fileType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        "userId": "nikhitaj",
+        "userName": "Nikhita Laxmikant Janpage",
+        "docType": null,
+        "finYear": "NA",
+        "quarter": "NA",
+        "asondocDt": "2026-06-30T00:00:00"
+      },
+      {
+        "danAIId": "RAI00000148",
+        "slNo": 484,
+        "documentId": "SC_001",
+        "docDesc": "Scorecard: Financial Metrics",
+        "createdDt": "2026-06-30T17:23:02.531748",
+        "docUrlPath": "/app/Reports/000070613/RAI00000148/SC_001/484/ScoreCard_template.xlsx",
+        "id": null,
+        "saveStatus": "NW",
+        "modifyDt": null,
+        "fileName": "ScoreCard_template.xlsx",
+        "fileType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        "userId": "nikhitaj",
+        "userName": "Nikhita Laxmikant Janpage",
+        "docType": null,
+        "finYear": "NA",
+        "quarter": "NA",
+        "asondocDt": "2026-06-30T00:00:00"
+      },
+      {
+        "danAIId": "RAI00000148",
+        "slNo": 485,
+        "documentId": "DUED_001",
+        "docDesc": "CS Due dilligence report",
+        "createdDt": "2026-06-30T17:23:02.539702",
+        "docUrlPath": "/app/Reports/000070613/RAI00000148/DUED_001/485/PFL_DD_Report_March_2026_Signed.pdf",
+        "id": null,
+        "saveStatus": "NW",
+        "modifyDt": null,
+        "fileName": "PFL_DD_Report_March_2026_Signed.pdf",
+        "fileType": "application/pdf",
+        "userId": "nikhitaj",
+        "userName": "Nikhita Laxmikant Janpage",
+        "docType": null,
+        "finYear": "NA",
+        "quarter": "NA",
+        "asondocDt": "2026-06-30T00:00:00"
+      },
+      {
+        "danAIId": "RAI00000148",
+        "slNo": 468,
+        "documentId": "TRANS_001",
+        "docDesc": "Commentary: Concall Transcripts/ Investor Presentation",
+        "createdDt": "2026-06-30T17:23:02.287685",
+        "docUrlPath": "/app/Reports/000070613/RAI00000148/TRANS_001/468/q4fy26-concall-transcript.pdf",
+        "id": null,
+        "saveStatus": "NW",
+        "modifyDt": null,
+        "fileName": "q4fy26-concall-transcript.pdf",
+        "fileType": "application/pdf",
+        "userId": "nikhitaj",
+        "userName": "Nikhita Laxmikant Janpage",
+        "docType": null,
+        "finYear": "2026",
+        "quarter": "Q1",
+        "asondocDt": "2026-06-30T00:00:00"
+      },
+      {
+        "danAIId": "RAI00000148",
+        "slNo": 486,
+        "documentId": "SPREAD_001",
+        "docDesc": "Nos: Filled metrics excel / SpreadAutomator",
+        "createdDt": "2026-06-30T17:23:02.545288",
+        "docUrlPath": "/app/Reports/000070613/RAI00000148/SPREAD_001/486/PIRAMAL_CAPITAL_&_HOUSING_FINANCE_LIMITED_SIDBI_IND_Stand.xlsx",
+        "id": null,
+        "saveStatus": "NW",
+        "modifyDt": null,
+        "fileName": "PIRAMAL_CAPITAL_&_HOUSING_FINANCE_LIMITED_SIDBI_IND_Stand.xlsx",
+        "fileType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        "userId": "nikhitaj",
+        "userName": "Nikhita Laxmikant Janpage",
+        "docType": null,
+        "finYear": "NA",
+        "quarter": "NA",
+        "asondocDt": "2026-06-30T00:00:00"
+      },
+      {
+        "danAIId": "RAI00000148",
+        "slNo": 487,
+        "documentId": "REG_002",
+        "docDesc": "RBI DNBS 4B",
+        "createdDt": "2026-06-30T17:23:02.5516",
+        "docUrlPath": "/app/Reports/000070613/RAI00000148/REG_002/487/PCHFL ALM Mar'25_Final.pdf",
+        "id": null,
+        "saveStatus": "NW",
+        "modifyDt": null,
+        "fileName": "PCHFL ALM Mar'25_Final.pdf",
+        "fileType": "application/pdf",
+        "userId": "nikhitaj",
+        "userName": "Nikhita Laxmikant Janpage",
+        "docType": null,
+        "finYear": "2026",
+        "quarter": "Q1",
+        "asondocDt": "2026-06-30T00:00:00"
+      }
+    ],
+    "objDanMisDetails": [
+      {
+        "slNo": 129,
+        "danAiId": "RAI00000148",
+        "slSanctDt": "16-10-2025",
+        "totalSancAmt": 500,
+        "slAcctNo": "D000E7BF",
+        "disbDt": "11-11-2025",
+        "totalAmtDisb": 500,
+        "roi": 8.75,
+        "nextResetDate": "10-11-2026",
+        "schemeName": "SCHEME OF REFINANCE TO NBFCS",
+        "terminalRepDate": "10-11-2030",
+        "rateType": "FIXED",
+        "resetClause": "Yearly",
+        "osAmount": 473.68,
+        "conduct": "Excellent"
+      }
+    ]
   },
-  "group1_results": [
-    {
-      "status": "SUCCESS",
-      "company": "Tata Capital Limited",
-      "folders": [
-        "External Rating Report collection"
-      ],
-      "result": {
-        "credit_rating_compliance": {
-          "value": "C2"
-        },
-        "external_credit_rating_trend_complaince": {
-          "value": "C2"
-        },
-        "external_credit_rating_remarks": {
-          "remarks": "CRISIL: AAA/Stable reaffirmed in September 2024. CARE: AAA/Stable reaffirmed in April 2026. ICRA: AAA/Stable for subordinated debt and AA+/Stable for perpetual debt reaffirmed in 2025."
-        },
-        "external_credit_rating_trend_remark": {
-          "remarks": "There has been no change in rating since the past 3 years. All three agencies CRISIL, CARE, and ICRA have maintained AAA/Stable for long-term instruments."
-        }
+  "llm_json": {
+    "request_id": "4a918d9f-8ed1-4be7-a712-c6812cbd9af0",
+    "dan_app_id": "RAI00000148",
+    "company_name": "PIRAMAL FINANCE LIMITED",
+    "web_result": {
+      "material_adverse_observations_web_media_news_compliance": {
+        "value": "1. SEBI insider trading investigation (2024) - Settlement with former managing director of Piramal Capital & Housing Finance involving payment of approximately ₹43.5 crore related to alleged insider trading in shares of Piramal Enterprises. 2. RBI complaint (2024) - GSTAAD Hotels Private Limited and Neo Capricon Plaza Private Limited filed complaint with RBI alleging fraudulent practices by Piramal Finance Group Companies to grab high-value securities by misusing powers as NBFC under RBI Act."
+      },
+      "material_adverse_observations_web_media_news_remarks": {
+        "value": "1. Governance concerns around DHFL acquisition (2019-2021) - Company underwent restructuring following allegations of financial impropriety and regulatory intervention. Reports alleged siphoning of approximately ₹31,000 crore through shell companies. DHFL defaulted on debt repayments leading to RBI superseding board citing governance failures. 2. Tax notice (2025) - Received order for tax ascertained as short-paid along with interest and penalty amounting to ₹1,502 crores from Deputy Commissioner of State Tax, Maharashtra related to slump sale of pharma business."
       }
     },
-    {
-      "status": "SUCCESS",
-      "company": "Tata Capital Limited",
-      "folders": [
-        "RAM Rating Collection"
-      ],
-      "result": {
-        "ram_rating_compliance": {
-          "value": "C2/S2",
-          "confidence": "high"
-        },
-        "ram_rating_movement_compliance": {
-          "value": "No movement — C2/S2 maintained. No change in rating since past 3 years.",
-          "confidence": "high"
-        },
-        "ram_rating_remarks": {
-          "remarks": "RAM Rating C2/S2 found in multiple reports for FY25 and FY26."
-        },
-        "ram_rating_movement_remarks": {
-          "remarks": "Consistent C2/S2 rating found across FY23, FY24, and FY25 reports."
+    "group1_results": [
+      {
+        "status": "SUCCESS",
+        "company": "PIRAMAL FINANCE LIMITED",
+        "folders": [
+          "External Rating Report collection"
+        ],
+        "result": {
+          "credit_rating_compliance": {
+            "value": "CARE AA+; Stable"
+          },
+          "external_credit_rating_trend_compliance": {
+            "value": "Upgraded"
+          },
+          "external_credit_rating_remarks": {
+            "remarks": "Latest rating by CARE is AA+/Stable as of 8-Apr-2026 for Long Term Bank Facilities."
+          },
+          "external_credit_rating_trend_remark": {
+            "remarks": "Upgraded from AA/Stable to AA+/Stable in April 2026."
+          }
+        }
+      },
+      {
+        "status": "SUCCESS",
+        "company": "PIRAMAL FINANCE LIMITED",
+        "folders": [
+          "RAM Rating Collection"
+        ],
+        "result": {
+          "ram_rating_compliance": {
+            "value": "C2/S3"
+          },
+          "ram_rating_movement_compliance": {
+            "value": "NOT_FOUND"
+          },
+          "ram_rating_remarks": {
+            "remarks": "The latest RAM rating for Piramal Finance Limited is C2/S3 as of FY 2026."
+          },
+          "ram_rating_movement_remarks": {
+            "remarks": "NOT_FOUND"
+          }
         }
       }
-    }
-  ],
-  "group2_results": [
-    {
-      "status": "SUCCESS",
-      "company": "Tata Capital Limited",
-      "folders": [
-        "Investor Presentations"
-      ],
-      "result": {
-        "Product Concentration": {
-          "value": "NOT_FOUND",
-          "as_of_date": "",
-          "source": "",
-          "confidence": "low",
-          "notes": "No product concentration breakdown found in the available presentation slides."
-        },
-        "Geographic Concentration": {
-          "value": "NOT_FOUND",
-          "as_of_date": "",
-          "source": "",
-          "confidence": "low",
-          "notes": "No geographic concentration data found in the available presentation slides."
-        },
-        "Portfolio Mix": {
-          "value": "NOT_FOUND",
-          "as_of_date": "",
-          "source": "",
-          "confidence": "low",
-          "notes": "No portfolio mix breakdown found in the available presentation slides."
-        },
-        "Borrowing Mix": {
-          "value": "NOT_FOUND",
-          "as_of_date": "",
-          "source": "",
-          "confidence": "low",
-          "notes": "No borrowing mix information found in the available presentation slides."
-        },
-        "Shareholding Pattern": {
-          "value": "NOT_FOUND",
-          "as_of_date": "",
-          "source": "",
-          "confidence": "low",
-          "notes": "No shareholding pattern data found in the available presentation slides."
+    ],
+    "group2_results": [
+      {
+        "status": "SUCCESS",
+        "company": "PIRAMAL FINANCE LIMITED",
+        "folders": [
+          "Investor Presentations"
+        ],
+        "result": {
+          "Product Concentration": {
+            "value": [
+              {
+                "Product": "Housing loans",
+                "% Share": "31%"
+              },
+              {
+                "Product": "CMML",
+                "% Share": "26%"
+              },
+              {
+                "Product": "New real estate",
+                "% Share": "9%"
+              },
+              {
+                "Product": "Digital loans",
+                "% Share": "8%"
+              },
+              {
+                "Product": "Rural micro loans",
+                "% Share": "6%"
+              },
+              {
+                "Product": "LAP",
+                "% Share": "5%"
+              },
+              {
+                "Product": "Used car loans",
+                "% Share": "4%"
+              },
+              {
+                "Product": "Salaried PL",
+                "% Share": "3%"
+              },
+              {
+                "Product": "Other retail",
+                "% Share": "3%"
+              },
+              {
+                "Product": "Legacy",
+                "% Share": "5%"
+              }
+            ],
+            "as_of_date": "Q4 FY26",
+            "source": "Business Snapshot - Q4 FY26, Slide 13",
+            "confidence": "high",
+            "notes": "Percentages extracted from AUM mix chart"
+          },
+          "Geographic Concentration": {
+            "value": [
+              {
+                "Geography": "MMR",
+                "% Share": "22%"
+              },
+              {
+                "Geography": "Hyderabad",
+                "% Share": "18%"
+              },
+              {
+                "Geography": "Chennai",
+                "% Share": "15%"
+              },
+              {
+                "Geography": "NCR - Delhi",
+                "% Share": "12%"
+              },
+              {
+                "Geography": "Pune",
+                "% Share": "8%"
+              },
+              {
+                "Geography": "Bangalore",
+                "% Share": "7%"
+              },
+              {
+                "Geography": "Others",
+                "% Share": "19%"
+              }
+            ],
+            "as_of_date": "December 2025",
+            "source": "Portfolio analysis, Slide 28",
+            "confidence": "high",
+            "notes": "Data represents real estate AUM by geographic exposure"
+          },
+          "Portfolio Mix": {
+            "value": [
+              {
+                "Segment": "Retail",
+                "Amount in lakhs": "9821100",
+                "% Share": "97%"
+              },
+              {
+                "Segment": "Legacy",
+                "Amount in lakhs": "280700",
+                "% Share": "3%"
+              }
+            ],
+            "as_of_date": "Q4 FY26",
+            "source": "Business Snapshot - Q4 FY26, Slide 13",
+            "confidence": "high",
+            "notes": "Calculated from total AUM of ₹1,01,230 Cr and Legacy AUM of ₹2,807 Cr"
+          },
+          "Borrowing Mix": {
+            "value": [
+              {
+                "Instrument": "NCDs / Bonds",
+                "Amount / %": "40%"
+              },
+              {
+                "Instrument": "Loans",
+                "Amount / %": "37%"
+              },
+              {
+                "Instrument": "ECB",
+                "Amount / %": "9%"
+              },
+              {
+                "Instrument": "Securitization",
+                "Amount / %": "8%"
+              },
+              {
+                "Instrument": "CP",
+                "Amount / %": "5%"
+              },
+              {
+                "Instrument": "Public Issue",
+                "Amount / %": "1%"
+              }
+            ],
+            "as_of_date": "December 25",
+            "source": "Liabilities, Slide 36",
+            "confidence": "high",
+            "notes": "Percentages extracted from 'Borrowing by instrument type' chart"
+          },
+          "Shareholding Pattern": {
+            "value": [
+              {
+                "Shareholder Category": "NOT_FOUND",
+                "% Stake": "NOT_FOUND"
+              }
+            ],
+            "as_of_date": "NOT_FOUND",
+            "source": "NOT_FOUND",
+            "confidence": "NOT_FOUND",
+            "notes": "Shareholding pattern information not found in provided slides"
+          }
+        }
+      },
+      {
+        "status": "SUCCESS",
+        "company": "PIRAMAL FINANCE LIMITED",
+        "folders": [
+          "Annual Reports",
+          "Concall Transcripts",
+          "Investor Presentations",
+          "Saverisk"
+        ],
+        "result": {
+          "nbfc_type": {
+            "value": "Piramal Finance Limited is registered with RBI as an NBFC-Investment and Credit Company (NBFC-ICC), is a non-deposit taking entity (NBFC-ND), and is classified under the Upper Layer of RBI's Scale-Based Regulation framework.",
+            "as_of_date": "2026-03-31",
+            "source": "RBI NBFC List, entry 1234",
+            "confidence": "high",
+            "notes": ""
+          },
+          "shareholding_pattern_(%_stake)": {
+            "value": "Promoter Group: 46%, FIIs: 32%, DIIs: 12%, Public: 10%",
+            "as_of_date": "2025-12-31",
+            "source": "SaveRisk report, Shareholding Pattern section",
+            "confidence": "high",
+            "notes": ""
+          },
+          "High_risk_litigation_as_respondent_saverisk": {
+            "value": "As per SaveRisk Portal, Piramal Finance Limited has 3 high-risk litigation cases as respondent. (RM to comment)",
+            "as_of_date": "2025-12-31",
+            "source": "SaveRisk report, Litigation Summary Table",
+            "confidence": "high",
+            "notes": ""
+          },
+          "connected_lending_compliance": {
+            "value": "yes"
+          },
+          "connected_lending_remarks": {
+            "value": "Company has disclosed related party transactions with group entities in financial statements"
+          },
+          "material_adverse_observations_saverisk_compliance": {
+            "value": "yes"
+          },
+          "material_adverse_observations_saverisk_remarks": {
+            "value": "SaveRisk report notes concerns around asset quality of legacy wholesale book"
+          }
         }
       }
-    },
-    {
-      "status": "SUCCESS",
-      "company": "Tata Capital Limited",
-      "folders": [
-        "Saverisk"
-      ],
-      "result": {
-        "Type of NBFC": {
-          "value": "Tata Capital Limited is registered with RBI as an NBFC-Investment and Credit Company (NBFC-ICC), is a non-deposit-taking entity (NBFC-ND), and is classified under the Upper Layer of RBI's Scale-Based Regulation framework.",
-          "as_of_date": "2024-01-09",
-          "source": "RBI NBFC List, latest entry",
-          "confidence": "high",
-          "notes": ""
-        },
-        "shareholding_pattern_(%_stake)": {
-          "value": "not_found",
-          "as_of_date": "",
-          "source": "",
-          "confidence": "not_found",
-          "notes": "Shareholding pattern details not found in provided SaveRisk data after multiple search attempts."
-        },
-        "High_risk_litigation_as_respondent_saverisk": {
-          "value": "High-risk litigation data not available in SaveRisk Portal. (RM to comment)",
-          "as_of_date": "2026-04-15",
-          "source": "SaveRisk report, Litigation section",
-          "confidence": "high",
-          "notes": "No specific high-risk litigation summary table found after extensive search."
-        },
-        "material_adverse_observations_saverisk_compliance": {
-          "value": "",
-          "as_of_date": "",
-          "source": "",
-          "confidence": "not_found",
-          "notes": "No specific material adverse observations found in compliance context after multiple searches."
-        },
-        "material_adverse_observations_saverisk_remarks": {
-          "value": "",
-          "as_of_date": "",
-          "source": "",
-          "confidence": "not_found",
-          "notes": "No specific material adverse observations or remarks found after multiple searches."
-        },
-        "connected_lending_compliance": {
-          "value": "",
-          "as_of_date": "",
-          "source": "",
-          "confidence": "not_found",
-          "notes": "No information found on connected lending compliance after multiple searches."
-        },
-        "connected_lending_remarks": {
-          "value": "",
-          "as_of_date": "",
-          "source": "",
-          "confidence": "not_found",
-          "notes": "No remarks found related to connected lending after multiple searches."
+    ],
+    "group3_results": [
+      {
+        "status": "SUCCESS",
+        "company": "PIRAMAL FINANCE LIMITED",
+        "folders": [
+          "scorecard",
+          "spread sheets",
+          "Annual Reports",
+          "Investor Presentations",
+          "Concall Transcripts"
+        ],
+        "result": {
+          "lcr_2024": 84,
+          "lcr_2025": 205.49,
+          "lcr_2026": 444.57,
+          "lcr_yoy": 116.35,
+          "lcr_threshold": "<100%",
+          "lcr_breach": "NO",
+          "lcr_movement_justification": "The company has seen a significant improvement in its Liquidity Coverage Ratio (LCR) over the past year, with LCR increasing from 84% in FY2024 to 444.57% in FY2026. This improvement is mainly due to an increase in High Quality Liquid Assets (HQLA) as the company has maintained sufficient quantum of HQLA to meet its liquidity needs for a 30 calendar day liquidity stress scenario. The company regularly reviews the maturity position of assets and liabilities and liquidity buffers to ensure maintenance of adequate liquidity.",
+          "borrowings_2024": 44487,
+          "borrowings_2025": 64268,
+          "borrowings_2026": 78596,
+          "top5_lender_summary": "The top lenders include banks, mutual funds, insurance companies, and other financial institutions. Banks remain the largest source of borrowings.",
+          "average_cost_of_borrowing": 8.84,
+          "borrowings_yoy": 22.29,
+          "borrowings_trend": "Increasing",
+          "borrowings_remarks": "The company's borrowings have shown an increasing trend over the past three years, growing from Rs 44,487 crore in FY2024 to Rs 78,596 crore in FY2026. This increase in borrowings is primarily to support the company's loan book expansion and AUM growth. The company has been diversifying its borrowing mix by tapping into various sources like banks, mutual funds, ECBs and securitization. The recent credit rating upgrade to AA+ is expected to further lower the cost of borrowings and provide access to new lending markets."
+        }
+      },
+      {
+        "status": "SUCCESS",
+        "company": "PIRAMAL FINANCE LIMITED",
+        "folders": [
+          "scorecard",
+          "spread sheets",
+          "Concall Transcripts",
+          "Annual Reports",
+          "Concall Transcripts",
+          "Investor Presentations"
+        ],
+        "result": {
+          "{{NIM_FY2026}}": "7.20%",
+          "{{NIM_FY2024}}": "4.80%",
+          "{{NIM_FY2025}}": "6.90%",
+          "{{NIM_YoY}}": "4.35%",
+          "nim_trend": "improving",
+          "nim_threshold": "<4%",
+          "nim_breach": "false",
+          "nim_justification": "NIM expanded from 4.80% in FY 2024 to 6.90% in FY 2025 and further to 7.20% in FY 2026, showing a consistent improving trend. The expansion was driven by higher yielding retail assets and lower cost of funds.",
+          "{{Yield_FY2026}}": "14.06%",
+          "{{Yield_FY2024}}": "11.26%",
+          "{{Yield_FY2025}}": "14.91%",
+          "{{Yield_YoY}}": "-5.70%",
+          "yield_trend": "deteriorating",
+          "yield_threshold": "<10%",
+          "yield_breach": "false",
+          "yield_justification": "Portfolio yield increased from 11.26% in FY 2024 to 14.91% in FY 2025, but declined to 14.06% in FY 2026. The decline in FY 2026 was likely due to a shift in product mix or competitive pressures.",
+          "{{ROA_FY2026}}": "1.90%",
+          "{{ROA_FY2024}}": "-2.81%",
+          "{{ROA_FY2025}}": "0.09%",
+          "{{ROA_YoY}}": "2011.11%",
+          "roa_trend": "improving",
+          "roa_threshold": "<2.5%",
+          "roa_breach": "true",
+          "roa_justification": "ROA improved significantly from -2.81% in FY 2024 to 0.09% in FY 2025 and further to 1.90% in FY 2026. The improvement was driven by higher NIM, lower credit costs and improved operating leverage. However, ROA remains below the 2.5% threshold.",
+          "{{Interest_income_2026}}": "10707",
+          "{{Interest_income_2024}}": "5863",
+          "{{Interest_income_2025}}": "8646",
+          "{{Interest_income_YoY}}": "23.84%",
+          "interest_income_trend": "improving",
+          "interest_income_justification": "Interest income grew from ₹5,863 crore in FY 2024 to ₹8,646 crore in FY 2025 and further to ₹10,707 crore in FY 2026, showing strong year-on-year growth. The increase was driven by AUM growth and higher yields.",
+          "{{Total_income_2026}}": "13329",
+          "{{Total_income_2024}}": "6712",
+          "{{Total_income_2025}}": "10660",
+          "{{Total_income_YoY}}": "25.04%",
+          "total_income_trend": "improving",
+          "total_income_justification": "Total income increased from ₹6,712 crore in FY 2024 to ₹10,660 crore in FY 2025 and further to ₹13,329 crore in FY 2026, showing strong year-on-year growth. The growth was driven by higher interest income and fee income.",
+          "{{Exceptional_income_2026}}": "-81",
+          "{{Exceptional_income_2024}}": "-1658",
+          "{{Exceptional_income_2025}}": "0",
+          "{{Exceptional_income_YoY}}": "NOT_FOUND",
+          "exceptional_income_justification": "Exceptional income was -₹1,658 crore in FY 2024, nil in FY 2025, and -₹81 crore in FY 2026. The large negative amount in FY 2024 likely relates to one-time charges or write-offs.",
+          "{{Opex_2026}}": "2965",
+          "{{Opex_2024}}": "2181",
+          "{{Opex_2025}}": "2692",
+          "{{Opex_YoY}}": "10.14%",
+          "opex_trend": "deteriorating",
+          "opex_justification": "Operating expenses increased from ₹2,181 crore in FY 2024 to ₹2,692 crore in FY 2025 and further to ₹2,965 crore in FY 2026. While expenses grew, the rate of growth was lower than income growth, indicating improving operating leverage.",
+          "{{PAT_2026}}": "1540",
+          "{{PAT_2024}}": "-1911",
+          "{{PAT_2025}}": "574",
+          "{{PAT_YoY}}": "168.29%",
+          "pat_trend": "improving",
+          "pat_justification": "PAT improved significantly from a loss of ₹1,911 crore in FY 2024 to a profit of ₹574 crore in FY 2025 and further to ₹1,540 crore in FY 2026. The improvement was driven by higher income, lower credit costs and improved operating leverage.",
+          "{{Cost_income_2026}}": "22.25%",
+          "{{Cost_income_2024}}": "32.49%",
+          "{{Cost_income_2025}}": "25.25%",
+          "{{Cost_income_YoY}}": "-11.88%",
+          "cost_income_trend": "improving",
+          "cost_income_threshold": ">20%",
+          "cost_income_breach": "true",
+          "cost_income_justification": "Cost-to-income ratio improved from 32.49% in FY 2024 to 25.25% in FY 2025 and further to 22.25% in FY 2026, indicating improving operating efficiency. However, it remains above the 20% threshold.",
+          "{{Credit_cost_2026}}": "1.6%",
+          "{{Credit_cost_2024}}": "4.9%",
+          "{{Credit_cost_2025}}": "1.5%",
+          "{{Credit_cost_YoY}}": "6.67%",
+          "credit_cost_trend": "deteriorating",
+          "credit_cost_threshold": ">3%",
+          "credit_cost_breach": "false",
+          "credit_cost_justification": "Credit cost decreased significantly from 4.9% in FY 2024 to 1.5% in FY 2025, but increased slightly to 1.6% in FY 2026. While the trend shows a slight deterioration in FY 2026, it remains well below the 3% threshold."
+        }
+      },
+      {
+        "status": "SUCCESS",
+        "company": "PIRAMAL FINANCE LIMITED",
+        "folders": [
+          "Annual Reports",
+          "Concall Transcripts",
+          "Investor Presentations",
+          "Scorecard"
+        ],
+        "result": {
+          "net_asset_size": "NOT_FOUND",
+          "purpose_cidbi_assistance_compliance": "NOT_FOUND",
+          "security_compliance": "NOT_FOUND",
+          "interest_rate_compliance": "NOT_FOUND",
+          "upfront_fee_compliance": "NOT_FOUND",
+          "repayment_compliance": "NOT_FOUND",
+          "pca_framework_compliance": "NOT_FOUND",
+          "pca_framework_remarks": "NOT_FOUND"
         }
       }
-    }
-  ],
-  "group3_results": [
-    {
-      "status": "SUCCESS",
-      "company": "Tata Capital Limited",
-      "folders": [
-        "Annual Reports",
-        "Concall Transcripts",
-        "Investor Presentations",
-        "Scorecard"
-      ],
-      "result": {
-        "{{lcr_2023}}": "112.00",
-        "{{lcr_2024}}": "105.00",
-        "{{lcr_2025}}": "215.67",
-        "{{lcr_yoy}}": "105.40%",
-        "lcr_threshold": "<100%",
-        "lcr_breach": "NOT_FOUND",
-        "lcr_movement_justification": "LCR increased significantly from 105% in FY 2024 to 215.67% in FY 2025, indicating a substantial improvement in the company's liquidity position. This rise suggests enhanced ability to meet short-term obligations and withstand potential liquidity stress.",
-        "{{borrowings_2023}}": "53621.10",
-        "{{borrowings_2024}}": "55016.54",
-        "{{borrowings_2025}}": "62309.61",
-        "{{top5_lender_summary}}": "NOT_FOUND",
-        "{{average_cost_of_borrowing}}": "7.1",
-        "{{borrowings_yoy}}": "13.26%",
-        "borrowings_trend": "Increasing",
-        "borrowings_remarks": "Borrowings have shown an increasing trend, growing from Rs 53,621.10 crore in FY 2023 to Rs 62,309.61 crore in FY 2025. The year-on-year growth rate from FY 2024 to FY 2025 was 13.26%."
-      }
-    },
-    {
-      "status": "SUCCESS",
-      "company": "Tata Capital Limited",
-      "folders": [
-        "Annual Reports",
-        "Concall Transcripts",
-        "Investor Presentations",
-        "Scorecard"
-      ],
-      "result": {
-        "{{NIM_FY2023}}": "3.84",
-        "{{NIM_FY2024}}": "3.90",
-        "{{NIM_FY2025}}": "3.94",
-        "{{NIM_YoY}}": "0.10",
-        "nim_trend": "improving",
-        "nim_threshold": "<4%",
-        "nim_breach": "false",
-        "nim_justification": "NIM has shown a steady improvement from 3.84% in FY 2023 to 3.94% in FY 2025, indicating a positive trend in the company's core lending profitability. The increase of 10 basis points over two years suggests gradual enhancement in spread management.",
-        "{{Yield_FY2023}}": "10.99",
-        "{{Yield_FY2024}}": "11.18",
-        "{{Yield_FY2025}}": "10.76",
-        "{{Yield_YoY}}": "-0.23",
-        "yield_trend": "deteriorating",
-        "yield_threshold": "<10%",
-        "yield_breach": "false",
-        "yield_justification": "Portfolio yield increased from 10.99% in FY 2023 to 11.18% in FY 2024, but then decreased to 10.76% in FY 2025. The overall trend shows a slight decline of 23 basis points from FY 2023 to FY 2025, indicating some pressure on yields.",
-        "{{ROA_FY2023}}": "1.59",
-        "{{ROA_FY2024}}": "2.19",
-        "{{ROA_FY2025}}": "2.52",
-        "{{ROA_YoY}}": "0.93",
-        "roa_trend": "improving",
-        "roa_threshold": "<2.5%",
-        "roa_breach": "false",
-        "roa_justification": "ROA has shown significant improvement, increasing from 1.59% in FY 2023 to 2.52% in FY 2025. This represents a substantial increase of 93 basis points over two years, indicating enhanced profitability and asset utilization.",
-        "{{Interest_income_2023}}": "6445.94",
-        "{{Interest_income_2024}}": "6979.13",
-        "{{Interest_income_2025}}": "7605.54",
-        "{{Interest_income_YoY}}": "1159.60",
-        "interest_income_trend": "improving",
-        "interest_income_justification": "Interest income has shown consistent growth, increasing from ₹ 6,445.94 crore in FY 2023 to ₹ 7,605.54 crore in FY 2025. This represents a total increase of ₹ 1,159.60 crore over two years, indicating strong growth in the company's core lending business.",
-        "{{Total_income_2023}}": "6492.39",
-        "{{Total_income_2024}}": "7023.98",
-        "{{Total_income_2025}}": "7661.22",
-        "{{Total_income_YoY}}": "1168.83",
-        "total_income_trend": "improving",
-        "total_income_justification": "Total income has grown consistently from ₹ 6,492.39 crore in FY 2023 to ₹ 7,661.22 crore in FY 2025. This represents an increase of ₹ 1,168.83 crore over two years, showing strong overall revenue growth.",
-        "{{Exceptional_income_2023}}": "0",
-        "{{Exceptional_income_2024}}": "0",
-        "{{Exceptional_income_2025}}": "0",
-        "{{Exceptional_income_YoY}}": "0",
-        "exceptional_income_justification": "No extraordinary income was reported for FY 2023, FY 2024, or FY 2025, indicating that the company's income growth was driven by core business activities.",
-        "{{Opex_2023}}": "474.62",
-        "{{Opex_2024}}": "557.30",
-        "{{Opex_2025}}": "701.94",
-        "{{Opex_YoY}}": "227.32",
-        "opex_trend": "deteriorating",
-        "opex_justification": "Operating expenses have increased from ₹ 474.62 crore in FY 2023 to ₹ 701.94 crore in FY 2025. This represents an increase of ₹ 227.32 crore over two years, indicating rising operational costs.",
-        "{{PAT_2023}}": "1056.27",
-        "{{PAT_2024}}": "1527.42",
-        "{{PAT_2025}}": "1948.95",
-        "{{PAT_YoY}}": "892.68",
-        "pat_trend": "improving",
-        "pat_justification": "Profit After Tax (PAT) has shown significant growth, increasing from ₹ 1,056.27 crore in FY 2023 to ₹ 1,948.95 crore in FY 2025. This represents a substantial increase of ₹ 892.68 crore over two years, indicating strong improvement in overall profitability.",
-        "{{Cost_income_2023}}": "7.31",
-        "{{Cost_income_2024}}": "7.93",
-        "{{Cost_income_2025}}": "9.16",
-        "{{Cost_income_YoY}}": "1.85",
-        "cost_income_trend": "deteriorating",
-        "cost_income_threshold": ">20%",
-        "cost_income_breach": "false",
-        "cost_income_justification": "The Cost to Income Ratio has increased from 7.31% in FY 2023 to 9.16% in FY 2025. This represents an increase of 1.85 percentage points over two years, indicating a slight deterioration in operational efficiency.",
-        "{{Credit_cost_2023}}": "1.18",
-        "{{Credit_cost_2024}}": "0.27",
-        "{{Credit_cost_2025}}": "-0.22",
-        "{{Credit_cost_YoY}}": "-1.40",
-        "credit_cost_trend": "improving",
-        "credit_cost_threshold": ">3%",
-        "credit_cost_breach": "false",
-        "credit_cost_justification": "Credit cost has significantly improved, decreasing from 1.18% in FY 2023 to -0.22% in FY 2025. This represents a substantial improvement of 140 basis points over two years, indicating better asset quality and lower provisioning requirements."
-      }
-    }
-  ],
-  "group4_results": [
-    {
-      "status": "SUCCESS",
-      "company": "Tata Capital Limited",
-      "folders": [
-        "ASM Report"
-      ],
-      "result": {
-        "material_adverse_observations_asm_report_compliance": {
-          "value": "NOT_FOUND",
-          "as_of_date": "",
-          "source": "",
-          "confidence": "not_found"
-        },
-        "material_adverse_observations_asm_report_remarks": {
-          "value": "NOT_FOUND",
-          "as_of_date": "",
-          "source": "",
-          "confidence": "not_found",
-          "notes": ""
+    ],
+    "group4_results": [
+      {
+        "status": "SUCCESS",
+        "company": "PIRAMAL FINANCE LIMITED",
+        "folders": [
+          "ASM Report"
+        ],
+        "result": {
+          "material_adverse_observations_asm_report_compliance": {
+            "value": "NOT_FOUND",
+            "as_of_date": "",
+            "source": "",
+            "confidence": "not_found"
+          },
+          "material_adverse_observations_asm_report_remarks": {
+            "value": "NOT_FOUND",
+            "as_of_date": "",
+            "source": "",
+            "confidence": "not_found",
+            "notes": ""
+          }
+        }
+      },
+      {
+        "status": "SUCCESS",
+        "company": "PIRAMAL FINANCE LIMITED",
+        "folders": [
+          "Annual Reports",
+          "Concall Transcripts",
+          "Investor Presentations",
+          "scorecard"
+        ],
+        "result": {
+          "total_aum": {
+            "fy2024": "65,168",
+            "fy2025": "69,307",
+            "fy2026": "101,230",
+            "yoy_change": "46.06"
+          },
+          "onbook_aum": {
+            "fy2024": "53,696",
+            "fy2025": "62,303",
+            "fy2026": "90,018",
+            "yoy_change": "44.49"
+          },
+          "offbook_aum": {
+            "fy2024": "11,472",
+            "fy2025": "7,004",
+            "fy2026": "11,212",
+            "yoy_change": "60.08"
+          },
+          "aum_movement_justification": "The company's total AUM grew 46% year-on-year to ₹101,230 crore in FY2026, driven by strong growth in both on-book and off-book AUM. On-book AUM increased 44% to ₹90,018 crore, while off-book AUM grew 60% to ₹11,212 crore. The growth was supported by increased disbursements across retail and wholesale segments, as well as new product launches. The company's multi-product retail strategy and focus on granular loans contributed to the AUM expansion.",
+          "total_aum_latest_fy_compliance": {
+            "value": "COMPLIANT"
+          },
+          "total_aum_latest_fy_remarks": {
+            "value": "The company's total AUM of ₹101,230 crore in FY2026 exceeds the ₹1 lakh crore milestone, indicating strong growth and scale. The on-book to off-book AUM ratio of 89:11 is within a comfortable range."
+          }
+        }
+      },
+      {
+        "status": "SUCCESS",
+        "company": "PIRAMAL FINANCE LIMITED",
+        "folders": [
+          "Annual Reports",
+          "Concall Transcripts",
+          "Investor Presentations",
+          "scorecard"
+        ],
+        "result": {
+          "result": {
+            "{{overall_gnpa_pct_fy2026}}": "2.25%",
+            "{{overall_gnpa_pct_fy2024}}": "2.36%",
+            "{{overall_gnpa_pct_fy2025}}": "2.78%",
+            "{{overall_gnpa_pct_yoy_change}}": "-0.53%",
+            "{{overall_nnpa_pct_fy2026}}": "1.60%",
+            "{{overall_nnpa_pct_fy2024}}": "1.00%",
+            "{{overall_nnpa_pct_fy2025}}": "2.01%",
+            "{{overall_nnpa_pct_yoy_change}}": "-0.41%",
+            "{{overall_writeoff_fy2026}}": "874.94",
+            "{{overall_writeoff_fy2024}}": "3016.19",
+            "{{overall_writeoff_fy2025}}": "2945.45",
+            "{{overall_writeoff_yoy_change}}": "-2070.51",
+            "{{overall_gnpa_writeoff_ratio_fy2026}}": "3.19%",
+            "{{overall_gnpa_writeoff_ratio_fy2024}}": "7.55%",
+            "{{overall_gnpa_writeoff_ratio_fy2025}}": "7.17%",
+            "{{overall_gnpa_writeoff_ratio_yoy_change}}": "-3.98%",
+            "gnpa_nnpa_writeoff_ratio_movement_justification": "GNPA decreased from 2.78% in FY 2025 to 2.25% in FY 2026. NNPA decreased from 2.01% in FY 2025 to 1.60% in FY 2026. Write-offs reduced significantly from ₹2,945.45 crore in FY 2025 to ₹874.94 crore in FY 2026. The GNPA + Write-off ratio improved from 7.17% in FY 2025 to 3.19% in FY 2026, indicating better asset quality.",
+            "{{mse_gnpa_pct_fy2026}}": "NOT_FOUND",
+            "{{mse_gnpa_pct_fy2024}}": "NOT_FOUND",
+            "{{mse_gnpa_pct_fy2025}}": "NOT_FOUND",
+            "{{mse_gnpa_pct_yoy_change}}": "NOT_FOUND",
+            "{{mse_nnpa_pct_fy2026}}": "NOT_FOUND",
+            "{{mse_nnpa_pct_fy2024}}": "NOT_FOUND",
+            "{{mse_nnpa_pct_fy2025}}": "NOT_FOUND",
+            "{{mse_nnpa_pct_yoy_change}}": "NOT_FOUND",
+            "{{mse_writeoff_fy2026}}": "NOT_FOUND",
+            "{{mse_writeoff_fy2024}}": "NOT_FOUND",
+            "{{mse_writeoff_fy2025}}": "NOT_FOUND",
+            "{{mse_writeoff_yoy_change}}": "NOT_FOUND",
+            "{{mse_gnpa_writeoff_ratio_fy2026}}": "NOT_FOUND",
+            "{{mse_gnpa_writeoff_ratio_fy2024}}": "NOT_FOUND",
+            "{{mse_gnpa_writeoff_ratio_fy2025}}": "NOT_FOUND",
+            "{{mse_gnpa_writeoff_ratio_yoy_change}}": "NOT_FOUND",
+            "{{mse_gnpa_nnpa_writeoff_ratio_movement_justification}}": "NOT_FOUND"
+          }
         }
       }
-    },
-    {
-      "status": "SUCCESS",
-      "company": "Tata Capital Limited",
-      "folders": [
-        "Annual Reports",
-        "Concall Transcripts",
-        "Investor Presentations",
-        "Scorecard"
-      ],
-      "result": {
-        "1. AUM – Total": {
-          "total_aum_fy2023": "66617",
-          "total_aum_fy2024": "71243",
-          "total_aum_fy2025": "80397",
-          "total_aum_yoy_change": "Improving Trend"
-        },
-        "2. AUM – On-book (Trend)": {
-          "onbook_aum_fy2023": "59341",
-          "onbook_aum_fy2024": "65454",
-          "onbook_aum_fy2025": "75887",
-          "onbook_aum_yoy_change": "Improving Trend"
-        },
-        "3. AUM – On-book (Threshold)": "Threshold: >20%",
-        "4. AUM – Off-book": {
-          "offbook_aum_fy2023": "7276",
-          "offbook_aum_fy2024": "5789",
-          "offbook_aum_fy2025": "4510",
-          "offbook_aum_yoy_change": "Deteriorating Trend"
+    ],
+    "group5_results": [
+      {
+        "status": "SUCCESS",
+        "company": "PIRAMAL FINANCE LIMITED",
+        "folders": [
+          "scorecard",
+          "spread sheets",
+          "Annual Reports",
+          "Concall Transcripts"
+        ],
+        "result": {
+          "pcr_stage_3_fy2024": "58%",
+          "pcr_stage_3_fy2025": "28%",
+          "pcr_stage_3_fy2026": "30%",
+          "pcr_stage_3_yoy_change": "7.14",
+          "trend": "Decreasing",
+          "pcr_stage_3_movement_justification": "The decrease in PCR Stage 3 from FY2024 to FY2025 was likely due to higher write-offs and recoveries, while the slight increase in FY2026 may indicate some stabilization in asset quality.",
+          "equity_2024": "23,365",
+          "equity_2025": "45",
+          "equity_2026": "45",
+          "equity_yoy": "0.00",
+          "tangible_networth_2026": "25,365",
+          "tangible_networth_2024": "12,279",
+          "tangible_networth_2025": "24,077",
+          "tangible_networth_yoy": "5.35",
+          "tangible_networth_justification": "The increase in tangible networth was likely due to retained earnings and capital infusion to support business growth.",
+          "net_owned_funds_2026": "19,284",
+          "net_owned_funds_2024": "10,099",
+          "net_owned_funds_2025": "11,467",
+          "net_owned_funds_yoy": "68.17",
+          "net_owned_funds_justification": "The significant increase in net owned funds was likely due to capital infusion and retained earnings to strengthen the capital base.",
+          "leverage_ratio_threshold": ">4",
+          "leverage_ratio_breach": "NOT_FOUND",
+          "gearing_2026": "3.10",
+          "gearing_2024": "3.62",
+          "gearing_2025": "2.67",
+          "gearing_yoy": "16.10",
+          "gearing_justification": "The increase in gearing ratio from FY2025 to FY2026 indicates higher leverage, likely to support business growth while maintaining capital adequacy.",
+          "crar_threshold": "<17%",
+          "crar_breach": "false",
+          "crar_2026": "19.77%",
+          "crar_2024": "21.64%",
+          "crar_2025": "21.49%",
+          "crar_yoy": "-8.00",
+          "crar_justification": "The decrease in CRAR from FY2025 to FY2026 was likely due to higher risk-weighted assets from business growth, while still maintaining a comfortable buffer above regulatory requirements.",
+          "crar_tier1_2026": "19.32%",
+          "crar_tier1_2024": "21.04%",
+          "crar_tier1_2025": "21.08%",
+          "crar_tier1_yoy": "-8.35",
+          "crar_tier1_threshold": "<15%",
+          "crar_tier1_breach": "false",
+          "crar_tier1_justification": "The decrease in Tier 1 CRAR from FY2025 to FY2026 was in line with the overall CRAR reduction, while still maintaining a strong Tier 1 capital position above regulatory requirements."
+        }
+      },
+      {
+        "status": "SUCCESS",
+        "company": "PIRAMAL FINANCE LIMITED",
+        "folders": [
+          "Annual Reports",
+          "Concall Transcripts",
+          "Investor Presentations",
+          "scorecard"
+        ],
+        "result": {
+          "{{equity_2026}}": "45",
+          "{{equity_2024}}": "23365",
+          "{{equity_2025}}": "45",
+          "{{equity_yoy}}": "-99.81%",
+          "equity_justification": "Share capital decreased significantly from FY2024 to FY2025 due to a corporate restructuring, and remained stable in FY2026",
+          "{{tangible_networth_2026}}": "25365",
+          "{{tangible_networth_2024}}": "12279",
+          "{{tangible_networth_2025}}": "24077",
+          "{{tangible_networth_yoy}}": "5.35%",
+          "tangible_networth_justification": "Tangible net worth increased steadily over the period, driven by retained earnings and capital infusion",
+          "{{net_owned_funds_2026}}": "19284",
+          "{{net_owned_funds_2024}}": "10099",
+          "{{net_owned_funds_2025}}": "11467",
+          "{{net_owned_funds_yoy}}": "68.17%",
+          "net_owned_funds_justification": "Net owned funds grew significantly in FY2026, outpacing tangible net worth growth",
+          "leverage_ratio_threshold": ">4",
+          "leverage_ratio_breach": "NOT_FOUND",
+          "{{gearing_2026}}": "3.10",
+          "{{gearing_2024}}": "3.62",
+          "{{gearing_2025}}": "2.67",
+          "{{gearing_yoy}}": "16.10%",
+          "gearing_justification": "Leverage ratio increased in FY2026 after decreasing in FY2025, but remains below the FY2024 level",
+          "crar_threshold": "<17%",
+          "crar_breach": "NOT_FOUND",
+          "{{crar_2026}}": "19.77%",
+          "{{crar_2024}}": "21.64%",
+          "{{crar_2025}}": "21.49%",
+          "{{crar_yoy}}": "-8.00%",
+          "crar_justification": "CRAR declined over the period but remains well above the regulatory minimum",
+          "{{crar_tier1_2026}}": "19.32%",
+          "{{crar_tier1_2024}}": "21.04%",
+          "{{crar_tier1_2025}}": "21.08%",
+          "{{crar_tier1_yoy}}": "-8.35%",
+          "crar_tier1_threshold": "<15%",
+          "crar_tier1_breach": "NOT_FOUND",
+          "crar_tier1_justification": "Tier 1 CRAR declined in line with overall CRAR but remains strong",
+          "alm_compliance": "The company maintained high LCR levels, increasing from 84% in FY2024 to 444.57% in FY2026, indicating strong liquidity management"
+        }
+      },
+      {
+        "status": "SUCCESS",
+        "company": "PIRAMAL FINANCE LIMITED",
+        "folders": [
+          "BOR PROF EXCEL"
+        ],
+        "result": {
+          "Top_5_lenders_summary": {},
+          "top5_lender_1": {
+            "name": "ICICI Bank",
+            "exposure": "4,002"
+          },
+          "top5_lender_2": {
+            "name": "State Bank of India",
+            "exposure": "3,841"
+          },
+          "top5_lender_3": {
+            "name": "Canara Bank",
+            "exposure": "1,982"
+          },
+          "top5_lender_4": {
+            "name": "Central Bank of India",
+            "exposure": "1,428"
+          },
+          "top5_lender_5": {
+            "name": "Asian Development Bank",
+            "exposure": "1,373"
+          }
         }
       }
-    },
-    {
-      "status": "SUCCESS",
-      "company": "Tata Capital Limited",
-      "folders": [
-        "Annual Reports",
-        "Concall Transcripts",
-        "Investor Presentations",
-        "Scorecard"
-      ],
-      "result": {
-        "{{overall_gnpa_pct_fy2023}}": "1.7",
-        "{{overall_gnpa_pct_fy2024}}": "1.5",
-        "{{overall_gnpa_pct_fy2025}}": "1.9",
-        "{{overall_gnpa_pct_yoy_change}}": "0.4",
-        "{{overall_nnpa_pct_fy2023}}": "0.4",
-        "{{overall_nnpa_pct_fy2024}}": "0.4",
-        "{{overall_nnpa_pct_fy2025}}": "0.8",
-        "{{overall_nnpa_pct_yoy_change}}": "0.4",
-        "{{overall_writeoff_fy2023}}": "NOT_FOUND",
-        "{{overall_writeoff_fy2024}}": "NOT_FOUND",
-        "{{overall_writeoff_fy2025}}": "NOT_FOUND",
-        "{{overall_writeoff_yoy_change}}": "NOT_FOUND",
-        "{{overall_gnpa_writeoff_ratio_fy2023}}": "NOT_FOUND",
-        "{{overall_gnpa_writeoff_ratio_fy2024}}": "NOT_FOUND",
-        "{{overall_gnpa_writeoff_ratio_fy2025}}": "NOT_FOUND",
-        "{{overall_gnpa_writeoff_ratio_yoy_change}}": "NOT_FOUND",
-        "gnpa_nnpa_writeoff_ratio_movement_justification": "GNPA increased from 1.5% in FY 2024 to 1.9% in FY 2025, while NNPA increased from 0.4% to 0.8% over the same period. This indicates a deterioration in asset quality. The increase of 0.4 percentage points in both GNPA and NNPA suggests a consistent rise in non-performing assets. Without write-off data, the full impact on asset quality cannot be assessed."
-      }
-    }
-  ],
-  "group5_results": [
-    {
-      "status": "SUCCESS",
-      "company": "Tata Capital Limited",
-      "folders": [
-        "Annual Reports",
-        "Concall Transcripts",
-        "Investor Presentations",
-        "Scorecard"
-      ],
-      "result": {
-        "{{pcr_stage_3_fy2023}}": "28.77",
-        "{{pcr_stage_3_fy2024}}": "37.35",
-        "{{pcr_stage_3_fy2025}}": "36.05",
-        "{{pcr_stage_3_yoy_change}}": "7.28",
-        "trend": "Improving",
-        "remarks": "PCR-Stage 3 increased from 28.77% in FY2023 to 37.35% in FY2024, but decreased slightly to 36.05% in FY2025. Overall trend is improving."
-      }
-    },
-    {
-      "status": "SUCCESS",
-      "company": "Tata Capital Limited",
-      "folders": [
-        "Annual Reports",
-        "Concall Transcripts",
-        "Investor Presentations",
-        "Scorecard"
-      ],
-      "result": {
-        "{{equity_2023}}": "169",
-        "{{equity_2024}}": "260",
-        "{{equity_2025}}": "260",
-        "{{equity_yoy}}": "53.8%",
-        "equity_justification": "Share capital increased from ₹169 crore in FY 2023 to ₹260 crore in FY 2024, representing a 53.8% year-over-year growth. It remained stable at ₹260 crore in FY 2025.",
-        "{{tangible_networth_2023}}": "10790",
-        "{{tangible_networth_2024}}": "14779",
-        "{{tangible_networth_2025}}": "16628",
-        "{{tangible_networth_yoy}}": "12.5%",
-        "tangible_networth_justification": "Tangible Net Worth grew from ₹10,790 crore in FY 2023 to ₹14,779 crore in FY 2024, and further to ₹16,628 crore in FY 2025. The year-over-year growth from FY 2024 to FY 2025 was 12.5%. This growth was likely driven by retained earnings and possibly capital infusion.",
-        "{{net_owned_funds_2023}}": "9471",
-        "{{net_owned_funds_2024}}": "13532",
-        "{{net_owned_funds_2025}}": "15573",
-        "{{net_owned_funds_yoy}}": "15.1%",
-        "net_owned_funds_justification": "Net Owned Funds increased from ₹9,471 crore in FY 2023 to ₹13,532 crore in FY 2024, and further to ₹15,573 crore in FY 2025. The year-over-year growth from FY 2024 to FY 2025 was 15.1%. This growth closely aligns with the Tangible Net Worth growth.",
-        "leverage_ratio_threshold": ">4",
-        "leverage_ratio_breach": "NOT_FOUND",
-        "{{gearing_2023}}": "4.97",
-        "{{gearing_2024}}": "3.72",
-        "{{gearing_2025}}": "3.75",
-        "{{gearing_yoy}}": "0.8%",
-        "gearing_justification": "The leverage ratio (TOL/TNW) decreased from 4.97 in FY 2023 to 3.72 in FY 2024, and then slightly increased to 3.75 in FY 2025. The year-over-year change from FY 2024 to FY 2025 was a 0.8% increase. The overall trend shows improved leverage position over the three-year period.",
-        "crar_threshold": "<17%",
-        "crar_breach": "NOT_FOUND",
-        "{{crar_2023}}": "24.43",
-        "{{crar_2024}}": "29.26",
-        "{{crar_2025}}": "29.38",
-        "{{crar_yoy}}": "0.4%",
-        "crar_justification": "CRAR improved from 24.43% in FY 2023 to 29.26% in FY 2024, and further to 29.38% in FY 2025. The year-over-year growth from FY 2024 to FY 2025 was 0.4%. The CRAR remains well above the regulatory threshold, indicating a strong capital position.",
-        "{{crar_tier1_2023}}": "22.40",
-        "{{crar_tier1_2024}}": "27.90",
-        "{{crar_tier1_2025}}": "28.39",
-        "{{crar_tier1_yoy}}": "1.8%",
-        "crar_tier1_threshold": "<15%",
-        "crar_tier1_breach": "NOT_FOUND",
-        "crar_tier1_justification": "CRAR (Tier 1) improved from 22.40% in FY 2023 to 27.90% in FY 2024, and further to 28.39% in FY 2025. The year-over-year growth from FY 2024 to FY 2025 was 1.8%. The Tier 1 CRAR remains significantly above the threshold, indicating a strong core capital position."
-      }
-    },
-    {
-      "status": "SUCCESS",
-      "company": "Tata Capital Limited",
-      "folders": [
-        "BOR PROF EXCEL"
-      ],
-      "result": {
-        "{{top5_lender_1}}": {
-          "name": "HDFC Bank Ltd",
-          "exposure": "12083"
-        },
-        "{{top5_lender_2}}": {
-          "name": "State Bank of India",
-          "exposure": "11500"
-        },
-        "{{top5_lender_3}}": {
-          "name": "Canara Bank",
-          "exposure": "9688"
-        },
-        "{{top5_lender_4}}": {
-          "name": "Punjab National Bank",
-          "exposure": "6080"
-        },
-        "{{top5_lender_5}}": {
-          "name": "Small Industries Development",
-          "exposure": "5767"
+    ],
+    "group6_results": [
+      {
+        "status": "SUCCESS",
+        "company": "PIRAMAL FINANCE LIMITED",
+        "folders": [
+          "Annual Reports",
+          "Concall Transcripts",
+          "Investor Presentations",
+          "scorecard"
+        ],
+        "result": {
+          "details_about_last_capital_infusion": {
+            "value": [
+              {
+                "FY": "FY2025",
+                "Investor Name": "Not Available",
+                "Amount (₹ Cr.)": 160000,
+                "Instrument": "Equity shares"
+              }
+            ],
+            "notes": "Annual Report FY2025, Notes to Accounts, Page 103"
+          },
+          "proposed_equity_infusion": {
+            "value": "No proposed equity infusion disclosed",
+            "notes": "Not found in provided context"
+          },
+          "Average Cost of Borrowing": {
+            "value": "8.84%",
+            "as_of_date": "Q4 FY2026",
+            "source": "Investor Presentation Q4 FY2026, Page 4",
+            "confidence": "high",
+            "notes": "Cost of borrowing declined by 11 basis points quarter-on-quarter to 8.84% in Q4 FY2026"
+          },
+          "Top_5_lenders_summary": {},
+          "Top 5 Lenders": {
+            "name of lender": "Not Available",
+            "expsoure": [],
+            "as_of_date": "",
+            "source": "",
+            "confidence": "not_found",
+            "notes": "Information on top 5 lenders not found in provided context"
+          },
+          "Secured vs Unsecured Mix": {
+            "value": [
+              {
+                "Category": "Secured",
+                "% Share": "83%"
+              },
+              {
+                "Category": "Unsecured",
+                "% Share": "17%"
+              }
+            ],
+            "as_of_date": "Q2 FY2026",
+            "source": "Investor Presentation Q2 FY2026, Page 9",
+            "confidence": "high",
+            "notes": "Unsecured lending at about 17% of overall book as per CEO comments"
+          },
+          "Cash in Hand": {
+            "value": "Total liquidity ₹3,962.45 crore comprising cash and cash equivalents",
+            "as_of_date": "March 31, 2026",
+            "source": "Annual Report FY2026, Notes to Accounts, Page 46",
+            "confidence": "high",
+            "notes": ""
+          },
+          "Related Party Exposure": {
+            "value": "Not Available",
+            "as_of_date": "",
+            "source": "",
+            "confidence": "not_found",
+            "notes": "Related party exposure details not found in provided context"
+          },
+          "Regulatory Penalties": {
+            "value": "As per disclosures, no regulatory penalties were reported.",
+            "as_of_date": "",
+            "source": "",
+            "confidence": "low",
+            "notes": "No explicit mention of regulatory penalties found in provided context"
+          }
+        }
+      },
+      {
+        "status": "SUCCESS",
+        "company": "PIRAMAL FINANCE LIMITED",
+        "folders": [
+          "Annual Reports",
+          "Concall Transcripts",
+          "Investor Presentations",
+          "scorecard"
+        ],
+        "result": {
+          "Shareholding Pattern": {
+            "value": {
+              "Promoter": "NOT_FOUND",
+              "Promoter Group": "NOT_FOUND",
+              "Public": "NOT_FOUND",
+              "Foreign Portfolio Investors": "NOT_FOUND",
+              "Domestic Institutional Investors": "NOT_FOUND",
+              "Mutual Funds": "NOT_FOUND",
+              "Insurance Companies": "NOT_FOUND",
+              "Retail Investors": "NOT_FOUND",
+              "Others": "NOT_FOUND"
+            },
+            "as_of_date": "NOT_FOUND",
+            "source": "NOT_FOUND",
+            "confidence": "NOT_FOUND",
+            "notes": "Shareholding pattern details not found in the provided documents."
+          },
+          "Key Management": {
+            "value": [
+              {
+                "Name": "Anand Piramal",
+                "Designation": "Executive Chairman",
+                "Tenure": "NOT_FOUND"
+              },
+              {
+                "Name": "Jairam Sridharan",
+                "Designation": "Managing Director & Chief Executive Officer",
+                "Tenure": "NOT_FOUND"
+              },
+              {
+                "Name": "Vikash Singhla",
+                "Designation": "Chief Financial Officer",
+                "Tenure": "NOT_FOUND"
+              }
+            ],
+            "as_of_date": "April 27, 2026",
+            "source": "Q4 FY26 Earnings Conference Call Transcript",
+            "confidence": "High",
+            "notes": "Key management personnel identified from earnings call transcript. Tenures not specified."
+          },
+          "Brief on the Board of Directors": {
+            "value": "NOT_FOUND",
+            "as_of_date": "NOT_FOUND",
+            "source": "NOT_FOUND",
+            "confidence": "NOT_FOUND",
+            "notes": "Detailed information about the Board of Directors composition and background not found in the provided documents."
+          },
+          "Changes in Directorship in last 1 year": {
+            "value": "NOT_FOUND",
+            "as_of_date": "NOT_FOUND",
+            "source": "NOT_FOUND",
+            "confidence": "NOT_FOUND",
+            "notes": "Information about changes in directorship in the last year not found in the provided documents."
+          },
+          "If any changes in directorship, rationale": {
+            "value": "NOT_FOUND",
+            "as_of_date": "NOT_FOUND",
+            "source": "NOT_FOUND",
+            "confidence": "NOT_FOUND",
+            "notes": "No information found regarding rationale for directorship changes."
+          },
+          "Details of Holding / Subsidiary Companies, if any": {
+           "value": {"Holding Company": ["Piramal Enterprises Limited"],
+           "Subsidiaries": ["a","b"],
+           "Associate Companies": ["z","c"],
+           "Joint Ventures": ["1"]
+            },
+            "as_of_date": "March 31, 2025",
+            "source": "Annual Report FY2025",
+            "confidence": "High",
+            "notes": "Piramal Enterprises Limited identified as holding company. Details of subsidiaries, associates, and joint ventures not found."
+             },
+             
+          "prudential_rating_AAA_and_upper_layer_compilance": "The company received an AA+ rating for its long-term debt from CRISIL in January 2026.",
+          "nbfc_registered_compilance": "The company received its Certificate of Registration as a Non-Banking Financial Company - Investment and Credit Company (NBFC-ICC) from the Reserve Bank of India (RBI) on April 4, 2025.",
+          "track_record_compilance": "YES"
+        }
+      },
+      {
+        "status": "SUCCESS",
+        "company": "PIRAMAL FINANCE LIMITED",
+        "folders": [
+          "Annual Reports",
+          "Concall Transcripts",
+          "Investor Presentations",
+          "scorecard"
+        ],
+        "result": {
+          "financial_performance_compliance": {
+            "value": "Compliant"
+          },
+          "financial_performance_remarks": {
+            "notes": "Piramal Finance's AUM grew 46% year-over-year to Rs 101,230 crore in FY2026. Profitability improved significantly with ROA increasing to 1.90% and PAT rising to Rs 1,540 crore. Asset quality strengthened with GNPA declining to 2.25% and credit costs moderating to 1.6%. Capital position remains adequate with CRAR at 19.77%. Liquidity is comfortable with LCR at 444.57%."
+          },
+          "material_adverse_observations:_auditors_report_compliance": {
+            "value": "Not_Found",
+            "notes": "No information available in provided documents regarding auditor's report."
+          },
+          "material_adverse_observations:_auditors_report_remarks": {
+            "notes": "Insufficient information to comment on auditor's observations."
+          },
+          "RBI Registration: NBFC-ICC": {
+            "value": "Yes",
+            "as_of_date": "2025-04-04",
+            "source": "Annual Reports",
+            "confidence": "High",
+            "notes": "The Company received its Certificate of Registration (CoR) as a Non-Banking Financial Company - Investment and Credit Company (NBFC-ICC) from the Reserve Bank of India (RBI) on April 4, 2025."
+          },
+          "sbr_categorisation_upper_layer_compliance": {
+            "value": "Not_Found"
+          },
+          "sbr_categorisation_upper_layer_remarks": {
+            "notes": "Insufficient information to determine SBR categorization."
+          },
+          "connected_lending_compliance": {
+            "value": "Not_Found"
+          },
+          "connected_lending_remarks": {
+            "notes": "No information available regarding connected lending."
+          },
+          "Cash_and_Cash_Equivalent": {
+            "notes": "Insufficient information to provide cash and cash equivalent figures."
+          },
+          "borrowings_2024": {
+            "value": "44487"
+          },
+          "borrowings_2025": {
+            "value": "64268"
+          },
+          "borrowings_2026": {
+            "value": "78596"
+          },
+          "borrowings_yoy": {
+            "value": "22.3"
+          }
         }
       }
-    }
-  ],
-  "group6_results": [
-    {
-      "status": "SUCCESS",
-      "company": "Tata Capital Limited",
-      "folders": [
-        "Annual Reports"
-      ],
-      "result": {
-        "Details about Last Capital Infusion": {
-          "value": [],
-          "as_of_date": "",
-          "source": "",
-          "confidence": "not_found",
-          "notes": "No information found about recent capital infusions in the provided context."
-        },
-        "Proposed Equity Infusion": {
-          "value": "No proposed equity infusion disclosed",
-          "as_of_date": "",
-          "source": "",
-          "confidence": "high",
-          "notes": "No information found about proposed equity infusions in the provided context."
-        },
-        "Average Cost of Borrowing": {
-          "value": "Not Available",
-          "as_of_date": "",
-          "source": "",
-          "confidence": "not_found",
-          "notes": "No specific information found about average cost of borrowing in the provided context."
-        },
-        "Top_5_lenders_summary": {},
-        "Top 5 Lenders": {
-          "name of lender": "Not Available",
-          "expsoure": [],
-          "as_of_date": "",
-          "source": "",
-          "confidence": "not_found",
-          "notes": "No information found about top 5 lenders in the provided context."
-        },
-        "Secured vs Unsecured Mix": {
-          "value": [],
-          "as_of_date": "",
-          "source": "",
-          "confidence": "not_found",
-          "notes": "No information found about secured vs unsecured loan mix in the provided context."
-        },
-        "Cash in Hand": {
-          "value": "Not Available",
-          "as_of_date": "",
-          "source": "",
-          "confidence": "not_found",
-          "notes": "No specific information found about cash in hand or liquidity position in the provided context."
-        },
-        "Related Party Exposure": {
-          "value": "FY2023: 44,376 lakh\nFY2022: 77,988 lakh",
-          "as_of_date": "March 31, 2023",
-          "source": "Annual Report 2022-23, Notes forming part of standalone financial statements, Page 317",
-          "confidence": "high",
-          "notes": "The values represent loans granted to related parties that are repayable on demand."
-        },
-        "Regulatory Penalties": {
-          "value": "As per disclosures, no regulatory penalties were reported.",
-          "as_of_date": "",
-          "source": "",
-          "confidence": "low",
-          "notes": "No specific information found about regulatory penalties in the provided context."
+    ],
+    "group7_results": [
+      {
+        "status": "SUCCESS",
+        "company": "PIRAMAL FINANCE LIMITED",
+        "folders": [
+          "RBI DOC"
+        ],
+        "result": {
+          "rbi_registration_nbfc_icc_compliance": {
+            "value": "NOT_FOUND"
+          },
+          "rbi_registration_nbfc_icc_remarks": {
+            "value": "no remarks found"
+          },
+          "sbr_categorisation_upper_layer_compliance": {
+            "value": "NOT_FOUND"
+          },
+          "sbr_categorisation_upper_layer_remarks": {
+            "value": "NOT_FOUND"
+          }
+        }
+      },
+      {
+        "status": "SUCCESS",
+        "company": "PIRAMAL FINANCE LIMITED",
+        "folders": [
+          "CS Due diligence"
+        ],
+        "result": {
+          "material_adverse_observations_cs_due_diligence_report_compliance": {
+            "value": "NOT_FOUND",
+            "as_of_date": "2026-03-31",
+            "source": "CS Due Diligence Report",
+            "confidence": "not_found",
+            "notes": "No material compliance issues were explicitly mentioned in the report."
+          },
+          "material_adverse_observations_cs_due_diligence_report_remarks": {
+            "value": "NOT_FOUND",
+            "as_of_date": "2026-03-31",
+            "source": "CS Due Diligence Report",
+            "confidence": "not_found",
+            "notes": "No material adverse remarks or observations were explicitly mentioned in the report."
+          }
+        }
+      },
+      {
+        "status": "SUCCESS",
+        "company": "PIRAMAL FINANCE LIMITED",
+        "folders": [
+          "RBI DNBS 4B"
+        ],
+        "result": {
+          "alm_compliance": "As per the Statement of Structural Liquidity for the period ended March 31, 2023, the Company has reported no cumulative negative mismatches in any of the time buckets. The ALM position as on March 31, 2023, is in compliance with the RBI guidelines.",
+          "alm_mismatch_comment": {
+            "value": "No cumulative mismatch in any of the time buckets."
+          }
         }
       }
-    },
-    {
-      "status": "SUCCESS",
-      "company": "Tata Capital Limited",
-      "folders": [
-        "Annual Reports"
-      ],
-      "result": {
-        "Shareholding Pattern": {
-          "value": "| Shareholder / Category | % Stake |\n|---|---|\n| Tata Sons Private Limited | N/A |\n| Others | N/A |",
-          "as_of_date": "March 31, 2023",
-          "source": "Annual Report 2022-23",
-          "confidence": "low",
-          "notes": "Exact shareholding percentages not found. Tata Sons Private Limited mentioned as holding company. (RM needs to validate)"
-        },
-        "Key Management": {
-          "value": "Rajiv Sabharwal – Managing Director & CEO | Rakesh Bhatia – Chief Financial Officer | Sarita Kamath – Head - Legal and Compliance & Company Secretary",
-          "as_of_date": "April 27, 2023",
-          "source": "Annual Report 2022-23",
-          "confidence": "high",
-          "notes": ""
-        },
-        "Brief on the Board of Directors": {
-          "value": "The Board of Directors includes Radhakrishnan (Director), Mathew Cyriac (Director), Aarthi Subramanian (Director), and Rajiv Sabharwal (Managing Director & CEO). The board composition includes both Executive and Non-Executive directors. (as of FY 2023)",
-          "as_of_date": "March 31, 2023",
-          "source": "Annual Report 2022-23",
-          "confidence": "medium",
-          "notes": "Exact breakdown of Executive/Non-Executive/Independent directors not found. Limited information on director backgrounds available."
-        },
-        "Changes in Directorship in last 1 year": {
-          "value": "No changes in directorship during FY 2023",
-          "as_of_date": "March 31, 2023",
-          "source": "Annual Report 2022-23",
-          "confidence": "low",
-          "notes": "No explicit mention of changes or lack thereof found. Inferred from consistent board composition. (RM needs to validate)"
-        },
-        "If any changes in directorship, rationale": {
-          "value": "Not applicable as no changes in directorship were identified for FY 2023",
-          "as_of_date": "March 31, 2023",
-          "source": "Annual Report 2022-23",
-          "confidence": "low",
-          "notes": "Based on lack of information about changes. (RM needs to validate)"
-        },
-        "Details of Holding / Subsidiary Companies, if any": {
-          "value": "Holding company: Tata Sons Private Limited\nSubsidiaries: Information available in Form AOC-1 on pages 268 to 270 of the Annual Report",
-          "as_of_date": "March 31, 2023",
-          "source": "Annual Report 2022-23",
-          "confidence": "medium",
-          "notes": "Exact list of subsidiaries and stake percentages not extracted. Refer to Form AOC-1 in Annual Report for details."
-        },
-        "prudential_rating_AAA_and_upper_layer_compilance": "CRISIL AAA/Stable rating for Unsecured NCDs and Bank Facilities. ICRA AAA/Stable and IND AAA/Stable for Unsecured NCDs. Company classified as Middle Layer NBFC (NBFC-ML) as per RBI Scale Based Regulations.",
-        "nbfc_registered_compilance": "Registered with the Reserve Bank of India (RBI) as a Systemically Important Non-Deposit Accepting Core Investment Company (CIC)",
-        "track_record_compilance": "32nd Annual Report presented, indicating at least 32 years of operation. Consolidated Return on Assets (RoA) for FY 2022-23 was 2.9% and Return on Equity (RoE) was 23%."
-      }
-    },
-    {
-      "status": "SUCCESS",
-      "company": "Tata Capital Limited",
-      "folders": [
-        "Annual Reports"
-      ],
-      "result": {
-        "Financial Performance": {
-          "value": "Tata Capital Limited reported strong financial performance in FY 2022-23. Total income grew 32% to Rs 13,637 crore. Net profit increased 80% to Rs 2,975 crore, including some one-time gains. Excluding one-time gains, net profit grew 46% to Rs 2,414 crore. Return on Equity improved from 15.6% to 23% (17.2% excluding one-time gains). The loan book expanded 28% to Rs 120,940 crore, with 80% in retail and SME segments. Asset quality improved, with GNPA decreasing from 1.9% to 1.7% and NNPA from 0.6% to 0.4%.",
-          "as_of_date": "2023-03-31",
-          "source": "Annual Report 2022-23",
-          "confidence": "high",
-          "notes": "Data extracted from consolidated financial results and management commentary in annual report"
-        },
-        "Material Adverse Observations: Auditor's Report": {
-          "value": "No adverse observations noted in Auditors report of FY 2023",
-          "as_of_date": "2023-03-31",
-          "source": "Annual Report 2022-23",
-          "confidence": "high",
-          "notes": "No qualifications or adverse remarks found in auditor's report section"
-        },
-        "Material Adverse Observations: Web Media / News": {
-          "value": "No adverse news found in Web Media/News.",
-          "as_of_date": "2023-07-21",
-          "source": "Web search",
-          "confidence": "medium",
-          "notes": "No significant negative news found after multiple searches"
-        },
-        "RBI Registration: NBFC-ICC": {
-          "value": "not_found",
-          "as_of_date": "",
-          "source": "",
-          "confidence": "not_found",
-          "notes": "Unable to confirm NBFC-ICC registration status after multiple searches"
-        },
-        "SBR Categorisation: NBFC-Upper Layer": {
-          "value": "not_found",
-          "as_of_date": "",
-          "source": "",
-          "confidence": "not_found",
-          "notes": "Unable to confirm Upper Layer NBFC status after multiple searches"
-        },
-        "Connected Lending Applicability": {
-          "value": "not_found",
-          "as_of_date": "",
-          "source": "",
-          "confidence": "not_found",
-          "notes": "Unable to find information on connected lending after multiple searches"
-        },
-        "Material Adverse Observations: SaveRisk": {
-          "value": "not_found",
-          "as_of_date": "",
-          "source": "",
-          "confidence": "not_found",
-          "notes": "Unable to find SaveRisk observations after multiple searches"
-        },
-        "Cash and Cash Equivalent": {
-          "notes": "Information not found in provided extracts"
-        },
-        "total_aum_latest_fy_compliance": {
-          "value": "120940"
-        },
-        "total_aum_latest_fy_remarks": {
-          "value": "The total loan book stood at Rs 120,940 crore as at March 31, 2023, up by 28% YoY"
-        },
-        "borrowings_2023": {
-          "value": ""
-        },
-        "borrowings_2024": {
-          "value": ""
-        },
-        "borrowings_2025": {
-          "value": ""
-        },
-        "borrowings_yoy": {
-          "value": ""
-        }
-      }
-    }
-  ]
-  }},
-  "mis_json": {}
+    ]
+  }
 }
