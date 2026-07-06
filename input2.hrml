@@ -1,0 +1,2700 @@
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin-bottom: 20px;
+        }
+
+        table,
+        td,
+        th {
+            border: 1px solid #ffffff;
+        }
+
+        td,
+        th {
+            padding: 6px 8px;
+            vertical-align: top;
+        }
+
+        :root {
+            --docx-color-1: #000000;
+            --docx-color-2: #0000ff;
+            --docx-color-3: #d9d9d9;
+            --docx-color-4: #ee0000;
+            --docx-color-5: #ff0000;
+            --docx-color-6: #ffff00;
+            --docx-color-7: #ffffff;
+        }
+
+        body {
+            padding: 96px 120px 96px 120px;
+            max-width: 816px;
+            font-size: 14.67px;
+        }
+
+        p {
+            margin-block-start: 0;
+            margin-block-end: 0;
+        }
+
+        td {
+            vertical-align: top;
+        }
+
+        img {
+            display: inline-block;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            table-layout: fixed;
+            margin-bottom: 20px;
+        }
+
+        td,
+        th {
+            border: 1px solid black;
+            padding: 6px;
+            vertical-align: top;
+        }
+
+        td:first-child {
+            width: 35%;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <p style="margin-bottom: 0px; line-height: 1.15; text-align: center"><span
+            style=" font-size: 14.67px; font-family: 'Rupee Foradian'; font-weight: bold; ">MEMORANDUM TO THE CCC-CGM COMMITTEE</span></p>
+    <p style="margin-bottom: 13.33px; line-height: 1.15; text-align: center"><span
+            style=" font-size: 14.67px; font-family: 'Rupee Foradian'; font-weight: bold; ">{{nbfcName}} – Annual Credit Limit under REF</span></p>
+    <p style="margin-bottom: 13.33px; line-height: 1.15; text-align: center"> </p>
+    <p style=" margin-bottom: 0px; line-height: 1.15; margin-top: 13.33px; text-align: center; "><span
+            style="font-size: 20px; font-family: 'Rupee Foradian'">Decision Format</span></p>
+    <p style="margin-bottom: 13.33px; line-height: 1.15"> </p>
+    <table
+        style=" border-collapse: collapse; table-layout: fixed; border-top: 0.5px solid; border-left: 0.5px solid; border-bottom: 0.5px solid; border-right: 0.5px solid; ">
+        <tbody>
+            <tr>
+                <td style="width: auto;">
+                    <p style="margin-bottom: 4px; line-height: 1.15"><span
+                            style=" font-size: 14.67px; font-family: 'Rupee Foradian'; font-weight: bold; ">Borrower</span>
+                    </p>
+                </td>
+                <td style="width: auto;">
+                    <p style="margin-bottom: 4px; line-height: 1.15">{{nbfcName}}<span
+                            style=" font-size: 14.67px; font-family: 'Rupee Foradian'; "></span></p>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: auto;">
+                    <p style="margin-bottom: 4px; line-height: 1.15"><span
+                            style=" font-size: 14.67px; font-family: 'Rupee Foradian'; font-weight: bold; ">Scheme/Framework</span></p>
+                </td>
+                <td style="width: auto;">
+                    <p style="margin-bottom: 4px; line-height: 1.15"><span
+                            style=" font-size: 14.67px; font-family: 'Rupee Foradian'; ">{{schName}}</span></p>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: auto;">
+                    <p style="margin-bottom: 4px; line-height: 1.15"><span
+                            style=" font-size: 14.67px; font-family: 'Rupee Foradian'; font-weight: bold; ">Proposed Annual Credit Limit</span></p>
+                </td>
+                <td style="width: auto;">
+                    <p style="margin-bottom: 4px; line-height: 1.15"><span
+                            style=" font-size: 14.67px; font-family: 'Rupee Foradian'; ">{{creditLimit}}</span>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: auto;">
+                    <p style="margin-bottom: 4px; line-height: 1.15"><span
+                            style=" font-size: 14.67px; font-family: 'Rupee Foradian'; font-weight: bold; ">Utilization:</span>
+                    </p>
+                    <p style="margin-bottom: 4px; line-height: 1.15; margin-left: 48px"><span
+                            style=" font-size: 14.67px; font-family: 'Rupee Foradian'; font-weight: bold; ">Highest Utilization</span></p>
+                    <p style="margin-bottom: 4px; line-height: 1.15; margin-left: 48px"><span
+                            style=" font-size: 14.67px; font-family: 'Rupee Foradian'; font-weight: bold; ">Current O/S</span></p>
+                </td>
+                <td style="width: auto;">
+                    <p style="margin-bottom: 4px; line-height: 1.15"> </p>
+                    <p style="margin-bottom: 4px; line-height: 1.15"><span
+                            style=" font-size: 14.67px; font-family: 'Rupee Foradian'; ">{{highutil}}</span>
+                    </p>
+                    <p style="margin-bottom: 4px; line-height: 1.15"><span
+                            style=" font-size: 14.67px; font-family: 'Rupee Foradian'; ">{{outstandingAmount}}</span></p>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: auto;">
+                    <p style="margin-bottom: 4px; line-height: 1.15"><span
+                            style=" font-size: 14.67px; font-family: 'Rupee Foradian'; font-weight: bold; ">Validity of Limit</span></p>
+                </td>
+                <td style="width: auto;">
+                    <p style="margin-bottom: 4px; line-height: 1.15"><span
+                            style=" font-size: 14.67px; font-family: 'Rupee Foradian'; ">{{validityOfLimit}}</span>
+                    </p>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+
+    <p style="margin-bottom: 13.33px; line-height: 1.15"> </p>
+    <table
+        style=" border-collapse: collapse; table-layout: fixed; border-top: 0.5px solid; border-left: 0.5px solid; border-bottom: 0.5px solid; border-right: 0.5px solid; ">
+        <tbody>
+            <tr>
+                <td style="width: auto;">
+                    <p style="margin-bottom: 13.33px; line-height: 1.15"><span
+                            style=" font-size: 14.67px; font-family: 'Rupee Foradian'; font-weight: bold; ">Parameter</span>
+                    </p>
+                </td>
+                <td style="width: auto;">
+                    <p style="margin-bottom: 13.33px; line-height: 1.15"><span
+                            style=" font-size: 14.67px; font-family: 'Rupee Foradian'; font-weight: bold; ">Compliance</span>
+                    </p>
+                </td>
+                <td style="width: auto;">
+                    <p style="margin-bottom: 13.33px; line-height: 1.15"><span
+                            style=" font-size: 14.67px; font-family: 'Rupee Foradian'; font-weight: bold; ">Remarks/Relaxation</span>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: auto;">
+                    <p style="margin-bottom: 13.33px; line-height: 1.15"><span
+                            style=" font-size: 14.67px; font-family: 'Rupee Foradian'; ">External Credit Rating:</span>
+                    </p>
+                    <p style="margin-bottom: 13.33px; line-height: 1.15"><span
+                            style=" font-size: 14.67px; font-family: 'Rupee Foradian'; ">Trend: Last 3 ratings</span>
+                    </p>
+                </td>
+                <td style="width: auto;">
+                    <p style="margin-bottom: 13.33px; line-height: 1.15"><span
+                            style=" font-size: 14.67px; font-family: 'Rupee Foradian'; ">{{credit_rating_compliance}}
+                        </span></p>
+                    <p style="margin-bottom: 13.33px; line-height: 1.15"><span
+                            style=" font-size: 14.67px; font-family: 'Rupee Foradian'; ">{{external_credit_rating_trend_complaince}}</span>
+                    </p>
+                </td>
+                <td style="width: auto;">
+                    <p style="margin-bottom: 13.33px; line-height: 1.15"><span
+                            style=" font-size: 14.67px; font-family: 'Rupee Foradian'; ">{{external_credit_rating_remarks}}</span>
+                    </p>
+                    <p style="margin-bottom: 13.33px; line-height: 1.15"><span
+                            style=" font-size: 14.67px; font-family: 'Rupee Foradian'; ">{{external_credit_rating_trend_remark}}</span>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: auto;">
+                    <p style="margin-bottom: 13.33px; line-height: 1.15"><span
+                            style=" font-size: 14.67px; font-family: 'Rupee Foradian'; ">RAM Rating:</span></p>
+                    <p style="margin-bottom: 13.33px; line-height: 1.15"><span
+                            style=" font-size: 14.67px; font-family: 'Rupee Foradian'; ">Movement from Previous Rating:</span></p>
+                </td>
+                <td style="width: auto;">
+                    <p style="margin-bottom: 13.33px; line-height: 1.15"><span
+                            style=" font-size: 14.67px; font-family: 'Rupee Foradian'; ">{{ram_rating_compliance}}</span>
+                    </p>
+                    <p style="margin-bottom: 13.33px; line-height: 1.15"><span
+                            style=" font-size: 14.67px; font-family: 'Rupee Foradian'; ">{{ram_rating_movement_compliance}}</span>
+                    </p>
+                </td>
+                <td style="width: auto;">
+                    <p style="margin-bottom: 13.33px; line-height: 1.15"><span
+                            style=" font-size: 14.67px; font-family: 'Rupee Foradian'; ">{{ram_rating_remarks}}</span>
+                    </p>
+                    <p style="margin-bottom: 13.33px; line-height: 1.15"><span
+                            style=" font-size: 14.67px; font-family: 'Rupee Foradian'; ">{{ram_rating_movement_remarks}}</span>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: auto;">
+                    <p style="margin-bottom: 13.33px; line-height: 1.15"><span
+                            style=" font-size: 14.67px; font-family: 'Rupee Foradian'; ">Financial Performance</span>
+                    </p>
+                </td>
+                <td style="width: auto;">
+                    <p style="margin-bottom: 13.33px; line-height: 1.15">{{financial_performance_compliance}}</p>
+                </td>
+                <td style="width: auto;">
+                    <p style="margin-bottom: 13.33px; line-height: 1.15"><span
+                            style=" font-size: 14.67px; font-family: 'Rupee Foradian'; ">{{financial_performance_remarks}}</span>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: auto;">
+                    <p style="margin-bottom: 13.33px; line-height: 1.15"><span
+                            style=" font-size: 14.67px; font-family: 'Rupee Foradian'; ">Total AUM (latest FY)</span>
+                    </p>
+                </td>
+                <td style="width: auto;">
+                    <p style="margin-bottom: 13.33px; line-height: 1.15"><span
+                            style=" font-size: 14.67px; font-family: 'Rupee Foradian'; ">{{total_aum_latest_fy_compliance}}</span>
+                    </p>
+                </td>
+                <td style="width: auto;">
+                    <p style="margin-bottom: 13.33px; line-height: 1.15"><span
+                            style=" font-size: 14.67px; font-family: 'Rupee Foradian'; ">{{total_aum_latest_fy_remarks}}</span>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: auto;">
+                    <p style="margin-bottom: 13.33px; line-height: 1.15"><span
+                            style=" font-size: 14.67px; font-family: 'Rupee Foradian'; ">Share of MSME in Total AUM (latest FY)</span></p>
+                </td>
+                <td style="width: auto;">
+                    <p style="margin-bottom: 13.33px; line-height: 1.15"><span
+                            style=" font-size: 14.67px; font-family: 'Rupee Foradian'; ">{{msme_share_total_aum_compliance}}</span>
+                    </p>
+                </td>
+                <td style="width: auto;">
+                    <p style="margin-bottom: 13.33px; line-height: 1.15">{{msme_share_total_aum_remarks}}</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: auto;">
+                    <p style="margin-bottom: 13.33px; line-height: 1.15"><span
+                            style=" font-size: 14.67px; font-family: 'Rupee Foradian'; ">Connected Lending Applicability</span></p>
+                </td>
+                <td style="width: auto;">
+                    <p style="margin-bottom: 13.33px; line-height: 1.15"><span
+                            style=" font-size: 14.67px; font-family: 'Rupee Foradian'; ">{{connected_lending_compliance}}</span>
+                    </p>
+                </td>
+                <td style="width: auto;">
+                    <p style="margin-bottom: 13.33px; line-height: 1.15">{{connected_lending_remarks}}</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: auto;">
+                    <p style="margin-bottom: 13.33px; line-height: 1.15"><span
+                            style=" font-size: 14.67px; font-family: 'Rupee Foradian'; ">Material Adverse Observations:</span></p>
+                    <p style="margin-bottom: 13.33px; line-height: 1.15; margin-left: 48px"><span
+                            style=" font-size: 14.67px; font-family: 'Rupee Foradian'; ">(i)SaveRisk</span></p>
+                    <p style="margin-bottom: 13.33px; line-height: 1.15; margin-left: 48px"><span
+                            style=" font-size: 14.67px; font-family: 'Rupee Foradian'; ">(ii)Web media / News</span></p>
+                    <p style="margin-bottom: 13.33px; line-height: 1.15; margin-left: 48px"><span
+                            style=" font-size: 14.67px; font-family: 'Rupee Foradian'; ">(iii)Auditor’s Report</span></p>
+                    <p style="margin-bottom: 13.33px; line-height: 1.15; margin-left: 48px"><span
+                            style=" font-size: 14.67px; font-family: 'Rupee Foradian'; ">(iv)ASM Report</span></p>
+                    <p style="margin-bottom: 13.33px; line-height: 1.15; margin-left: 48px"><span
+                            style=" font-size: 14.67px; font-family: 'Rupee Foradian'; ">(v)CS due diligence report</span>
+                    </p>
+                </td>
+                <td style="width: auto;">
+                    <p style="margin-bottom: 13.33px; line-height: 1.15"><span
+                            style=" font-size: 14.67px; font-family: 'Rupee Foradian'; ">(i){{material_adverse_observations_saverisk_compliance}}</span>
+                    </p>
+                    <p style="margin-bottom: 13.33px; line-height: 1.15"><span
+                            style=" font-size: 14.67px; font-family: 'Rupee Foradian'; ">(ii){{material_adverse_observations_web_media_news_compliance}}</span>
+                    </p>
+                    <p style="margin-bottom: 13.33px; line-height: 1.15"><span
+                            style=" font-size: 14.67px; font-family: 'Rupee Foradian'; ">(iii){{material_adverse_observations:_auditors_report_compliance}}</span>
+                    </p>
+                    <p style="margin-bottom: 13.33px; line-height: 1.15"><span
+                            style=" font-size: 14.67px; font-family: 'Rupee Foradian'; ">(iv){{material_adverse_observations_asm_report_compliance}}</span>
+                    </p>
+                    <p style="margin-bottom: 13.33px; line-height: 1.15"><span
+                            style=" font-size: 14.67px; font-family: 'Rupee Foradian'; ">(v){{material_adverse_observations_cs_due_diligence_report_compliance}}</span>
+                    </p>
+                </td>
+                <td style="width: auto;">
+                    <p style="margin-bottom: 13.33px; line-height: 1.15"><span
+                            style=" font-size: 14.67px; font-family: 'Rupee Foradian'; ">(i){{material_adverse_observations_saverisk_remarks}}</span>
+                    </p>
+                    <p style="margin-bottom: 13.33px; line-height: 1.15"><span
+                            style=" font-size: 14.67px; font-family: 'Rupee Foradian'; ">(ii){{material_adverse_observations_web_media_news_remarks}}</span>
+                    </p>
+                    <p style="margin-bottom: 13.33px; line-height: 1.15"><span
+                            style=" font-size: 14.67px; font-family: 'Rupee Foradian'; ">(iii){{material_adverse_observations:_auditors_report_remarks}}</span>
+                    </p>
+                    <p style="margin-bottom: 13.33px; line-height: 1.15"><span
+                            style=" font-size: 14.67px; font-family: 'Rupee Foradian'; ">(iv){{material_adverse_observations_asm_report_remarks}}</span>
+                    </p>
+                    <p style="margin-bottom: 13.33px; line-height: 1.15"><span
+                            style=" font-size: 14.67px; font-family: 'Rupee Foradian'; ">(v){{material_adverse_observations_cs_due_diligence_report_remarks}}</span>
+                    </p>
+                </td>
+            </tr>``<tr>
+                <td style="width: auto;">
+                    <p style="margin-bottom: 13.33px; line-height: 1.15"><span
+                            style=" font-size: 14.67px; font-family: 'Rupee Foradian';">Repayment Track Record, if ETB</span></p>
+                </td>
+                <td style="width: auto;">
+                    <p style="margin-bottom: 13.33px; line-height: 1.15"><span
+                            style=" font-size: 14.67px; font-family: 'Rupee Foradian';">{{repaytrack}}</span>
+                    </p>
+                </td>
+                <td style="width: auto;">
+                    <p style="margin-bottom: 13.33px; line-height: 1.15"></p>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: auto;">
+                    <p style="margin-bottom: 13.33px; line-height: 1.15"><span
+                            style=" font-size: 14.67px; font-family: 'Rupee Foradian';">RBI Registration: NBFC-ICC</span></p>
+                </td>
+                <td style="width: auto;">
+                    <p style="margin-bottom: 13.33px; line-height: 1.15"><span
+                            style=" font-size: 14.67px; font-family: 'Rupee Foradian'; ">{{rbi_registration_nbfc_icc_compliance}}</span>
+                    </p>
+                </td>
+                <td style="width: auto;">
+                    <p style="margin-bottom: 13.33px; line-height: 1.15"><span
+                            style=" font-size: 14.67px; font-family: 'Rupee Foradian'; ">{{rbi_registration_nbfc_icc_remarks}}</span>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: auto;">
+                    <p style="margin-bottom: 13.33px; line-height: 1.15"><span
+                            style=" font-size: 14.67px; font-family: 'Rupee Foradian'; ">SBR Categorisation: NBFC-Upper Layer</span></p>
+                </td>
+                <td style="width: auto;">
+                    <p style="margin-bottom: 13.33px; line-height: 1.15"><span
+                            style=" font-size: 14.67px; font-family: 'Rupee Foradian'; ">{{sbr_categorisation_upper_layer_compliance}}</span>
+                    </p>
+                </td>
+                <td style="width: auto;">
+                    <p style="margin-bottom: 13.33px; line-height: 1.15"><span
+                            style=" font-size: 14.67px; font-family: 'Rupee Foradian'; ">{{sbr_categorisation_upper_layer_remarks}}</span>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: auto;">
+                    <p style="margin-bottom: 13.33px; line-height: 1.15"><span
+                            style=" font-size: 14.67px; font-family: 'Rupee Foradian'; ">Compliance Scheme Norms</span>
+                    </p>
+                </td>
+                <td style="width: auto;">
+                    <p style="margin-bottom: 13.33px; line-height: 1.15"><span
+                            style=" font-size: 14.67px; font-family: 'Rupee Foradian'; ">{{scheme_norms_compliance}}</span>
+                    </p>
+                </td>
+                <td style="width: auto;">
+                    <p style="margin-bottom: 13.33px; line-height: 1.15"><span
+                            style=" font-size: 14.67px; font-family: 'Rupee Foradian'; ">{{scheme_norms_remarks}}</span>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: auto;">
+                    <p style="margin-bottom: 13.33px; line-height: 1.15"><span
+                            style=" font-size: 14.67px; font-family: 'Rupee Foradian'; ">Compliance with PCA Framework</span></p>
+                </td>
+                <td style="width: auto;">
+                    <p style="margin-bottom: 13.33px; line-height: 1.15"><span
+                            style=" font-size: 14.67px; font-family: 'Rupee Foradian'; ">{{pca_framework_compliance}}</span>
+                    </p>
+                </td>
+                <td style="width: auto;">
+                    <p style="margin-bottom: 13.33px; line-height: 1.15"><span
+                            style=" font-size: 14.67px; font-family: 'Rupee Foradian'; ">{{pca_framework_remarks}}</span>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: auto;">
+                    <p style="margin-bottom: 13.33px; line-height: 1.15"><span
+                            style=" font-size: 14.67px; font-family: 'Rupee Foradian'; ">Compliance with Exposure Norms</span></p>
+                </td>
+                <td style="width: auto;">
+                    <p style="margin-bottom: 13.33px; line-height: 1.15"><span
+                            style=" font-size: 14.67px; font-family: 'Rupee Foradian'; ">{{exposure_norms_compliance}}</span>
+                    </p>
+                </td>
+                <td style="width: auto;">
+                    <p style="margin-bottom: 13.33px; line-height: 1.15"><span
+                            style=" font-size: 14.67px; font-family: 'Rupee Foradian'; ">{{exposure_norms_remarks}}</span>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: auto;">
+                    <p style="margin-bottom: 13.33px; line-height: 1.15"><span
+                            style=" font-size: 14.67px; font-family: 'Rupee Foradian'; ">KYC of Company</span>
+                    </p>
+                </td>
+                <td style="width: auto;">
+                    <p style="margin-bottom: 13.33px; line-height: 1.15"><span
+                            style=" font-size: 14.67px; font-family: 'Rupee Foradian'; ">{{kyc_company_compliance}}</span>
+                    </p>
+                </td>
+                <td style="width: auto;">
+                    <p style="margin-bottom: 13.33px; line-height: 1.15"><span
+                            style=" font-size: 14.67px; font-family: 'Rupee Foradian'; ">{{kyc_company_remarks}}</span>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: auto;">
+                    <p style="margin-bottom: 13.33px; line-height: 1.15"><span
+                            style=" font-size: 14.67px; font-family: 'Rupee Foradian'; ">KYC of Beneficial Owner</span>
+                    </p>
+                </td>
+                <td style="width: auto;">
+                    <p style="margin-bottom: 13.33px; line-height: 1.15"><span
+                            style=" font-size: 14.67px; font-family: 'Rupee Foradian'; ">{{kyc_beneficial_owner_compliance}}</span>
+                    </p>
+                </td>
+                <td style="width: auto;">
+                    <p style="margin-bottom: 13.33px; line-height: 1.15"><span
+                            style=" font-size: 14.67px; font-family: 'Rupee Foradian'; ">{{kyc_beneficial_owner_remarks}}</span>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: auto;">
+                    <p style="margin-bottom: 13.33px; line-height: 1.15"><span
+                            style=" font-size: 14.67px; font-family: 'Rupee Foradian'; ">KYC of Key Promoter Directors</span></p>
+                </td>
+                <td style="width: auto;">
+                    <p style="margin-bottom: 13.33px; line-height: 1.15"><span
+                            style=" font-size: 14.67px; font-family: 'Rupee Foradian'; ">{{kyc_key_promoter_directors_compliance}}</span>
+                    </p>
+                </td>
+                <td style="width: auto;">
+                    <p style="margin-bottom: 13.33px; line-height: 1.15"><span
+                            style=" font-size: 14.67px; font-family: 'Rupee Foradian'; ">{{kyc_key_promoter_directors_remarks}}</span>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: auto;">
+                    <p style="margin-bottom: 13.33px; line-height: 1.15"><span
+                            style=" font-size: 14.67px; font-family: 'Rupee Foradian'; ">Compliance with Due Diligence</span></p>
+                </td>
+                <td style="width: auto;">
+                    <p style="margin-bottom: 13.33px; line-height: 1.15"><span
+                            style=" font-size: 14.67px; font-family: 'Rupee Foradian'; ">{{due_diligence_compliance}}</span>
+                    </p>
+                </td>
+                <td style="width: auto;">
+                    <p style="margin-bottom: 13.33px; line-height: 1.15"><span
+                            style=" font-size: 14.67px; font-family: 'Rupee Foradian'; ">{{due_diligence_remarks}}</span>
+                    </p>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <p style="margin-bottom: 13.33px; line-height: 1.15"> </p>
+    <p style=" margin-bottom: 0px; line-height: 1.15; margin-top: 13.33px; text-align: center; "><span
+            style="font-size: 14.67px; font-family: 'Rupee Foradian'"></span>
+            <span
+            style="font-size: 20px; font-family: 'Rupee Foradian'">Detailed Appraisal Memorandum</span></p>
+    <p style="margin-bottom: 13.33px; line-height: 1.15"> </p>
+    <p style="margin-bottom: 0px; line-height: 1.15; margin-top: 13.33px"><span
+            style="font-size: 14.67px; font-family: 'Rupee Foradian'">Borrower Details and Regulatory Standing</span>
+    </p>
+    <p style="margin-bottom: 13.33px; line-height: 1.15"> </p>
+    <table
+        style=" border-collapse: collapse; table-layout: fixed; border-top: 0.5px solid; border-left: 0.5px solid; border-bottom: 0.5px solid; border-right: 0.5px solid; ">
+        <tbody>
+            <tr>
+                <td style="width: auto;">
+                    <p style="margin-bottom: 0px; line-height: 1.15"><span
+                            style=" font-size: 14.67px; font-family: 'Rupee Foradian'; font-weight: bold; ">Type of NBFC</span></p>
+                </td>
+                <td style="width: auto;">
+                    <p style="margin-bottom: 0px; line-height: 1.15"><span
+                            style=" font-size: 14.67px; font-family: 'Rupee Foradian'; ">{{nbfc_type}}</span>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: auto;">
+                    <p style="margin-bottom: 0px; line-height: 1.15"><span
+                            style=" font-size: 14.67px; font-family: 'Rupee Foradian'; font-weight: bold; ">Details of Holding / Subsidiary companies, if any</span></p>
+                </td>
+                <td style="width: auto;">
+                    <table id="groupstructure"
+                        style="border-collapse: collapse; width:100%;">
+                        <tbody>
+                            <tr>
+                                <td><b>Relationship</b></td>
+                                <td><b>Details</b></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: auto;">
+                    <p style="margin-bottom: 0px; line-height: 1.15"><span
+                            style=" font-size: 14.67px; font-family: 'Rupee Foradian'; font-weight: bold; ">Past Association with SIDBI:</span>
+                    </p>
+                    <p style="margin-bottom: 0px; line-height: 1.15; margin-left: 48px"><span
+                            style=" font-size: 14.67px; font-family: 'Rupee Foradian'; font-weight: bold; ">How many TLs availed</span></p>
+                    <p style="margin-bottom: 0px; line-height: 1.15; margin-left: 48px"><span
+                            style=" font-size: 14.67px; font-family: 'Rupee Foradian'; font-weight: bold; ">How many live TLs with O/S</span></p>
+                </td>
+                <td style="width: auto;">
+                    <p style="margin-bottom: 0px; line-height: 1.15"><span
+                            style=" font-size: 14.67px; font-family: 'Rupee Foradian'; ">{{pastassodesc}}</span>
+                    </p>
+                    <p style="margin-bottom: 0px; line-height: 1.15"><span
+                            style=" font-size: 14.67px; font-family: 'Rupee Foradian'; ">{{pastassotl}} term loans availed.</span>
+                    </p>
+                    <p style="margin-bottom: 0px; line-height: 1.15"><span
+                            style=" font-size: 14.67px; font-family: 'Rupee Foradian'; ">{{pasttermloans}} term loans outstanding</span>
+                    </p>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <p style="margin-bottom: 13.33px; line-height: 1.15"> </p>
+    <p style="margin-bottom: 0px; line-height: 1.15; margin-top: 13.33px"><span
+            style="font-size: 14.67px; font-family: 'Rupee Foradian'">Business Model and Portfolio Risk</span></p>
+    <p style="margin-bottom: 13.33px; line-height: 1.15"> </p>
+    <table
+        style=" border-collapse: collapse; table-layout: fixed; border-top: 0.5px solid; border-left: 0.5px solid; border-bottom: 0.5px solid; border-right: 0.5px solid; ">
+            <tr>
+                <td style="width: auto;">
+                    <p style="margin-bottom: 0px; line-height: 1.15"><span
+                            style=" font-size: 14.67px; font-family: 'Rupee Foradian'; font-weight: bold; ">AUM</span>
+                    </p>
+                </td>
+                <td style="width: auto;">
+                    <table
+                        style=" border-collapse: collapse; table-layout: fixed; border-top: 0.5px solid; border-left: 0.5px solid; border-bottom: 0.5px solid; border-right: 0.5px solid; ">
+                            <tr>
+                                <td style="width: auto;">
+                                    <p style=" margin-bottom: 13.33px; line-height: 1.15; text-align: center; "> 
+                                    </p>
+                                </td>
+                                <td style="width: auto;">
+                                    <p style=" margin-bottom: 13.33px; line-height: 1.15; text-align: center; "><span
+                                            style=" font-size: 14.67px; font-family: 'Rupee Foradian'; ">FY2024</span>
+                                    </p>
+                                </td>
+                                <td style="width: auto;">
+                                    <p style=" margin-bottom: 13.33px; line-height: 1.15; text-align: center; "><span
+                                            style=" font-size: 14.67px; font-family: 'Rupee Foradian'; ">FY2025</span>
+                                    </p>
+                                </td>
+                                <td style="width: auto;">
+                                    <p style=" margin-bottom: 13.33px; line-height: 1.15; text-align: center; "><span
+                                            style=" font-size: 14.67px; font-family: 'Rupee Foradian'; ">FY2026</span>
+                                    </p>
+                                </td>
+                                <td style="width: auto;">
+                                    <p style=" margin-bottom: 13.33px; line-height: 1.15; text-align: center; "><span
+                                            style=" font-size: 14.67px; font-family: 'Rupee Foradian'; ">YoY change</span></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="width: auto;">
+                                    <p style="margin-bottom: 13.33px; line-height: 1.15"><span
+                                            style=" font-size: 14.67px; font-family: 'Rupee Foradian'; ">Total AUM (on-book+ off-book) (Rs. Cr)</span></p>
+                                </td>
+                                <td style="width: auto;">
+                                    <p style=" margin-bottom: 13.33px; line-height: 1.15; text-align: center; ">
+                                        {{total_aum_fy2024}}</p>
+                                </td>
+                                <td style="width: auto;">
+                                    <p style=" margin-bottom: 13.33px; line-height: 1.15; text-align: center; ">
+                                        {{total_aum_fy2025}}</p>
+                                </td>
+                                <td style="width: auto;">
+                                    <p style=" margin-bottom: 13.33px; line-height: 1.15; text-align: center; ">
+                                        {{total_aum_fy2026}}</p>
+                                </td>
+                                <td style="width: auto;">
+                                    <p style=" margin-bottom: 13.33px; line-height: 1.15; text-align: center; ">
+                                        {{total_aum_yoy_change}}</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="width: auto;">
+                                    <p style="margin-bottom: 13.33px; line-height: 1.15"><span
+                                            style=" font-size: 14.67px; font-family: 'Rupee Foradian'; ">On-Book AUM/Gross Loans (Rs. Cr)</span></p>
+                                </td>
+                                <td style="width: auto;">
+                                    <p style=" margin-bottom: 13.33px; line-height: 1.15; text-align: center; ">
+                                        {{onbook_aum_fy2024}}</p>
+                                </td>
+                                <td style="width: auto;">
+                                    <p style=" margin-bottom: 13.33px; line-height: 1.15; text-align: center; ">
+                                        {{onbook_aum_fy2025}}</p>
+                                </td>
+                                <td style="width: auto;">
+                                    <p style=" margin-bottom: 13.33px; line-height: 1.15; text-align: center; ">
+                                        {{onbook_aum_fy2026}}</p>
+                                </td>
+                                <td style="width: auto;">
+                                    <p style=" margin-bottom: 13.33px; line-height: 1.15; text-align: center; ">
+                                        {{onbook_aum_yoy_change}}
+                                    </p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="width: auto;">
+                                    <p style="margin-bottom: 13.33px; line-height: 1.15"><span
+                                            style=" font-size: 14.67px; font-family: 'Rupee Foradian'; ">Off-Book AUM (Rs. Cr)</span>
+                                    </p>
+                                </td>
+                                <td style="width: auto;">
+                                    <p style=" margin-bottom: 13.33px; line-height: 1.15; text-align: center; ">
+                                        {{offbook_aum_fy2024}}</p>
+                                </td>
+                                <td style="width: auto;">
+                                    <p style=" margin-bottom: 13.33px; line-height: 1.15; text-align: center; ">
+                                        {{offbook_aum_fy2025}}</p>
+                                </td>
+                                <td style="width: auto;">
+                                    <p style=" margin-bottom: 13.33px; line-height: 1.15; text-align: center; ">
+                                        {{offbook_aum_fy2026}}</p>
+                                </td>
+                                <td style="width: auto;">
+                                    <p style=" margin-bottom: 13.33px; line-height: 1.15; text-align: center; ">
+                                        {{offbook_aum_yoy_change}}</p>
+                                </td>
+                            </tr>
+                    </table>
+                    <p style="margin-bottom: 0px; line-height: 1.15"><span
+                            style=" font-size: 14.67px; font-family: 'Rupee Foradian'; "></span></p>
+                    <p style="margin-bottom: 0px; line-height: 1.15"><span
+                            style=" font-size: 14.67px; font-family: 'Rupee Foradian'; font-weight: bold; ">Movement justification:</span><span>{{aum_movement_justification}}</span>
+                    </p>
+                </td>
+            </tr>
+        <tr>
+            <td style="width: auto;">
+                <p style="margin-bottom: 0px; line-height: 1.15"><b>Product Concentration</b>
+                </p>
+            </td>
+            <td style="width: auto;">
+                <table id="product"
+                    style=" border-collapse: collapse; table-layout: fixed; border-top: 0.5px solid; border-left: 0.5px solid; border-bottom: 0.5px solid; border-right: 0.5px solid; ">
+                    <tbody>
+                        <tr>
+                            <td style="width: auto;">
+                                <p style=" margin-bottom: 13.33px; line-height: 1.15; text-align: center; "><span
+                                        style=" font-size: 14.67px; font-family: 'Rupee Foradian'; ">Product</span>
+                                </p>
+                            </td>
+                            <td style="width: auto;">
+                                <p style=" margin-bottom: 13.33px; line-height: 1.15; text-align: center; "><span
+                                        style=" font-size: 14.67px; font-family: 'Rupee Foradian'; ">%Share</span>
+                                </p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            <p style="margin-bottom: 0px; line-height: 1.15"> </p>
+            </td>
+        </tr>
+        <tr>
+            <td style="width: auto;">
+                <p style="margin-bottom: 0px; line-height: 1.15"><b>Geographic Concentration</b>
+                </p>
+            </td>
+            <td style="width: auto;">
+                <table id="geo"
+                            style=" border-collapse: collapse; table-layout: fixed; border-top: 0.5px solid; border-left: 0.5px solid; border-bottom: 0.5px solid; border-right: 0.5px solid; ">
+                            <tbody>
+                                <tr>
+                                    <td style="width: auto;">
+                                        <p style=" margin-bottom: 13.33px; line-height: 1.15; text-align: center; "><span
+                                                style=" font-size: 14.67px; font-family: 'Rupee Foradian'; ">Direction </span>
+                                        </p>
+                                    </td>
+                                    <td style="width: auto;">
+                                        <p style=" margin-bottom: 13.33px; line-height: 1.15; text-align: center; "><span
+                                                style=" font-size: 14.67px; font-family: 'Rupee Foradian'; ">%Share </span>
+                                        </p>
+                                    </td>
+                                </tr>
+                            </tbody>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td style="width: auto;">
+                <p style="margin-bottom: 0px; line-height: 1.15"><b>Secured vs Unsecured
+                        Mix</b>
+                </p>
+            </td>
+            <td style="width: auto;">
+                <table id="secure"
+                            style=" border-collapse: collapse; table-layout: fixed; border-top: 0.5px solid; border-left: 0.5px solid; border-bottom: 0.5px solid; border-right: 0.5px solid; ">
+                            <tbody>
+                                <tr>
+                                    <td style="width: auto;">
+                                        <p style=" margin-bottom: 13.33px; line-height: 1.15; text-align: center; "><span
+                                                style=" font-size: 14.67px; font-family: 'Rupee Foradian'; ">Category</span>
+                                        </p>
+                                    </td>
+                                    <td style="width: auto;">
+                                        <p style=" margin-bottom: 13.33px; line-height: 1.15; text-align: center; "><span
+                                                style=" font-size: 14.67px; font-family: 'Rupee Foradian'; ">%Share</span>
+                                        </p>
+                                    </td>
+                                </tr>
+                            </tbody>
+                </table>
+            </td>
+        </tr>
+    </table>
+    <p style="margin-bottom: 13.33px; line-height: 1.15; margin-left: 48px"> </p>
+    <p style="margin-bottom: 0px; line-height: 1.15; margin-top: 13.33px"><span
+            style="font-size: 14.67px; font-family: 'Rupee Foradian'">Asset Quality and Collection Efficiency</span></p>
+    <p style="margin-bottom: 13.33px; line-height: 1.15; margin-left: 48px"> </p>
+    <table
+        style=" border-collapse: collapse; table-layout: fixed; border-top: 0.5px solid; border-left: 0.5px solid; border-bottom: 0.5px solid; border-right: 0.5px solid; ">
+        <tbody>
+            <tr>
+                <td style="width: auto;">
+                    <p style="margin-bottom: 0px; line-height: 1.15"><span
+                            style=" font-size: 14.67px; font-family: 'Rupee Foradian'; font-weight: bold; ">GNPA , NNPA, Write -off</span>
+                    </p>
+                </td>
+                <td style="width: auto;">
+                    <table
+                        style=" border-collapse: collapse; table-layout: fixed; border-top: 0.5px solid; border-left: 0.5px solid; border-bottom: 0.5px solid; border-right: 0.5px solid; ">
+                        <tbody>
+                            <tr>
+                                <td style="width: auto;">
+                                    <p style=" margin-bottom: 13.33px; line-height: 1.15; text-align: center; "> 
+                                    </p>
+                                </td>
+                                <td style="width: auto;">
+                                    <p style=" margin-bottom: 13.33px; line-height: 1.15; text-align: center; "><span
+                                            style=" font-size: 14.67px; font-family: 'Rupee Foradian'; ">FY2024</span>
+                                    </p>
+                                </td>
+                                <td style="width: auto;">
+                                    <p style=" margin-bottom: 13.33px; line-height: 1.15; text-align: center; "><span
+                                            style=" font-size: 14.67px; font-family: 'Rupee Foradian'; ">FY2025</span>
+                                    </p>
+                                </td>
+                                <td style="width: auto;">
+                                    <p style=" margin-bottom: 13.33px; line-height: 1.15; text-align: center; "><span
+                                            style=" font-size: 14.67px; font-family: 'Rupee Foradian'; ">FY2026</span>
+                                    </p>
+                                </td>
+                                <td style="width: auto;">
+                                    <p style=" margin-bottom: 13.33px; line-height: 1.15; text-align: center; "><span
+                                            style=" font-size: 14.67px; font-family: 'Rupee Foradian'; ">YoY change</span></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="width: auto;">
+                                    <p style="margin-bottom: 13.33px; line-height: 1.15"><span
+                                            style=" font-size: 14.67px; font-family: 'Rupee Foradian'; ">GNPA %</span>
+                                    </p>
+                                </td>
+                                <td style="width: auto;">
+                                    <p style=" margin-bottom: 13.33px; line-height: 1.15; text-align: center; ">
+                                        {{overall_gnpa_pct_fy2024}}</p>
+                                </td>
+                                <td style="width: auto;">
+                                    <p style=" margin-bottom: 13.33px; line-height: 1.15; text-align: center; ">
+                                        {{overall_gnpa_pct_fy2025}}</p>
+                                </td>
+                                <td style="width: auto;">
+                                    <p style=" margin-bottom: 13.33px; line-height: 1.15; text-align: center; ">
+                                        {{overall_gnpa_pct_fy2026}}</p>
+                                </td>
+                                <td style="width: auto;">
+                                    <p style=" margin-bottom: 13.33px; line-height: 1.15; text-align: center; ">
+                                        {{overall_gnpa_pct_yoy_change}}</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="width: auto;">
+                                    <p style="margin-bottom: 13.33px; line-height: 1.15"><span
+                                            style=" font-size: 14.67px; font-family: 'Rupee Foradian'; ">NNPA %</span>
+                                    </p>
+                                </td>
+                                <td style="width: auto;">
+                                    <p style=" margin-bottom: 13.33px; line-height: 1.15; text-align: center; ">
+                                        {{overall_nnpa_pct_fy2024}}</p>
+                                </td>
+                                <td style="width: auto;">
+                                    <p style=" margin-bottom: 13.33px; line-height: 1.15; text-align: center; ">
+                                        {{overall_nnpa_pct_fy2025}}</p>
+                                </td>
+                                <td style="width: auto;">
+                                    <p style=" margin-bottom: 13.33px; line-height: 1.15; text-align: center; ">
+                                        {{overall_nnpa_pct_fy2026}}</p>
+                                </td>
+                                <td style="width: auto;">
+                                    <p style=" margin-bottom: 13.33px; line-height: 1.15; text-align: center; ">
+                                        {{overall_nnpa_pct_yoy_change}}</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="width: auto;">
+                                    <p style="margin-bottom: 13.33px; line-height: 1.15"><span
+                                            style=" font-size: 14.67px; font-family: 'Rupee Foradian'; ">Write-off</span>
+                                    </p>
+                                </td>
+                                <td style="width: auto;">
+                                    <p style=" margin-bottom: 13.33px; line-height: 1.15; text-align: center; ">
+                                        {{overall_writeoff_fy2024}}</p>
+                                </td>
+                                <td style="width: auto;">
+                                    <p style=" margin-bottom: 13.33px; line-height: 1.15; text-align: center; ">
+                                        {{overall_writeoff_fy2025}}</p>
+                                </td>
+                                <td style="width: auto;">
+                                    <p style=" margin-bottom: 13.33px; line-height: 1.15; text-align: center; ">
+                                        {{overall_writeoff_fy2026}}</p>
+                                </td>
+                                <td style="width: auto;">
+                                    <p style=" margin-bottom: 13.33px; line-height: 1.15; text-align: center; ">
+                                        {{overall_writeoff_yoy_change}}</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="width: auto;">
+                                    <p style="margin-bottom: 13.33px; line-height: 1.15"><span
+                                            style=" font-size: 14.67px; font-family: 'Rupee Foradian'; ">(GNPA+Writeoff)/(Onbook AUM Gross +Writeoff)</span></p>
+                                </td>
+                                <td style="width: auto;">
+                                    <p style=" margin-bottom: 13.33px; line-height: 1.15; text-align: center; ">
+                                        {{overall_gnpa_writeoff_ratio_fy2024}}</p>
+                                </td>
+                                <td style="width: auto;">
+                                    <p style=" margin-bottom: 13.33px; line-height: 1.15; text-align: center; ">
+                                        {{overall_gnpa_writeoff_ratio_fy2025}}</p>
+                                </td>
+                                <td style="width: auto;">
+                                    <p style=" margin-bottom: 13.33px; line-height: 1.15; text-align: center; ">
+                                        {{overall_gnpa_writeoff_ratio_fy2026}}</p>
+                                </td>
+                                <td style="width: auto;">
+                                    <p style=" margin-bottom: 13.33px; line-height: 1.15; text-align: center; ">
+                                        {{overall_gnpa_writeoff_ratio_yoy_change}}</p>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <p style="margin-bottom: 0px; line-height: 1.15"><span
+                            style=" font-size: 14.67px; font-family: 'Rupee Foradian'; font-weight: bold; ">Movement justification:</span><span>{{gnpa_nnpa_writeoff_ratio_movement_justification}}</span>
+                    </p>
+                </tr>
+    </td>
+    <tr>
+        <td style="width: auto;">
+            <p style="margin-bottom: 0px; line-height: 1.15"><span
+                    style=" font-size: 14.67px; font-family: 'Rupee Foradian'; font-weight: bold; ">GNPA , NNPA, Write-off (MSE Portfolio)</span></p>
+        </td>
+        <td style="width: auto;">
+            <table
+                style=" border-collapse: collapse; table-layout: fixed; border-top: 0.5px solid; border-left: 0.5px solid; border-bottom: 0.5px solid; border-right: 0.5px solid; ">
+                <tbody>
+                    <tr>
+                        <td style="width: auto;">
+                            <p style=" margin-bottom: 13.33px; line-height: 1.15; text-align: center; "> 
+                            </p>
+                        </td>
+                        <td style="width: auto;">
+                            <p style=" margin-bottom: 13.33px; line-height: 1.15; text-align: center; "><span
+                                    style=" font-size: 14.67px; font-family: 'Rupee Foradian'; ">FY2024</span>
+                            </p>
+                        </td>
+                        <td style="width: auto;">
+                            <p style=" margin-bottom: 13.33px; line-height: 1.15; text-align: center; "><span
+                                    style=" font-size: 14.67px; font-family: 'Rupee Foradian'; ">FY2025</span>
+                            </p>
+                        </td>
+                        <td style="width: auto;">
+                            <p style=" margin-bottom: 13.33px; line-height: 1.15; text-align: center; "><span
+                                    style=" font-size: 14.67px; font-family: 'Rupee Foradian'; ">FY2026</span>
+                            </p>
+                        </td>
+                        <td style="width: auto;">
+                            <p style=" margin-bottom: 13.33px; line-height: 1.15; text-align: center; "><span
+                                    style=" font-size: 14.67px; font-family: 'Rupee Foradian'; ">YoY change</span></p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="width: auto;">
+                            <p style="margin-bottom: 13.33px; line-height: 1.15"><span
+                                    style=" font-size: 14.67px; font-family: 'Rupee Foradian'; ">GNPA%</span>
+                            </p>
+                        </td>
+                        <td style="width: auto;">
+                            <p style=" margin-bottom: 13.33px; line-height: 1.15; text-align: center; ">
+                                {{mse_gnpa_pct_fy2024}}</p>
+                        </td>
+                        <td style="width: auto;">
+                            <p style=" margin-bottom: 13.33px; line-height: 1.15; text-align: center; ">
+                                {{mse_gnpa_pct_fy2025}}</p>
+                        </td>
+                        <td style="width: auto;">
+                            <p style=" margin-bottom: 13.33px; line-height: 1.15; text-align: center; ">
+                                {{mse_gnpa_pct_fy2026}}</p>
+                        </td>
+                        <td style="width: auto;">
+                            <p style=" margin-bottom: 13.33px; line-height: 1.15; text-align: center; ">
+                                {{mse_gnpa_pct_yoy_change}}</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="width: auto;">
+                            <p style="margin-bottom: 13.33px; line-height: 1.15"><span
+                                    style=" font-size: 14.67px; font-family: 'Rupee Foradian'; ">NNPA%</span>
+                            </p>
+                        </td>
+                        <td style="width: auto;">
+                            <p style=" margin-bottom: 13.33px; line-height: 1.15; text-align: center; ">
+                                {{mse_nnpa_pct_fy2024}}</p>
+                        </td>
+                        <td style="width: auto;">
+                            <p style=" margin-bottom: 13.33px; line-height: 1.15; text-align: center; ">
+                                {{mse_nnpa_pct_fy2025}}</p>
+                        </td>
+                        <td style="width: auto;">
+                            <p style=" margin-bottom: 13.33px; line-height: 1.15; text-align: center; ">
+                                {{mse_nnpa_pct_fy2026}}</p>
+                        </td>
+                        <td style="width: auto;">
+                            <p style=" margin-bottom: 13.33px; line-height: 1.15; text-align: center; ">
+                                {{mse_nnpa_pct_yoy_change}}</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="width: auto;">
+                            <p style="margin-bottom: 13.33px; line-height: 1.15"><span
+                                    style=" font-size: 14.67px; font-family: 'Rupee Foradian'; ">Write-off</span>
+                            </p>
+                        </td>
+                        <td style="width: auto;">
+                            <p style=" margin-bottom: 13.33px; line-height: 1.15; text-align: center; ">
+                                {{mse_writeoff_fy2024}}</p>
+                        </td>
+                        <td style="width: auto;">
+                            <p style=" margin-bottom: 13.33px; line-height: 1.15; text-align: center; ">
+                                {{mse_writeoff_fy2025}}</p>
+                        </td>
+                        <td style="width: auto;">
+                            <p style=" margin-bottom: 13.33px; line-height: 1.15; text-align: center; ">
+                                {{mse_writeoff_fy2026}}</p>
+                        </td>
+                        <td style="width: auto;">
+                            <p style=" margin-bottom: 13.33px; line-height: 1.15; text-align: center; ">
+                                {{mse_writeoff_yoy_change}}</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="width: auto;">
+                            <p style="margin-bottom: 13.33px; line-height: 1.15"><span
+                                    style=" font-size: 14.67px; font-family: 'Rupee Foradian'; ">(GNPA+Writeoff)/(Onbook AUM Gross +Writeoff)</span></p>
+                        </td>
+                        <td style="width: auto;">
+                            <p style=" margin-bottom: 13.33px; line-height: 1.15; text-align: center; ">
+                                {{mse_gnpa_writeoff_ratio_fy2024}}</p>
+                        </td>
+                        <td style="width: auto;">
+                            <p style=" margin-bottom: 13.33px; line-height: 1.15; text-align: center; ">
+                                {{mse_gnpa_writeoff_ratio_fy2025}}</p>
+                        </td>
+                        <td style="width: auto;">
+                            <p style=" margin-bottom: 13.33px; line-height: 1.15; text-align: center; ">
+                                {{mse_gnpa_writeoff_ratio_fy2026}}</p>
+                        </td>
+                        <td style="width: auto;">
+                            <p style=" margin-bottom: 13.33px; line-height: 1.15; text-align: center; ">
+                                {{mse_gnpa_writeoff_ratio_yoy_change}}</p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <p style="margin-bottom: 0px; line-height: 1.15"></p>
+            <p style="margin-bottom: 13.33px; line-height: 1.15"><span
+                    style=" font-size: 14.67px; font-family: 'Rupee Foradian'; font-weight: bold; ">Movement justification:</span><span>{{mse_gnpa_nnpa_writeoff_ratio_movement_justification}}</span>
+            </p>
+        </td>
+    </tr>
+    <tr>
+        <td style="width: auto;">
+            <p style="margin-bottom: 0px; line-height: 1.15"><span
+                    style=" font-size: 14.67px; font-family: 'Rupee Foradian'; font-weight: bold; ">Delinquency Levels</span>
+            </p>
+        </td>
+        <td style="width: auto;">
+            <p style="margin-bottom: 0px; line-height: 1.15"><span
+                    style=" font-size: 14.67px; font-family: 'Rupee Foradian'; ">DPD 0-30 : {{delinquency_levels_dpd_0_30}} </span>
+            </p>
+            <p style="margin-bottom: 0px; line-height: 1.15"><span
+                    style=" font-size: 14.67px; font-family: 'Rupee Foradian'; ">DPD 31-90 : {{delinquency_levels_dpd_31_90}} </span>
+            </p>
+            <p style="margin-bottom: 0px; line-height: 1.15"><span
+                    style=" font-size: 14.67px; font-family: 'Rupee Foradian'; ">DPD 90+ : {{delinquency_levels_dpd_90_plus}}</span>
+            </p>
+        </td>
+    </tr>
+    <tr>
+        <td style="width: auto;">
+            <p style="margin-bottom: 0px; line-height: 1.15"><span
+                    style=" font-size: 14.67px; font-family: 'Rupee Foradian'; font-weight: bold; ">PCR-Stage 3 (%)</span></p>
+        </td>
+        <td style="width: auto;">
+            <table
+                style=" border-collapse: collapse; table-layout: fixed; border-top: 0.5px solid; border-left: 0.5px solid; border-bottom: 0.5px solid; border-right: 0.5px solid; ">
+                <tbody>
+                    <tr>
+                        <td style="width: auto;">
+                            <p style=" margin-bottom: 13.33px; line-height: 1.15; text-align: center; "><span
+                                    style=" font-size: 14.67px; font-family: 'Rupee Foradian'; ">FY2024</span>
+                            </p>
+                        </td>
+                        <td style="width: auto;">
+                            <p style=" margin-bottom: 13.33px; line-height: 1.15; text-align: center; "><span
+                                    style=" font-size: 14.67px; font-family: 'Rupee Foradian'; ">FY2025</span>
+                            </p>
+                        </td>
+                        <td style="width: auto;">
+                            <p style=" margin-bottom: 13.33px; line-height: 1.15; text-align: center; "><span
+                                    style=" font-size: 14.67px; font-family: 'Rupee Foradian'; ">FY2026</span>
+                            </p>
+                        </td>
+                        <td style="width: auto;">
+                            <p style=" margin-bottom: 13.33px; line-height: 1.15; text-align: center; "><span
+                                    style=" font-size: 14.67px; font-family: 'Rupee Foradian'; ">YoY change</span></p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="width: auto;">
+                            <p style=" margin-bottom: 13.33px; line-height: 1.15; text-align: center; ">
+                                {{pcr_stage_3_fy2024}}</p>
+                        </td>
+                        <td style="width: auto;">
+                            <p style=" margin-bottom: 13.33px; line-height: 1.15; text-align: center; ">
+                                {{pcr_stage_3_fy2025}}</p>
+                        </td>
+                        <td style="width: auto;">
+                            <p style=" margin-bottom: 13.33px; line-height: 1.15; text-align: center; ">
+                                {{pcr_stage_3_fy2026}}</p>
+                        </td>
+                        <td style="width: auto;">
+                            <p style=" margin-bottom: 13.33px; line-height: 1.15; text-align: center; ">
+                                {{pcr_stage_3_yoy_change}}</p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <p style="margin-bottom: 0px; line-height: 1.15"><span
+                    style=" font-size: 14.67px; font-family: 'Rupee Foradian'; font-weight: bold; ">Movement justification:</span><span>{{pcr_stage_3_movement_justification}}</span>
+            </p>
+        </td>
+    </tr> 
+    <tr>
+        <td style="width: auto;">
+            <p style="margin-bottom: 0px; line-height: 1.15"><span
+                    style=" font-size: 14.67px; font-family: 'Rupee Foradian'; font-weight: bold; ">Collection Efficiency :</span>
+            </p>
+            <p style="margin-bottom: 0px; line-height: 1.15; margin-left: 48px"><span
+                    style=" font-size: 14.67px; font-family: 'Rupee Foradian'; ">Current (Average 12M)</span>
+            </p>
+            <p style="margin-bottom: 0px; line-height: 1.15; margin-left: 48px"><span
+                    style=" font-size: 14.67px; font-family: 'Rupee Foradian'; ">Overall (Average 12M)</span>
+            </p>
+        </td>
+        <td style="width: auto;">
+            <p style="margin-bottom: 0px; line-height: 1.15"> </p>
+            <p style="margin-bottom: 0px; line-height: 1.15"><span
+                    style=" font-size: 14.67px; font-family: 'Rupee Foradian'; ">{{collection_efficiency_current_avg_12m_pct}}</span>
+            </p>
+            <p style="margin-bottom: 0px; line-height: 1.15"><span
+                    style=" font-size: 14.67px; font-family: 'Rupee Foradian'; ">{{collection_efficiency_overall_avg_12m_pct}}
+
+                </span>
+            </p>
+        </td>
+    </tr>
+    </tbody>
+    </table>
+    <p style="margin-bottom: 13.33px; line-height: 1.15"> </p>
+    <p style="margin-bottom: 0px; line-height: 1.15; margin-top: 13.33px"><span
+            style="font-size: 14.67px; font-family: 'Rupee Foradian'">Capital Adequacy and Leverage</span></p>
+    <p style="margin-bottom: 13.33px; line-height: 1.15; margin-left: 48px"> </p>
+    <table
+        style=" border-collapse: collapse; table-layout: fixed; border-top: 0.5px solid; border-left: 0.5px solid; border-bottom: 0.5px solid; border-right: 0.5px solid; ">
+        <tbody>
+            <tr>
+                <td style="width: auto;">
+                    <p style="margin-bottom: 0px; line-height: 1.15"><span
+                            style=" font-size: 14.67px; font-family: 'Rupee Foradian'; font-weight: bold; ">Shareholding Pattern (% Stake ) ( As on _____ )</span>
+                    </p>
+                </td>
+                <td style="width: auto;">
+                    <p style="margin-bottom: 0px; line-height: 1.15">{{shareholding_pattern_(%_stake)}}</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: auto;">
+                    <p style="margin-bottom: 0px; line-height: 1.15"><span
+                            style=" font-size: 14.67px; font-family: 'Rupee Foradian'; font-weight: bold; ">Details about Last Capital Infusion</span></p>
+                </td>
+                <td style="width: auto;">
+                    <p style="margin-bottom: 0px; line-height: 1.15"><span
+                            style=" font-size: 14.67px; font-family: 'Rupee Foradian'; ">{{details_about_last_capital_infusion}}</span>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: auto;">
+                    <p style="margin-bottom: 0px; line-height: 1.15"><span
+                            style=" font-size: 14.67px; font-family: 'Rupee Foradian'; font-weight: bold; ">Proposed Equity Infusion</span>
+                    </p>
+                </td>
+                <td style="width: auto;">
+                    <p style="margin-bottom: 0px; line-height: 1.15">{{proposed_equity_infusion}}</p>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <p style="margin-bottom: 13.33px; line-height: 1.15"> </p>
+    <table
+        style=" border-collapse: collapse; table-layout: fixed; border-top: 0.5px solid; border-left: 0.5px solid; border-bottom: 0.5px solid; border-right: 0.5px solid; ">
+        <tbody>
+            <tr>
+
+                <p style=" margin-bottom: 13.33px; line-height: 1.15; text-align: center; ">
+                </p>
+            </tr>
+            <tr>
+                <td style="width: auto; text-align:center;"><b>Parameter</b></td>
+                <td style="width: auto; text-align:center;"><b>FY2024</b></td>
+                <td style="width: auto; text-align:center;"><b>FY2025</b></td>
+                <td style="width: auto; text-align:center;"><b>FY2026</b></td>
+                <td style="width: auto; text-align:center;"><b>YoY change</b></td>
+                <td style="width: auto; text-align:center;"><b>Justification</b></td>
+            </tr>
+            <tr>
+                <td style="width: auto;">Equity Capital (Rs. Cr)</td>
+                <td style="width: auto;">{{equity_2024}}</td>
+                <td style="width: auto;">{{equity_2025}}</td>
+                <td style="width: auto;">{{equity_2026}}</td>
+                <td style="width: auto;">{{equity_yoy}}</td>
+                <td style="width: auto;">{{equity_justification}}</td>
+            </tr>
+            <tr>
+                <td style="width: auto;">Tangible Net-worth (Rs. Cr)</td>
+                <td style="width: auto;">{{tangible_networth_2024}}</td>
+                <td style="width: auto;">{{tangible_networth_2025}}</td>
+                <td style="width: auto;">{{tangible_networth_2026}}</td>
+                <td style="width: auto;">{{tangible_networth_yoy}}</td>
+                <td style="width: auto;">{{tangible_networth_justification}}</td>
+            </tr>
+            <tr>
+                <td style="width: auto;">Net Owned Funds</td>
+                <td style="width: auto;">{{net_owned_funds_2024}}</td>
+                <td style="width: auto;">{{net_owned_funds_2025}}</td>
+                <td style="width: auto;">{{net_owned_funds_2026}}</td>
+                <td style="width: auto;">{{net_owned_funds_yoy}}</td>
+                <td style="width: auto;">{{net_owned_funds_justification}}</td>
+            </tr>
+            <tr>
+                <td style="width: auto;">Gearing (times)</td>
+                <td style="width: auto;">{{gearing_2024}}</td>
+                <td style="width: auto;">{{gearing_2025}}</td>
+                <td style="width: auto;">{{gearing_2026}}</td>
+                <td style="width: auto;">{{gearing_yoy}}</td>
+                <td style="width: auto;">{{gearing_justification}}</td>
+            </tr>
+            <tr>
+                <td style="width: auto;">CRAR (%)</td>
+                <td style="width: auto;">{{crar_2024}}</td>
+                <td style="width: auto;">{{crar_2025}}</td>
+                <td style="width: auto;">{{crar_2026}}</td>
+                <td style="width: auto;">{{crar_yoy}}</td>
+                <td style="width: auto;">{{crar_justification}}</td>
+            </tr>
+            <tr>
+                <td style="width: auto;">CRAR Tier I (%)</td>
+                <td style="width: auto;">{{crar_tier1_2024}}</td>
+                <td style="width: auto;">{{crar_tier1_2025}}</td>
+                <td style="width: auto;">{{crar_tier1_2026}}</td>
+                <td style="width: auto;">{{crar_tier1_yoy}}</td>
+                <td style="width: auto;">{{crar_tier1_justification}}</td>
+            </tr>
+    </table>
+    <p style="margin-bottom: 13.33px; line-height: 1.15"> </p>
+    <p style="margin-bottom: 0px; line-height: 1.15; margin-top: 13.33px"><span
+            style="font-size: 14.67px; font-family: 'Rupee Foradian'">Liquidity and Asset Liability Management</span>
+    </p>
+    <p style="margin-bottom: 13.33px; line-height: 1.15"> </p>
+    <table style=" border-collapse: collapse; table-layout: fixed; border-top: 0.5px solid; border-left: 0.5px solid; border-bottom: 0.5px solid; border-right: 0.5px solid; ">
+        <tr>
+            <td style="width: auto;"><b>Structural ALM Mismatches</b></td>
+            <td style="width: auto;">{{alm_mismatch_comment}}</td>
+        </tr>
+        <tr>
+            <td style="width: auto;"><b>Compliance to ALM Guidelines</b></td>
+            <td style="width: auto;">{{alm_compliance}}</td>
+        </tr>
+        <tr>
+            <td style="width: auto;"><b>Cash and Cash Equivalent</b></td>
+            <td style="width: auto;">{{Cash_and_Cash_Equivalent}}</td>
+        </tr>
+        <tr>
+            <td style="width: auto;"><b>Liquidity Coverage Ratio</b></td>
+            <td style="width: auto;">
+                <table style=" border-collapse: collapse; table-layout: fixed; border-top: 0.5px solid; border-left: 0.5px solid; border-bottom: 0.5px solid; border-right: 0.5px solid; ">
+                    <tr>
+                        <td style="width: auto;"><b>FY2024</b></td>
+                        <td style="width: auto;"><b>FY2025</b></td>
+                        <td style="width: auto;"><b>FY2026</b></td>
+                        <td style="width: auto;"><b>YoY Change</b></td>
+                    </tr>
+                    <tr>
+                        <td style="width: auto;">{{lcr_2024}}</td>
+                        <td style="width: auto;">{{lcr_2025}}</td>
+                        <td style="width: auto;">{{lcr_2026}}</td>
+                        <td style="width: auto;">{{lcr_yoy}}</td>
+                    </tr>
+                </table>
+                <p><b>Movement Justification:</b>{{lcr_movement_justification}}</p>
+            </td>
+        </tr>
+        <tr>
+            <td style="width: auto;"><b>Borrowing Mix</b></td>
+            <td style="width: auto;">
+                <table id="borrow"
+                        style=" border-collapse: collapse; table-layout: fixed; border-top: 0.5px solid; border-left: 0.5px solid; border-bottom: 0.5px solid; border-right: 0.5px solid; ">
+                        <tbody>
+                            <tr>
+                                <td style="width: auto;">
+                                    <p style=" margin-bottom: 13.33px; line-height: 1.15; text-align: center; "><span
+                                            style=" font-size: 14.67px; font-family: 'Rupee Foradian'; ">Instrument</span>
+                                    </p>
+                                </td>
+                                <td style="width: auto;">
+                                    <p style=" margin-bottom: 13.33px; line-height: 1.15; text-align: center; "><span
+                                            style=" font-size: 14.67px; font-family: 'Rupee Foradian'; ">%Share</span>
+                                    </p>
+                                </td>
+                            </tr>
+                        </tbody>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td style="width: auto;"><b>Total Borrowings (Rs. Cr)</b></td>
+            <td style="width: auto;">
+                <table style=" border-collapse: collapse; table-layout: fixed; border-top: 0.5px solid; border-left: 0.5px solid; border-bottom: 0.5px solid; border-right: 0.5px solid; ">
+                    <tr>
+                        <td style="width: auto;"><b>FY2024</b></td>
+                        <td style="width: auto;"><b>FY2025</b></td>
+                        <td style="width: auto;"><b>FY2026</b></td>
+                        <td style="width: auto;"><b>YoY Change</b></td>
+                    </tr>
+                    <tr>
+                        <td style="width: auto;">{{borrowings_2024}}</td>
+                        <td style="width: auto;">{{borrowings_2025}}</td>
+                        <td style="width: auto;">{{borrowings_2026}}</td>
+                        <td style="width: auto;">{{borrowings_yoy}}</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td style="width: auto;"><b>Average Cost of Borrowing</b></td>
+            <td style="width: auto;">
+                {{average_cost_of_borrowing}}
+            </td>
+        </tr>
+        <tr>
+            <td style="width: auto;"><b>Top 5 Lenders</b></td>
+            <td style="width: auto;">
+                <table id="lend" 
+                        style=" border-collapse: collapse; table-layout: fixed; border-top: 0.5px solid; border-left: 0.5px solid; border-bottom: 0.5px solid; border-right: 0.5px solid; ">
+                    <tr>
+                        <td style="width: auto;"><b>Name of Bank/Lender</b></td>
+                        <td style="width: auto;"><b>Exposure</b></td>
+                    </tr>
+                    <tr>
+                        <td style="width: auto;">{{top5_lender_1_name}}</td>
+                        <td style="width: auto;">{{top5_lender_1_exposure}}</td>
+                    </tr>
+                    <tr>
+                        <td style="width: auto;">{{top5_lender_2_name}}</td>
+                        <td style="width: auto;">{{top5_lender_2_exposure}}</td>
+                    </tr>
+                    <tr>
+                        <td style="width: auto;">{{top5_lender_3_name}}</td>
+                        <td style="width: auto;">{{top5_lender_3_exposure}}</td>
+                    </tr>
+                    <tr>
+                        <td style="width: auto;">{{top5_lender_4_name}}</td>
+                        <td style="width: auto;">{{top5_lender_4_exposure}}</td>
+                    </tr>
+                    <tr>
+                        <td style="width: auto;">{{top5_lender_5_name}}</td>
+                        <td style="width: auto;">{{top5_lender_5_exposure}}</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+    <p style="margin-bottom: 13.33px; line-height: 1.15"> </p>
+    <p style="margin-bottom: 0px; line-height: 1.15; margin-top: 13.33px"><span
+            style="font-size: 14.67px; font-family: 'Rupee Foradian'"><b>Sustainability of Earnings</b></span></p>
+    <p style="margin-bottom: 13.33px; line-height: 1.15"> </p>
+    <table
+        style=" border-collapse: collapse; table-layout: fixed; border-top: 0.5px solid; border-left: 0.5px solid; border-bottom: 0.5px solid; border-right: 0.5px solid; ">
+        <tr>
+            <td style="width: auto;">
+                <p style="text-align:center;"><b>Parameter</b></p>
+            </td>
+            <td style="width: auto;">
+                <p style="text-align:center;"><b>FY2024</b></p>
+            </td>
+            <td style="width: auto;">
+                <p style="text-align:center;"><b>FY2025</b></p>
+            </td>
+            <td style="width: auto;">
+                <p style="text-align:center;"><b>FY2026</b></p>
+            </td>
+            <td style="width: auto;">
+                <p style="text-align:center;"><b>YoY change</b></p>
+            </td>
+            <td style="width: auto;">
+                <p><b>Justification</b></p>
+            </td>
+        </tr>
+        <tr>
+            <td style="width: auto;">NIM (% of On-BS earning assets)</td>
+            <td style="width: auto;">{{nim_fy2024}}</td>
+            <td style="width: auto;">{{nim_fy2025}}</td>
+            <td style="width: auto;">{{nim_fy2026}}</td>
+            <td style="width: auto;">{{nim_yoy}}</td>
+            <td style="width: auto;">{{nim_justification}}</td>
+        </tr>
+        <tr>
+            <td style="width: auto;">On Book-Portfolio Yield (%)</td>
+            <td style="width: auto;">{{yield_fy2024}}</td>
+            <td style="width: auto;">{{yield_fy2025}}</td>
+            <td style="width: auto;">{{yield_fy2026}}</td>
+            <td style="width: auto;">{{yield_yoy}}</td>
+            <td style="width: auto;">{{yield_justification}}</td>
+        </tr>
+        <tr>
+            <td style="width: auto;">Return on Total Assets (%)</td>
+            <td style="width: auto;">{{roa_fy2024}}</td>
+            <td style="width: auto;">{{roa_fy2025}}</td>
+            <td style="width: auto;">{{roa_fy2026}}</td>
+            <td style="width: auto;">{{roa_yoy}}</td>
+            <td style="width: auto;">{{roa_justification}}</td>
+        </tr>
+        <tr>
+            <td style="width: auto;">Interest Income (Rs. Cr)</td>
+            <td style="width: auto;">{{interest_income_2024}}</td>
+            <td style="width: auto;">{{interest_income_2025}}</td>
+            <td style="width: auto;">{{interest_income_2026}}</td>
+            <td style="width: auto;">{{interest_income_yoy}}</td>
+            <td style="width: auto;">{{interest_income_justification}}</td>
+        </tr>
+        <tr>
+            <td style="width: auto;">Total Income (Rs.Cr)</td>
+            <td style="width: auto;">{{total_income_2024}}</td>
+            <td style="width: auto;">{{total_income_2025}}</td>
+            <td style="width: auto;">{{total_income_2026}}</td>
+            <td style="width: auto;">{{total_income_yoy}}</td>
+            <td style="width: auto;">{{total_income_justification}}</td>
+        </tr>
+        <tr>
+            <td style="width: auto;">Exceptional and Extraordinary Income/(Loss)</td>
+            <td style="width: auto;">{{exceptional_income_2024}}</td>
+            <td style="width: auto;">{{exceptional_income_2025}}</td>
+            <td style="width: auto;">{{exceptional_income_2026}}</td>
+            <td style="width: auto;">{{exceptional_income_yoy}}</td>
+            <td style="width: auto;">{{exceptional_income_justification}}</td>
+        </tr>
+        <tr>
+            <td style="width: auto;">Operating Expenses (Rs.Cr)</td>
+            <td style="width: auto;">{{opex_2024}}</td>
+            <td style="width: auto;">{{opex_2025}}</td>
+            <td style="width: auto;">{{opex_2026}}</td>
+            <td style="width: auto;">{{opex_yoy}}</td>
+            <td style="width: auto;">{{opex_justification}}</td>
+        </tr>
+        <tr>
+            <td style="width: auto;">Profit After Tax (Rs. Cr)</td>
+            <td style="width: auto;">{{pat_2024}}</td>
+            <td style="width: auto;">{{pat_2025}}</td>
+            <td style="width: auto;">{{pat_2026}}</td>
+            <td style="width: auto;">{{pat_yoy}}</td>
+            <td style="width: auto;">{{pat_justification}}</td>
+        </tr>
+        <tr>
+            <td style="width: auto;">Cost to Income (%)</td>
+            <td style="width: auto;">{{cost_income_2024}}</td>
+            <td style="width: auto;">{{cost_income_2025}}</td>
+            <td style="width: auto;">{{cost_income_2026}}</td>
+            <td style="width: auto;">{{cost_income_yoy}}</td>
+            <td style="width: auto;">{{cost_income_justification}}</td>
+        </tr>
+        <tr>
+            <td style="width: auto;">Credit Cost (%)</td>
+            <td style="width: auto;">{{credit_cost_2024}}</td>
+            <td style="width: auto;">{{credit_cost_2025}}</td>
+            <td style="width: auto;">{{credit_cost_2026}}</td>
+            <td style="width: auto;">{{credit_cost_yoy}}</td>
+            <td style="width: auto;">{{credit_cost_justification}}</td>
+        </tr>
+    </table>
+    <p style="margin-bottom: 13.33px; line-height: 1.15"> </p>
+    <p style="margin-bottom: 0px; line-height: 1.15; margin-top: 13.33px"><span
+            style="font-size: 14.67px; font-family: 'Rupee Foradian'">Governance and Risk Compliance</span></p>
+    <p style="margin-bottom: 13.33px; line-height: 1.15"> </p>
+    <table
+        style=" border-collapse: collapse; table-layout: fixed; border-top: 0.5px solid; border-left: 0.5px solid; border-bottom: 0.5px solid; border-right: 0.5px solid; ">
+        <tr>
+            <td style="width: auto;">
+                <p><b>Key Management</b></p>
+            </td>
+            <td style="width: auto;">
+                <p>{{key_management}}</p>
+            </td>
+        </tr>
+        <tr>
+            <td style="width: auto;">
+                <p><b>Related Party Exposure</b></p>
+            </td>
+            <td style="width: auto;">
+                <p>{{related_party_exposure}}</p>
+            </td>
+        </tr>
+        <tr>
+            <td style="width: auto;">
+                <p><b>Regulatory Penalties</b></p>
+            </td>
+            <td style="width: auto;">
+                <p>{{regulatory_penalties}}</p>
+            </td>
+        </tr>
+        <tr>
+            <td style="width: auto;">
+                <p><b>Brief on the Board of Directors</b></p>
+            </td>
+            <td style="width: auto;">
+                <p>{{brief_on_the_board_of_directors}}</p>
+            </td>
+        </tr>
+        <tr>
+            <td style="width: auto;">
+                <p><b>Changes in Directorship in last 1 year</b></p>
+            </td>
+            <td style="width: auto;">
+                <p>{{changes_in_directorship_in_last_1_year}}</p>
+            </td>
+        </tr>
+        <tr>
+            <td style="width: auto;">
+                <p><b>If any changes in directorship, rationale</b></p>
+            </td>
+            <td style="width: auto;">
+                <p>{{if_any_changes_in_directorship,_rationale}}</p>
+            </td>
+        </tr>
+    </table>
+    <p style="margin-bottom: 13.33px; line-height: 1.15"> </p>
+    <p style="margin-bottom: 0px; line-height: 1.15; margin-top: 13.33px"><span
+            style="font-size: 14.67px; font-family: 'Rupee Foradian'">Key Risks</span></p>
+    <p style="margin-bottom: 13.33px; line-height: 1.15"> </p>
+    <table
+        style=" border-collapse: collapse; table-layout: fixed; border-top: 0.5px solid; border-left: 0.5px solid; border-bottom: 0.5px solid; border-right: 0.5px solid; ">
+        <tr>
+            <td style="width: auto;">
+                <p style="margin-bottom: 0px; line-height: 1.15"><b>High - risk Litigation as respondent ( based on S averisk)</b>
+                </p>
+            </td>
+            <td style="width: auto;">
+                <p style="margin-bottom: 0px; line-height: 1.15"><span
+                        style=" font-size: 14.67px; font-family: 'Rupee Foradian'; ">{{high_risk_litigation_as_respondent_saverisk}}</span>
+                </p>
+            </td>
+        </tr>
+    </table>
+    <p style=" margin-bottom: 0px; line-height: 1.15; margin-top: 13.33px; margin-left: 0px; "> </p>
+    <p style="margin-bottom: 0px; line-height: 1.15; margin-top: 13.33px"><span
+            style="font-size: 14.67px; font-family: 'Rupee Foradian'">Due Diligence</span></p>
+    <p style="margin-bottom: 13.33px; line-height: 1.15"> </p>
+    <table
+        style=" border-collapse: collapse; table-layout: fixed; border-top: 0.5px solid; border-left: 0.5px solid; border-bottom: 0.5px solid; border-right: 0.5px solid; ">
+        <tr>
+            <td style="width: auto;">
+                <p style="margin-bottom: 0px; line-height: 1.15"><b>Aberrations in due diligence searches and seeking approval from Committee</b></p>
+                <p style="margin-bottom: 0px; line-height: 1.15"> </p>
+            </td>
+            <td style="width: auto;">
+                <p style="margin-bottom: 0px; line-height: 1.15; text-align: left">
+                    {{due_diligence_aberrations_details}}</p>
+            </td>
+        </tr>
+    </table>
+    <p style="margin-bottom: 13.33px; line-height: 1.15"> </p>
+    <p style="margin-bottom: 0px; line-height: 1.15; margin-top: 13.33px"><span
+            style="font-size: 14.67px; font-family: 'Rupee Foradian'">SIDBI - Exposure Norms , Recommended Limit, Justification</span></p>
+    <p style="margin-bottom: 13.33px; line-height: 1.15"> </p>
+    <table style=" border-collapse: collapse; table-layout: fixed; border-top: 0.5px solid; border-left: 0.5px solid; border-bottom: 0.5px solid; border-right: 0.5px solid; ">
+        <tr>
+            <td style="width: auto;">
+                <p style="margin-bottom: 0px; line-height: 1.15"><b>Exposure Norms – Gap Available</b></p>
+            </td>
+            <td style="width: auto;">
+                <p style="margin-bottom: 0px; line-height: 1.15">₹ {{exposure_norms_gap_avialable}} crore</p>
+            </td>
+        </tr>
+        <tr>
+            <td style="width: auto;">
+                <p style="margin-bottom: 0px; line-height: 1.15"><b>Recommended Limits and Justification</b></p>
+            </td>
+            <td style="width: auto;">
+                <p style=" margin-bottom: 0px; line-height: 1.15; margin-left: 24px; text-indent: -24px; ">₹{{recommended_limit_and_justification}} crore</p>
+                <p style="margin-bottom: 0px; line-height: 1.15"><b>Consistent credit metrics: </b><b>{{credit_metrics_comment}}</b></p>
+                <p style="margin-bottom: 0px; line-height: 1.15"><b>Governance &amp; execution comfort: </b><b>{{governance_comment}}</b></p>
+            </td>
+        </tr>
+    </table> 
+    <p style="margin-bottom: 13.33px; line-height: 1.15; margin-top: 4px"></p>
+    <p style="margin-bottom: 0px; line-height: 1.15; margin-top: 13.33px"><span
+            style="font-size: 14.67px; font-family: 'Rupee Foradian'">Final Recommendation for Sanction / Approval</span></p>
+    <p style="margin-bottom: 13.33px; line-height: 1.15"> </p>
+    <table style=" border-collapse: collapse; table-layout: fixed; border-top: 0.5px solid; border-left: 0.5px solid; border-bottom: 0.5px solid; border-right: 0.5px solid; ">
+        <tr>
+            <td style="width: auto;"><b>Amount</b></td>
+            <td style="width: auto;">₹ {{sanction_amount}} crore</td>
+        </tr>
+        <tr>
+            <td style="width: auto;"><b>Interest rate</b>
+            </td>
+            <td style="width: auto;">Applicable ROI: {{applicable_roi}}<br><br />Proposed ROI: {{proposed_roi}}</br></td>
+        <tr>
+            <td style="width: auto;"><b>Upfront fee</b>
+            </td>
+            <td style="width: auto;">₹ {{upfront_fee_amount}} lakh ({{upfront_fee_percent}}% of sanctioned amount) plus GST</td>
+        </tr>
+        <tr>
+            <td style="width: auto;"><b>Case-specific terms and conditions (i.e., additions over the standard term sheet as applicable for REF)</b>
+                </td>
+            <td style="width: auto;">₹ {{case_specific_terms}}</td>
+        </tr>
+        <tr>
+            <td style="width: auto;"><b>Delegation of Power</b>
+            </td>
+            <td style="width: auto;">{{delegation_of_power}}</td>
+        </tr>
+        <tr>
+            <td style="width: auto;"><b>Resolution</b>
+            </td>
+            <td style="width: auto;">{{resolution_text}}</td>
+        </tr>
+    </table>
+    <p style="margin-bottom: 13.33px; line-height: 1.15"><span
+            style="font-size: 14.67px; font-family: 'Rupee Foradian'"></span></p>
+    <p style="margin-bottom: 13.33px; line-height: 1.15; text-align: center"><span
+            style=" font-size: 14.67px; font-family: 'Rupee Foradian'; font-weight: bold; text-decoration: underline; ">List of Annexures</span>
+    </p>
+    <table
+        style=" border-collapse: collapse; table-layout: fixed; border-top: 0.5px solid; border-left: 0.5px solid; border-bottom: 0.5px solid; border-right: 0.5px solid; ">
+        <tr>
+            <td style="width: auto;">
+                <p style=" margin-bottom: 13.33px; line-height: 1.15; text-align: center; "><span
+                        style=" font-size: 14.67px; font-family: 'Rupee Foradian'; ">Annexure - 1</span></p>
+            </td>
+            <td style="width: auto;">
+                <p style="margin-bottom: 13.33px; line-height: 1.15"><span
+                        style=" font-size: 14.67px; color: #0000ff; text-decoration: underline; font-family: 'Rupee Foradian'; ">Details of Past Assistance</span></p>
+            </td>
+        </tr>
+        <tr>
+            <td style="width: auto;">
+                <p style=" margin-bottom: 13.33px; line-height: 1.15; text-align: center; "><span
+                        style=" font-size: 14.67px; font-family: 'Rupee Foradian'; ">Annexure - 2</span></p>
+            </td>
+            <td style="width: auto;">
+                <p style="margin-bottom: 13.33px; line-height: 1.15"><span
+                        style=" font-size: 14.67px; color: #0000ff; text-decoration: underline; font-family: 'Rupee Foradian'; ">Portfolio Mix</span></p>
+            </td>
+        </tr>
+        <tr>
+            <td style="width: auto;">
+                <p style=" margin-bottom: 13.33px; line-height: 1.15; text-align: center; "><span
+                        style=" font-size: 14.67px; font-family: 'Rupee Foradian'; ">Annexure -3</span></p>
+            </td>
+            <td style="width: auto;">
+                <p style="margin-bottom: 13.33px; line-height: 1.15"><span
+                        style=" font-size: 14.67px; color: #0000ff; text-decoration: underline; font-family: 'Rupee Foradian'; ">Compliance with BfS and Eligibility Norms, Exposure Norms, RiMV risk rationale</span></p>
+            </td>
+        </tr>
+        <tr>
+            <td style="width: auto; vertical-align: middle">
+                <p style=" margin-bottom: 13.33px; line-height: 1.15; text-align: center; "><span
+                        style=" font-size: 14.67px; font-family: 'Rupee Foradian'; ">Annexure - 4</span></p>
+            </td>
+            <td style="width: auto; vertical-align: middle">
+                <p style="margin-bottom: 13.33px; line-height: 1.15"><span
+                        style=" font-size: 14.67px; color: #0000ff; text-decoration: underline; font-family: 'Rupee Foradian'; ">External Rating Report</span></p>
+            </td>
+        </tr>
+        <tr>
+            <td style="width: auto; vertical-align: middle">
+                <p style=" margin-bottom: 13.33px; line-height: 1.15; text-align: center; "><span
+                        style=" font-size: 14.67px; font-family: 'Rupee Foradian'; ">Annexure-5</span></p>
+            </td>
+            <td style="width: auto; vertical-align: middle">
+                <p style="margin-bottom: 13.33px; line-height: 1.15"><span
+                        style=" font-size: 14.67px; color: #0000ff; text-decoration: underline; ">Balance Sheet Analysis</span></p>
+            </td>
+        </tr>
+    </table>
+    <p style="margin-bottom: 0px; line-height: 1.15; margin-top: 32px"> </p>
+    <p style=" margin-bottom: 0px; line-height: 1.15; margin-top: 13.33px; text-align: right; "><span
+            style="font-size: 14.67px; font-family: 'Rupee Foradian'">Annexure- 1</span></p>
+    <p style=" margin-bottom: 0px; line-height: 1.15; margin-top: 13.33px; text-align: center; "><span
+            style="font-size: 20px; font-family: 'Rupee Foradian'">Details of past / live assistance with SIDBI</span>
+    </p>
+    <p style="margin-bottom: 13.33px; line-height: 1.15"> </p>
+    <table id="past-live" 
+        style=" border-collapse: collapse; table-layout: fixed; border-top: 0.5px solid; border-left: 0.5px solid; border-bottom: 0.5px solid; border-right: 0.5px solid; ">
+        <tbody>
+            <tr>
+                <td style="width: auto;width: auto;">
+                    <p style="line-height: 1.15"><span
+                            style="font-size: 14.67px; font-family: 'Rupee Foradian'; font-weight: bold">Sanction date / Amount (₹ cr)</span></p>
+                </td>
+                <td style="width: auto;">
+                    <p style="line-height: 1.15"><span
+                            style="font-size: 14.67px; font-family: 'Rupee Foradian'; font-weight: bold">Scheme</span>
+                    </p>
+                </td>
+                <td style="width: auto;">
+                    <p style="line-height: 1.15"><span
+                            style="font-size: 14.67px; font-family: 'Rupee Foradian'; font-weight: bold">Loan A/c No.</span></p>
+                </td>
+                <td style="width: auto;">
+                    <p style="line-height: 1.15"><span
+                            style="font-size: 14.67px; font-family: 'Rupee Foradian'; font-weight: bold">Disb date / Terminal rep date</span></p>
+                </td>
+                <td style="width: auto;">
+                    <p style="line-height: 1.15"><span
+                            style="font-size: 14.67px; font-family: 'Rupee Foradian'; font-weight: bold">Disbursed / O/s as on Today (₹ cr)</span></p>
+                </td>
+                <td style="width: auto;">
+                    <p style="line-height: 1.15"><span
+                            style="font-size: 14.67px; font-family: 'Rupee Foradian'; font-weight: bold">ROI</span></p>
+                </td>
+                <td style="width: auto;">
+                    <p style="line-height: 1.15"><span
+                            style="font-size: 14.67px; font-family: 'Rupee Foradian'; font-weight: bold">Reset / next reset</span></p>
+                </td>
+                <td style="width: auto;">
+                    <p style="line-height: 1.15"><span
+                            style="font-size: 14.67px; font-family: 'Rupee Foradian'; font-weight: bold">Conduct</span>
+                    </p>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <p style=" margin-bottom: 0px; line-height: 1.15; margin-top: 13.33px; text-align: right; "><span
+            style="font-size: 14.67px; font-family: 'Rupee Foradian'">Annexure-2</span></p>
+    <p style=" margin-bottom: 0px; line-height: 1.15; margin-top: 13.33px; text-align: center; "><span
+            style="font-size: 20px; font-family: 'Rupee Foradian'">Portfolio Mix</span></p>
+    <p style="margin-bottom: 13.33px; line-height: 1.15"><span
+            style=" font-size: 14.67px; font-family: 'Rupee Foradian'; font-weight: bold; ">Portfolio Mix (%-wise)</span><span style="font-size: 14.67px; font-family: 'Rupee Foradian'">(As on March 31,2025)</span></p>
+    <table id="portfolio"
+        style=" border-collapse: collapse; table-layout: fixed; border-top: 0.5px solid; border-left: 0.5px solid; border-bottom: 0.5px solid; border-right: 0.5px solid; ">
+        <tr>
+            <td style="width: auto;"><b>Particulars</b></td>
+            <td style="width: auto;"><b>Amount (₹ crore)</b></td>
+            <td style="width: auto;"><b>%</b></td>
+        </tr>
+    </table>
+    <p style=" margin-bottom: 0px; line-height: 1.15; margin-top: 13.33px; text-align: right; "><span
+            style="font-size: 14.67px; font-family: 'Rupee Foradian'">Annexure- 3</span></p>
+    <p style=" margin-bottom: 0px; line-height: 1.15; margin-top: 13.33px; text-align: center; "><span
+            style="font-size: 20px; font-family: 'Rupee Foradian'">Compliance</span></p>
+    <p style="margin-bottom: 0.27px; line-height: 1.15; text-align: center"><span
+            style=" font-size: 14.67px; font-family: 'Rupee Foradian'; font-weight: bold; text-decoration: underline; ">Compliance with BfS and Eligibility Norms for Scheme of Refinance to NBFC under REF</span></p>
+    <p style="margin-bottom: 0.27px; line-height: 1.15; text-align: center"> </p>
+    <table
+        style=" border-collapse: collapse; table-layout: fixed; border-top: 0.5px solid; border-left: 0.5px solid; border-bottom: 0.5px solid; border-right: 0.5px solid; ">
+        <tr>
+            <td style="width: auto;">
+                <p style=" margin-bottom: 13.33px; line-height: 1.0792; margin-left: 0.2px; "><b>No.</span>
+                </p>
+            </td>
+            <td style="width: auto;">
+                <p style=" margin-bottom: 13.33px; line-height: 1.0792; text-align: center; margin-right: 7.2px; "><b>Parameters</b>
+                </p>
+            </td>
+            <td style="width: auto;">
+                <p style=" margin-bottom: 13.33px; line-height: 1.0792; margin-left: 3.4px; "><b>Relaxable norms</span></p>
+            </td>
+            <td style="width: auto;">
+                <p style=" margin-bottom: 13.33px; line-height: 1.0792; text-align: center; margin-right: 7.4px; "><span style=" font-size: 14.67px; font-family: 'Rupee Foradian'; font-weight: bold; ">Compliance/Remarks</span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="4"
+                style=" width: 642.67px; border-top: 0.5px solid #000000; border-left: 0.5px solid #000000; border-bottom: 0.5px solid #000000; border-right: 0.5px solid #000000; ">
+                <p style="margin-bottom: 13.33px; line-height: 1.0792"><b>Part A - Benchmark for Sanctions norms</span></p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p style=" margin-bottom: 13.33px; line-height: 1.0792; margin-left: 5.6px; "><span
+                        style=" font-size: 14.67px; font-family: 'Rupee Foradian'; ">1</span></p>
+            </td>
+            <td>
+                <p style=" margin-bottom: 11.6px; line-height: 1.0792; text-align: left; "><span
+                        style=" font-size: 14.67px; font-family: 'Rupee Foradian'; ">Prudential rating : AAA and Upper Layer</span></p>
+            </td>
+            <td>
+                <p style=" margin-bottom: 13.33px; line-height: 1.0792; text-align: left; margin-left: 0.2px; "><span style=" font-size: 14.67px; font-family: 'Rupee Foradian'; ">No relaxation</span>
+                </p>
+            </td>
+            <td>
+                <p style=" margin-bottom: 13.33px; line-height: 1.0792; text-align: left; margin-left: 0.2px; "><span style=" font-size: 14.67px; font-family: 'Rupee Foradian'; ">{{prudential_rating_AAA_and_upper_layer_compilance}}</span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="4"
+                style=" width: 642.67px; border-top: 0.5px solid #000000; border-left: 0.5px solid #000000; border-bottom: 0.5px solid #000000; border-right: 0.5px solid #000000; ">
+                <p
+                    style=" margin-bottom: 13.33px; line-height: 1.0792; text-align: left; margin-left: 3.87px; margin-right: 7.2px; "><span style=" font-size: 14.67px; font-family: 'Rupee Foradian'; font-weight: bold; ">Part B - Eligibility parameters</span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p style=" margin-bottom: 13.33px; line-height: 1.0792; margin-left: 5.6px; "><span
+                        style=" font-size: 14.67px; font-family: 'Rupee Foradian'; ">2</span></p>
+            </td>
+            <td>
+                <p style=" margin-bottom: 13.33px; line-height: 1.15; text-align: left; "><b>Type of NBFC:</span></p>
+                <p
+                    style=" margin-bottom: 13.33px; line-height: 1.15; text-align: left; margin-left: 0px; margin-right: 4.87px; text-indent: -1px; "><span style=" font-size: 14.67px; font-family: 'Rupee Foradian'; ">The NBFC should be registered with RBI and categorized as Investment and Credit Company (ICC).</span>
+                </p>
+                <p
+                    style=" margin-bottom: 13.33px; line-height: 1.15; text-align: left; margin-left: 0px; margin-right: 4.87px; text-indent: -1px; "><span style=" font-size: 14.67px; font-family: 'Rupee Foradian'; ">The assistance could also be extended to Infrastructure Finance Company (IFC) with the other lenders in financing the infrastructure projects provided such projects benefit the MSMEs.</span>
+                </p>
+            </td>
+            <td>
+                <p style=" margin-bottom: 11.73px; line-height: 1.0792; text-align: left; margin-left: 0.2px; "><span style=" font-size: 14.67px; font-family: 'Rupee Foradian'; ">No relaxation</span>
+                </p>
+            </td>
+            <td>
+                <p style=" margin-bottom: 11.73px; line-height: 1.0792; text-align: left; "><span style=" font-size: 14.67px; font-family: 'Rupee Foradian'; ">{{nbfc_registered_compilance}}</span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p style=" margin-bottom: 13.33px; line-height: 1.0792; margin-left: 5.6px; "><span
+                        style=" font-size: 14.67px; font-family: 'Rupee Foradian'; ">3</span></p>
+            </td>
+            <td>
+                <p style=" margin-bottom: 12.73px; line-height: 1.0792; text-align: left; margin-left: 5.13px; "><span style=" font-size: 14.67px; font-family: 'Rupee Foradian'; font-weight: bold; ">Track record:</span>
+                </p>
+                <p style=" margin-bottom: 13.33px; line-height: 1.15; margin-left: 5.27px; text-align: left; text-indent: -1px; "><span style=" font-size: 14.67px; font-family: 'Rupee Foradian'; ">In business for 5 years with Net profit for last 3 years</span>
+                </p>
+                <p style=" margin-bottom: 13.33px; line-height: 1.15; margin-left: 2.93px; text-align: left; text-indent: -1px; "><span style=" font-size: 14.67px; font-family: 'Rupee Foradian'; ">In case of the NBFCs financing second-hand vehicles the NBFC needs to have experience of 3 years in the activity and also have recorded profit during the period.</span>
+                </p>
+            </td>
+            <td>
+                <p style=" margin-bottom: 11.73px; line-height: 1.0792; text-align: left; margin-left: 0.2px; "><span style=" font-size: 14.67px; font-family: 'Rupee Foradian'; ">No relaxation</span>
+                </p>
+            </td>
+            <td>
+                <p style=" margin-bottom: 13.33px; line-height: 1.15; text-align: left; margin-right: 7.2px; "><span style=" font-size: 14.67px; font-family: 'Rupee Foradian'; ">{{track_record_compilance}}</span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p style=" margin-bottom: 13.33px; line-height: 1.0792; margin-left: 5.6px; "><span
+                        style=" font-size: 14.67px; font-family: 'Rupee Foradian'; ">4</span></p>
+            </td>
+            <td>
+                <p style=" margin-bottom: 13.33px; line-height: 1.0792; text-align: left; "><span
+                        style=" font-size: 14.67px; font-family: 'Rupee Foradian'; ">Net owned funds and Asset size:</span></p>
+                <p style=" margin-bottom: 13.33px; line-height: 1.0792; text-align: left; "><span
+                        style=" font-size: 14.67px; font-family: 'Rupee Foradian'; ">Minimum ₹ 200 crore and</span></p>
+                <p style=" margin-bottom: 13.33px; line-height: 1.0792; text-align: left; "><span
+                        style=" font-size: 14.67px; font-family: 'Rupee Foradian'; ">Minimum Asset size of ₹ 500 crore</span></p>
+            </td>
+            <td>
+                <p style=" margin-bottom: 11.73px; line-height: 1.0792; text-align: left; margin-left: 0.2px; "><span style=" font-size: 14.67px; font-family: 'Rupee Foradian'; ">No relaxation</span>
+                </p>
+            </td>
+            <td>
+                <p style=" margin-bottom: 13.33px; line-height: 1.0792; text-align: left; margin-right: 7.2px; "><span style=" font-size: 14.67px; font-family: 'Rupee Foradian'; ">{{net_asset_size}}</span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p style=" margin-bottom: 13.33px; line-height: 1.15; margin-left: 5.6px; "><span
+                        style=" font-size: 14.67px; font-family: 'Rupee Foradian'; ">5</span< /p>
+            </td>
+            <td>
+                <p style="margin-bottom: 0px; line-height: 1; text-align: left"><b>Purpose</span><span
+                        style=" font-size: 14.67px; font-family: 'Rupee Foradian'; ">:</span></p>
+                <p style=" margin-bottom: 13.33px; line-height: 1.15; text-align: left; "><span
+                        style=" font-size: 14.67px; font-family: 'Rupee Foradian'; ">The assistance from SIDBI shall be availed by the Borrower NBFC against its already created or to be created portfolio of Qualifying Assets.</span></p>
+            </td>
+            <td>
+                <p style=" margin-bottom: 11.73px; line-height: 1.15; text-align: left; margin-left: 0.2px; "><span style=" font-size: 14.67px; font-family: 'Rupee Foradian'; ">No relaxation</span>
+                </p>
+            </td>
+            <td>
+                <p>{{purpose_cidbi_assistance_compliance}}</p>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="4"
+                style=" width: 642.67px; border-top: 0.5px solid #000000; border-left: 0.5px solid #000000; border-bottom: 0.5px solid #000000; border-right: 0.5px solid #000000; ">
+                <p style=" margin-bottom: 0.73px; line-height: 1.1458; text-align: left; margin-right: 7.2px; "><span style=" font-size: 14.67px; font-family: 'Rupee Foradian'; font-weight: bold; ">Part C – Other Parameter</span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p style=" margin-bottom: 13.33px; line-height: 1.0792; margin-left: 5.6px; "><span
+                        style=" font-size: 14.67px; font-family: 'Rupee Foradian'; ">6</span></p>
+            </td>
+            <td>
+                <p style=" margin-bottom: 11.73px; line-height: 1.0792; text-align: left; margin-left: 4.8px; "><span style=" font-size: 14.67px; font-family: 'Rupee Foradian'; ">Security:</span>
+                </p>
+                <p style=" margin-bottom: 11.73px; line-height: 1.0792; text-align: left; "><span
+                        style=" font-size: 14.67px; font-family: 'Rupee Foradian'; ">Exclusive/pari passu: Hypothecation of book-debts and receivables of the secured/ unsecured loans provided by the Borrower with minimum asset coverage of 1.10</span></p>
+            </td>
+            <td>
+                <p style=" margin-bottom: 11.73px; line-height: 1.0792; text-align: left; margin-left: 1.13px; margin-right: 9.47px; "><span style=" font-size: 14.67px; font-family: 'Rupee Foradian'; ">No relaxation</span>
+                </p>
+            </td>
+            <td>
+                <p>{{Security_compliance}}</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p style=" margin-bottom: 13.33px; line-height: 1.0792; margin-left: 5.6px; "><span
+                        style=" font-size: 14.67px; font-family: 'Rupee Foradian'; ">7</span></p>
+            </td>
+            <td>
+                <p style=" margin-bottom: 11.73px; line-height: 1.0792; text-align: left; margin-left: 0.93px; "><span style=" font-size: 14.67px; font-family: 'Rupee Foradian'; ">Interest rates:</span>
+                </p>
+                <p style=" margin-bottom: 10.73px; line-height: 1.1417; text-align: left; margin-left: 0.93px; margin-right: 7.07px; "><span style=" font-size: 14.67px; font-family: 'Rupee Foradian'; ">The minimum rate shall be arrived at as per extant scheme guidelines/ ALCO approved structure.</span>
+                </p>
+                <p style=" margin-bottom: 10.73px; line-height: 1.1417; text-align: left; margin-left: 0.93px; margin-right: 7.07px; "><span style=" font-size: 14.67px; font-family: 'Rupee Foradian'; ">The rate negotiated with the borrower and reset frequency shall be approved by the sanctioning authority/ Sub Committee of ALCO.</span>
+                </p>
+                <p style=" margin-bottom: 11.73px; line-height: 1.0792; text-align: left; margin-left: 0.93px; "><span style=" font-size: 14.67px; font-family: 'Rupee Foradian'; ">The approved rate shall be valid for specific period as per approval of the Sanctioning Committee and after that, shall be reviewed/ re-fixed by the sub-committee of the ALCO.</span>
+                </p>
+            </td>
+            <td>
+                <p style=" margin-bottom: 10.67px; line-height: 1.0792; text-align: left; "><span
+                        style=" font-size: 14.67px; font-family: 'Rupee Foradian'; ">As per policy framework for NBFC for FY2026.</span></p>
+            </td>
+            <td>
+                <p style=" margin-bottom: 0.73px; line-height: 1.1458; text-align: left; margin-right: 7.2px; ">{{Interest_rate_compliance}}</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p style=" margin-bottom: 13.33px; line-height: 1.0792; margin-left: 5.6px; "><span
+                        style=" font-size: 14.67px; font-family: 'Rupee Foradian'; ">9</span></p>
+            </td>
+            <td>
+                <p style=" margin-bottom: 13.33px; line-height: 1.15; text-align: left; "><b>Up-front Fee:</span><span style=" font-size: 14.67px; font-family: 'Rupee Foradian'; ">Minimum Up-front fee `1 lakh/ Maximum of `5 lakh</span></p>
+                <p style=" margin-bottom: 13.33px; line-height: 1.15; text-align: left; "><span
+                        style=" font-size: 14.67px; font-family: 'Rupee Foradian'; "></span></p>
+                <p style=" margin-bottom: 13.33px; line-height: 1.15; text-align: left; "><span
+                        style=" font-size: 14.67px; font-family: 'Rupee Foradian'; ">(plus applicable GST) should be charged.</span></p>
+            </td>
+            <td>
+                <p style=" margin-bottom: 1.13px; line-height: 1.0792; text-align: left; "><span
+                        style=" font-size: 14.67px; font-family: 'Rupee Foradian'; ">.</span></p>
+            </td>
+            <td>
+                <p style=" margin-bottom: 0.73px; line-height: 1.1458; text-align: left; margin-right: 7.2px; ">{{upfront_fee_compliance}}</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p style=" margin-bottom: 13.33px; line-height: 1.0792; margin-left: 5.6px; "><span
+                        style=" font-size: 14.67px; font-family: 'Rupee Foradian'; ">10</span></p>
+            </td>
+            <td>
+                <p style=" margin-bottom: 11.6px; line-height: 1.0792; text-align: left; margin-right: 4.87px; "><span style=" font-size: 14.67px; font-family: 'Rupee Foradian'; font-weight: bold; ">Repayment Period:</span>
+                </p>
+                <p style=" margin-bottom: 11.6px; line-height: 1.0792; text-align: left; margin-right: 4.87px; "><span style=" font-size: 14.67px; font-family: 'Rupee Foradian'; ">upto 5½ years with moratorium period upto 18 months within overall repayment period.</span>
+                </p>
+                <p style=" margin-bottom: 11.6px; line-height: 1.0792; text-align: left; margin-right: 4.87px; "><span style=" font-size: 14.67px; font-family: 'Rupee Foradian'; ">Principal instalment payable on monthly/ quarterly / half-yearly basis/annual. Interest will be payable monthly.</span>
+                </p>
+                <p style=" margin-bottom: 11.73px; line-height: 1.0792; text-align: left; margin-right: 4.87px; "><span style=" font-size: 14.67px; font-family: 'Rupee Foradian'; ">In general principal and interest will be payable on 10th of the month in which it falls due, unless approved otherwise, based on the request of the Borrower/ in line with other lenders.</span>
+                </p>
+            </td>
+            <td>
+                <p style=" margin-bottom: 10.73px; line-height: 1.1417; text-align: left; margin-left: 0.2px; text-indent: 3.87px; "><span style=" font-size: 14.67px; font-family: 'Rupee Foradian'; ">No relaxation</span>
+                </p>
+            </td>
+            <td>
+                <p style=" margin-bottom: 10.73px; line-height: 1.1417; text-align: left; margin-left: 0.2px; text-indent: 3.87px; ">{{Repayment_compliance}}
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p style=" margin-bottom: 13.33px; line-height: 1.0792; margin-left: 5.6px; "><span
+                        style=" font-size: 14.67px; font-family: 'Rupee Foradian'; ">11</span></p>
+            </td>
+            <td colspan="3"
+                style=" width: 608.14px; border-top: 0.5px solid #000000; border-left: 0.5px solid #000000; border-bottom: 0.5px solid #000000; border-right: 0.5px solid #000000; ">
+                <p style=" margin-bottom: 0.73px; line-height: 1.1458; text-align: left; margin-right: 7.13px; "><span style=" font-size: 14.67px; font-family: 'Rupee Foradian'; ">Exposure Caps: Given below</span>
+                </p>
+            </td>
+        </tr>
+    </table>
+    <p style="margin-bottom: 0.27px; line-height: 1.15; text-align: center"> </p>
+    <p style="margin-bottom: 0.27px; line-height: 1.15; text-align: center"><span
+            style=" font-size: 14.67px; font-family: 'Rupee Foradian'; font-weight: bold; text-decoration: underline; ">Compliance with Exposure norms</span></p>
+    <p style="margin-bottom: 0.27px; line-height: 1.15; text-align: center"> </p>
+    <p style="margin-bottom: 13.33px; line-height: 1.15; text-align: left"><span
+            style="font-size: 14.67px; font-family: 'Rupee Foradian'">The counterparty exposure limit between Business Operation (BO) &amp; Treasury Operation (TO) for {{nbfcName}} is given below:</span></p>
+    <p style="margin-bottom: 8px; line-height: 1.15; text-align: right"><span
+            style=" font-size: 14.67px; font-family: 'Arial'; font-weight: bold; ">(₹ crore)</span></p>
+    <table
+        style=" border-collapse: collapse; table-layout: fixed; border-top: 0.5px solid; border-left: 0.5px solid; border-bottom: 0.5px solid; border-right: 0.5px solid; ">
+        <tr>
+            <td style="width: auto;"><b>S No.</b></td>
+            <td colspan="2"><b>Parameters</b></td>
+            <td style="width: auto;text-align:center"><b>SIDBI</b></td>
+            <td style="width: auto;text-align:center"><b>SIDBI Group Cos (MUDRA, SVCL, etc.)</b></td>
+            <td style="width: auto;text-align:center"><b>Total</b></td>
+            <td style="width: auto;text-align:center"><b>Remarks, if any</b></td>
+        </tr>
+        <tr>
+            <td style="width: auto;">1</td>
+            <td colspan="2">Risk Based exposure limit to Company fixed by RiMV</td>
+            <td style="width: auto;text-align:right">{{Risk_limit_SIDBI}}</td>
+            <td style="width: auto;text-align:right">{{Risk_limit_group}}</td>
+            <td style="width: auto;text-align:right">{{Risk_limit_total}}</td>
+            <td style="width: auto;text-align:center">{{Risk_limit_remarks}}</td>
+        </tr>
+        <tr>
+            <td rowspan="5" style="width: 53.93px">2</td>
+            <td rowspan="5" style="width: 187.13px">Present Outstanding exposure to Company</td>
+            <td style="width: auto;"><b>NBFC</b></td>
+            <td style="width: auto;text-align:right">{{present_outstanding_exposure_nbfc_sidbi}} </td>
+            <td style="width: auto;text-align:right">{{present_outstanding_exposure_nbfc_group_cos}}</td>
+            <td style="width: auto;text-align:right">{{present_outstanding_exposure_nbfc_total}}</td>
+            <td style="width: auto;text-align:center">{{present_exposure_nbfc_remarks}}</td>
+        </tr>
+        <tr>
+            <td style="width: auto;">SFMC</td>
+            <td style="width: auto;text-align:right">{{present_outstanding_exposure_sfmc_sidbi}}</td>
+            <td style="width: auto;text-align:right">{{present_outstanding_exposure_sfmc_group_cos}} </td>
+            <td style="width: auto;text-align:right">{{present_outstanding_exposure_sfmc_total}}</td>
+            <td style="width: auto;text-align:center">{{present_outstanding_exposure_sfmc_remarks}}</td>
+        </tr>
+        <tr>
+            <td style="width: auto;">TRMV</td>
+            <td style="width: auto;text-align:right">{{present_outstanding_exposure_trmv_sidbi}}</td>
+            <td style="width: auto;text-align:right">{{present_outstanding_exposure_trmv_group_cos}}</td>
+            <td style="width: auto;text-align:right">{{present_outstanding_exposure_trmv_total}}</td>
+            <td style="width: auto;text-align:center">{{present_outstanding_exposure_trmv_remarks}}</td>
+        </tr>
+        <tr>
+            <td style="width: auto;">DCV/ any other</td>
+            <td style="width: auto;text-align:right">{{present_outstanding_exposure_dcv_or_any_other_sidbi}}</td>
+            <td style="width: auto;text-align:right">{{present_outstanding_exposure_dcv_or_any_other_group_cos}}
+            </td>
+            <td style="width: auto;text-align:right">{{present_outstanding_exposure_dcv_or_any_other_total}}</td>
+            <td style="width: auto;text-align:center">{{present_outstanding_exposure_dcv_or_any_other_remarks}}</td>
+        </tr>
+        <tr>
+            <td style="width: auto;">Total</td>
+            <td style="width: auto;text-align:right">{{present_outstanding_exposure_total_sidbi}}</td>
+            <td style="width: auto;text-align:right">{{present_outstanding_exposure_total_group_cos}}</td>
+            <td style="width: auto;text-align:right">{{present_outstanding_exposure_total_total}}</td>
+            <td style="width: auto;text-align:center">{{present_outstanding_exposure_total_remarks}}</td>
+        </tr>
+        <tr>
+            <td style="width: auto;">3</td>
+            <td colspan="2">Gap available (1-2)</td>
+            <td style="width: auto;text-align:right">{{gap_SIDBI}}</td>
+            <td style="width: auto;text-align:right">{{gap_SIDBI_group}}</td>
+            <td style="width: auto;text-align:right">{{gap_total}}</td>
+            <td style="width: auto;text-align:center">{{gap_remarks}}</td>
+        </tr>
+        <tr>
+            <td style="width: auto;">4</td>
+            <td colspan="2">Repayments due in current RiMV limit cycle + vacation of TRMV limit</td>
+            <td style="width: auto;text-align:right">{{repayments_due_sidbi}}</td>
+            <td style="width: auto;text-align:right">{{repayments_due_group_cos}}</td>
+            <td style="width: auto;text-align:right">{{repayments_due_total}}</td>
+            <td style="width: auto;text-align:center">{{repayments_due_remarks}}</td>
+        </tr>
+        <tr>
+            <td style="width: auto;">5</td>
+            <td colspan="2">Exposure Gap which would be available during current cycle for disbursement (3+4)</td>
+            <td style="width: auto;text-align:right">{{exposure_gap_cycle_SIDBI}}</td>
+            <td style="width: auto;text-align:right">{{exposure_gap_cycle_group}}</td>
+            <td style="width: auto;text-align:right">{{exposure_gap_cycle_total}}</td>
+            <td style="width: auto;text-align:center">{{exposure_gap_cycle_remarks}}</td>
+        </tr>
+    </table>
+    <p style=" margin-bottom: 8px; line-height: 1.15; text-align: left; margin-left: 24px; "><span
+            style=" font-size: 14.67px; font-family: 'Rupee Foradian'; font-style: italic; ">$ RiMV limit cycle for the purpose is considered from July 202 5 to June 202 6 .</span></p>
+    <p style=" margin-bottom: 8px; line-height: 1.15; text-align: left; text-indent: 18.93px; "><span
+            style=" font-size: 14.67px; font-family: 'Rupee Foradian'; font-style: italic; ">**Since the proposed sanction also includes the amount falling due for repayment in the current limit fixation cycle, the disbursement shall be restricted to a suitable amount to ensure that the actual exposure as on date of disbursement does not exceed the overall exposure limit (set by RiMV including reset at quarterly interval, if any) on the date of each disbursement.</span></p>
+    <table style=" border-collapse: collapse; table-layout: fixed; border-top: 0.5px solid; border-left: 0.5px solid; border-bottom: 0.5px solid; border-right: 0.5px solid; ">
+        <tr>
+            <td style="width: auto;">
+                <p style=" margin-bottom: 13.33px; line-height: 1.15; margin-left: 0.67px; text-indent: -0.67px; ">{{risk_compliance}}
+                </p>
+            </td>
+            <td style="width: auto;">
+                <p style=" margin-bottom: 13.33px; line-height: 1.15; text-align: right; margin-left: 0.67px; ">{{risk_compliance}}
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td style="width: auto;">
+                <p style=" margin-bottom: 13.33px; line-height: 1.15; margin-left: 0.67px; text-indent: -0.67px; ">{{risk_compliance}}
+                </p>
+            </td>
+            <td style="width: auto;">
+                <p style=" margin-bottom: 13.33px; line-height: 1.15; text-align: right; margin-left: 0.67px; ">
+                    <span style="font-size: 14.67px; font-family: 'Arial'">{{risk_compliance}}
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td style="width: auto;">
+                <p style=" margin-bottom: 13.33px; line-height: 1.15; margin-left: 0.67px; text-indent: -0.67px; ">{{risk_compliance}}
+                </p>
+            </td>
+            <td style="width: auto;">
+                <p style=" margin-bottom: 13.33px; line-height: 1.15; text-align: right; margin-left: 0.67px; ">
+                    {{risk_compliance}}
+                </p>
+            </td>
+        </tr>
+    </table>
+    <p style="margin-bottom: 13.33px; line-height: 1.15; text-align: left">*As per NBFC Policy Framework for FY 2026
+    </p>
+    <p style="margin-bottom: 13.33px; line-height: 1.15; text-align: left"><span
+            style=" font-size: 14.67px; font-family: 'Rupee Foradian'; font-weight: bold; text-decoration: underline; ">Exposure of SIDBI Group to Borrower group companies:</span></p>
+    <table style=" border-collapse: collapse; table-layout: fixed; border-top: 0.5px solid; border-left: 0.5px solid; border-bottom: 0.5px solid; border-right: 0.5px solid; ">
+        <tr>
+            <td colspan="4"
+                style=" width: auto; vertical-align: bottom; border-top: 0.5px solid; border-left: 0.5px solid; border-bottom: 0.5px solid; border-right: 0.5px solid;  ">
+                <p style="margin-bottom: 0px; line-height: 1"><span
+                        style=" font-size: 14.67px; font-family: 'Rupee Foradian'; color: #000000; font-weight: bold; ">Exposure by SIDBI</span></p>
+            </td>
+        </tr>
+        <tr>
+            <td
+                style="width: auto; vertical-align: bottom; border-top: none; border-left: 0.5px solid; border-bottom: 0.5px solid; border-right: 0.5px solid; ">
+                <p style="margin-bottom: 0px; line-height: 1; text-align: center"><span
+                        style=" font-size: 14.67px; font-family: 'Rupee Foradian'; color: #000000; font-weight: bold; ">Sr No.</span></p>
+            </td>
+            <td
+                style=" width: auto; vertical-align: bottom; border-top: none; border-left: none; border-bottom: 0.5px solid; border-right: 0.5px solid; ">
+                <p style="margin-bottom: 0px; line-height: 1"><span
+                        style=" font-size: 14.67px; font-family: 'Rupee Foradian'; color: #000000; font-weight: bold; ">Name of the company</span></p>
+            </td>
+            <td
+                style=" width: auto; vertical-align: bottom; border-top: none; border-left: none; border-bottom: 0.5px solid; border-right: 0.5px solid; ">
+                <p style="margin-bottom: 0px; line-height: 1; text-align: center"><span
+                        style=" font-size: 14.67px; font-family: 'Rupee Foradian'; color: #000000; font-weight: bold; ">Exposure Limit</span></p>
+            </td>
+            <td
+                style=" width: auto; vertical-align: bottom; border-top: none; border-left: none; border-bottom: 0.5px solid; border-right: 0.5px solid; ">
+                <p style="margin-bottom: 0px; line-height: 1"><span
+                        style=" font-size: 14.67px; font-family: 'Rupee Foradian'; color: #000000; font-weight: bold; ">Actual Exposure</span></p>
+            </td>
+        </tr>
+        <tr>
+            <td
+                style="width: auto; vertical-align: bottom; border-top: none; border-left: 0.5px solid; border-bottom: 0.5px solid; border-right: 0.5px solid; ">
+                <p style="margin-bottom: 0px; line-height: 1; text-align: center"><span
+                        style=" font-size: 14.67px; font-family: 'Rupee Foradian'; color: #000000; ">1</span>
+                </p>
+            </td>
+            <td
+                style=" width: auto; vertical-align: bottom; border-top: none; border-left: none; border-bottom: 0.5px solid; border-right: 0.5px solid; ">
+                <p style="margin-bottom: 0px; line-height: 1"><span
+                        style=" font-size: 14.67px; font-family: 'Rupee Foradian'; color: #000000; ">{{risk_compliance}}</span></p>
+            </td>
+            <td rowspan="8"
+                style=" vertical-align: middle; border-top: none; border-left: 0.5px solid; border-bottom: 0.5px solid; border-right: 0.5px solid; ">
+                <p style="margin-bottom: 0px; line-height: 1; text-align: center">{{risk_compliance}}</p>
+            </td>
+            <td
+                style=" width: auto; vertical-align: bottom; border-top: none; border-left: none; border-bottom: 0.5px solid; border-right: 0.5px solid; ">
+                <p style="margin-bottom: 0px; line-height: 1; text-align: right"><span
+                        style=" font-size: 14.67px; font-family: 'Rupee Foradian'; color: #000000; ">{{risk_compliance}}</span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td
+                style="width: auto; vertical-align: bottom; border-top: none; border-left: 0.5px solid; border-bottom: 0.5px solid; border-right: 0.5px solid; ">
+                <p style="margin-bottom: 0px; line-height: 1; text-align: center"><span
+                        style=" font-size: 14.67px; font-family: 'Rupee Foradian'; color: #000000; ">2</span>
+                </p>
+            </td>
+            <td
+                style=" width: auto; vertical-align: bottom; border-top: none; border-left: none; border-bottom: 0.5px solid; border-right: 0.5px solid; ">
+                <p style="margin-bottom: 0px; line-height: 1"><span
+                        style=" font-size: 14.67px; font-family: 'Rupee Foradian'; color: #000000; ">{{risk_compliance}}</p>
+            </td>
+            <td
+                style=" width: auto; vertical-align: bottom; border-top: none; border-left: none; border-bottom: 0.5px solid; border-right: 0.5px solid; ">
+                <p style="margin-bottom: 0px; line-height: 1; text-align: right"><span
+                        style=" font-size: 14.67px; font-family: 'Rupee Foradian'; color: #000000; ">{{risk_compliance}}</span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td
+                style="width: auto; vertical-align: bottom; border-top: none; border-left: 0.5px solid; border-bottom: 0.5px solid; border-right: 0.5px solid; ">
+                <p style="margin-bottom: 0px; line-height: 1; text-align: center"><span
+                        style=" font-size: 14.67px; font-family: 'Rupee Foradian'; color: #000000; ">3</span>
+                </p>
+            </td>
+            <td
+                style=" width: auto; vertical-align: bottom; border-top: none; border-left: none; border-bottom: 0.5px solid; border-right: 0.5px solid; ">
+                <p style="margin-bottom: 0px; line-height: 1"><span
+                        style=" font-size: 14.67px; font-family: 'Rupee Foradian'; color: #000000; ">{{risk_compliance}}</span></p>
+            </td>
+            <td
+                style=" width: auto; vertical-align: bottom; border-top: none; border-left: none; border-bottom: 0.5px solid; border-right: 0.5px solid; ">
+                <p style="margin-bottom: 0px; line-height: 1; text-align: right"><span
+                        style=" font-size: 14.67px; font-family: 'Rupee Foradian'; color: #000000; ">{{risk_compliance}}</span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td
+                style="width: auto; vertical-align: bottom; border-top: none; border-left: 0.5px solid; border-bottom: 0.5px solid; border-right: 0.5px solid; ">
+                <p style="margin-bottom: 0px; line-height: 1; text-align: center"><span
+                        style=" font-size: 14.67px; font-family: 'Rupee Foradian'; color: #000000; ">4</span>
+                </p>
+            </td>
+            <td
+                style=" width: auto; vertical-align: bottom; border-top: none; border-left: none; border-bottom: 0.5px solid; border-right: 0.5px solid; ">
+                <p style="margin-bottom: 0px; line-height: 1"><span
+                        style=" font-size: 14.67px; font-family: 'Rupee Foradian'; color: #000000; ">{{risk_compliance}}</span></p>
+            </td>
+            <td
+                style=" width: auto; vertical-align: bottom; border-top: none; border-left: none; border-bottom: 0.5px solid; border-right: 0.5px solid; ">
+                <p style="margin-bottom: 0px; line-height: 1; text-align: right"><span
+                        style=" font-size: 14.67px; font-family: 'Rupee Foradian'; color: #000000; ">{{risk_compliance}}</span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td
+                style="width: auto; vertical-align: bottom; border-top: none; border-left: 0.5px solid; border-bottom: 0.5px solid; border-right: 0.5px solid; ">
+                <p style="margin-bottom: 0px; line-height: 1; text-align: center"><span
+                        style=" font-size: 14.67px; font-family: 'Rupee Foradian'; color: #000000; ">5</span>
+                </p>
+            </td>
+            <td
+                style=" width: auto; vertical-align: bottom; border-top: none; border-left: none; border-bottom: 0.5px solid; border-right: 0.5px solid; ">
+                <p style="margin-bottom: 0px; line-height: 1"><span
+                        style=" font-size: 14.67px; font-family: 'Rupee Foradian'; color: #000000; ">{{risk_compliance}}</span></p>
+            </td>
+            <td
+                style=" width: auto; vertical-align: bottom; border-top: none; border-left: none; border-bottom: 0.5px solid; border-right: 0.5px solid; ">
+                <p style="margin-bottom: 0px; line-height: 1; text-align: right"><span
+                        style=" font-size: 14.67px; font-family: 'Rupee Foradian'; color: #000000; ">{{risk_compliance}}</span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td
+                style="width: auto; vertical-align: bottom; border-top: none; border-left: 0.5px solid; border-bottom: 0.5px solid; border-right: 0.5px solid; ">
+                <p style="margin-bottom: 0px; line-height: 1; text-align: center"><span
+                        style=" font-size: 14.67px; font-family: 'Rupee Foradian'; color: #000000; ">6</span>
+                </p>
+            </td>
+            <td
+                style=" width: auto; vertical-align: bottom; border-top: none; border-left: none; border-bottom: 0.5px solid; border-right: 0.5px solid; ">
+                <p style="margin-bottom: 0px; line-height: 1"><span
+                        style=" font-size: 14.67px; font-family: 'Rupee Foradian'; color: #000000; ">{{risk_compliance}}</span></p>
+            </td>
+            <td
+                style=" width: auto; vertical-align: bottom; border-top: none; border-left: none; border-bottom: 0.5px solid; border-right: 0.5px solid; ">
+                <p style="margin-bottom: 0px; line-height: 1; text-align: right"><span
+                        style=" font-size: 14.67px; font-family: 'Rupee Foradian'; color: #000000; ">{{risk_compliance}}</span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td
+                style="width: auto; vertical-align: bottom; border-top: none; border-left: 0.5px solid; border-bottom: 0.5px solid; border-right: 0.5px solid; ">
+                <p style="margin-bottom: 0px; line-height: 1; text-align: center"><span
+                        style=" font-size: 14.67px; font-family: 'Rupee Foradian'; color: #000000; ">7</span>
+                </p>
+            </td>
+            <td
+                style=" width: auto; vertical-align: bottom; border-top: none; border-left: none; border-bottom: 0.5px solid; border-right: 0.5px solid; ">
+                <p style="margin-bottom: 0px; line-height: 1"><span
+                        style=" font-size: 14.67px; font-family: 'Rupee Foradian'; color: #000000; ">{{risk_compliance}}</span></p>
+            </td>
+            <td
+                style=" width: auto; vertical-align: bottom; border-top: none; border-left: none; border-bottom: 0.5px solid; border-right: 0.5px solid; ">
+                <p style="margin-bottom: 0px; line-height: 1; text-align: right"><span
+                        style=" font-size: 14.67px; font-family: 'Rupee Foradian'; color: #000000; ">{{risk_compliance}}</span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2"
+                style=" width: auto; vertical-align: bottom; border-top: 0.5px solid; border-left: 0.5px solid; border-bottom: 0.5px solid; border-right: 0.5px solid;  ">
+                <p style="margin-bottom: 0px; line-height: 1; text-align: center"><span
+                        style=" font-size: 14.67px; font-family: 'Rupee Foradian'; color: #000000; font-weight: bold; ">Total</span>
+                </p>
+            </td>
+            <td
+                style=" width: auto; vertical-align: bottom; border-top: none; border-left: none; border-bottom: 0.5px solid; border-right: 0.5px solid; ">
+                <p style="margin-bottom: 0px; line-height: 1; text-align: right"><span
+                        style=" font-size: 14.67px; font-family: 'Rupee Foradian'; color: #000000; font-weight: bold; ">{{risk_compliance}}</span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="4"
+                style=" vertical-align: bottom; border-top: 0.5px solid; border-left: 0.5px solid; border-bottom: 0.5px solid; border-right: 0.5px solid #000000; ">
+                <p style="margin-bottom: 0px; line-height: 1; text-align: center"><span
+                        style=" font-size: 14.67px; font-family: 'Rupee Foradian'; color: #000000; "></span></p>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="4"
+                style=" width: auto; vertical-align: bottom; border-top: 0.5px solid; border-left: 0.5px solid; border-bottom: 0.5px solid; border-right: 0.5px solid;  ">
+                <p style="margin-bottom: 0px; line-height: 1"><span
+                        style=" font-size: 14.67px; font-family: 'Rupee Foradian'; color: #000000; font-weight: bold; ">Exposure by SIDBI Group</span></p>
+            </td>
+        </tr>
+        <tr>
+            <td
+                style="width: auto; vertical-align: bottom; border-top: none; border-left: 0.5px solid; border-bottom: 0.5px solid; border-right: 0.5px solid; ">
+                <p style="margin-bottom: 0px; line-height: 1; text-align: center"><span
+                        style=" font-size: 14.67px; font-family: 'Rupee Foradian'; color: #000000; font-weight: bold; ">Sr No.</span></p>
+            </td>
+            <td
+                style=" width: auto; vertical-align: bottom; border-top: none; border-left: none; border-bottom: 0.5px solid; border-right: 0.5px solid; ">
+                <p style="margin-bottom: 0px; line-height: 1"><span
+                        style=" font-size: 14.67px; font-family: 'Rupee Foradian'; color: #000000; font-weight: bold; ">Name of the company</span></p>
+            </td>
+            <td
+                style=" width: auto; vertical-align: bottom; border-top: none; border-left: none; border-bottom: 0.5px solid; border-right: 0.5px solid; ">
+                <p style="margin-bottom: 0px; line-height: 1; text-align: center"><span
+                        style=" font-size: 14.67px; font-family: 'Rupee Foradian'; color: #000000; font-weight: bold; ">Exposure Limit</span></p>
+            </td>
+            <td
+                style=" width: auto; vertical-align: bottom; border-top: none; border-left: none; border-bottom: 0.5px solid; border-right: 0.5px solid; ">
+                <p style="margin-bottom: 0px; line-height: 1"><span
+                        style=" font-size: 14.67px; font-family: 'Rupee Foradian'; color: #000000; font-weight: bold; ">Actual Exposure</span></p>
+            </td>
+        </tr>
+        <tr>
+            <td
+                style="width: auto; vertical-align: bottom; border-top: none; border-left: 0.5px solid; border-bottom: 0.5px solid; border-right: 0.5px solid; ">
+                <p style="margin-bottom: 0px; line-height: 1; text-align: center"><span
+                        style=" font-size: 14.67px; font-family: 'Rupee Foradian'; color: #000000; ">1</span>
+                </p>
+            </td>
+            <td
+                style=" width: auto; vertical-align: bottom; border-top: none; border-left: none; border-bottom: 0.5px solid; border-right: 0.5px solid; ">
+                <p style="margin-bottom: 0px; line-height: 1"><span
+                        style=" font-size: 14.67px; font-family: 'Rupee Foradian'; color: #000000; ">{{risk_compliance}}</span></p>
+            </td>
+            <td rowspan="8"
+                style=" vertical-align: middle; border-top: none; border-left: 0.5px solid; border-bottom: 0.5px solid; border-right: 0.5px solid; ">
+                <p style="margin-bottom: 0px; line-height: 1; text-align: center"><span
+                        style=" font-size: 14.67px; font-family: 'Arial'; color: #000000; "></span><span
+                        style=" font-size: 14.67px; font-family: 'Rupee Foradian'; color: #000000; ">{{risk_compliance}}</span></p>
+            </td>
+            <td
+                style=" width: auto; vertical-align: bottom; border-top: none; border-left: none; border-bottom: 0.5px solid; border-right: 0.5px solid; ">
+                <p style="margin-bottom: 0px; line-height: 1; text-align: right"><span
+                        style=" font-size: 14.67px; font-family: 'Rupee Foradian'; color: #000000; ">{{risk_compliance}}</span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td
+                style="width: auto; vertical-align: bottom; border-top: none; border-left: 0.5px solid; border-bottom: 0.5px solid; border-right: 0.5px solid; ">
+                <p style="margin-bottom: 0px; line-height: 1; text-align: center"><span
+                        style=" font-size: 14.67px; font-family: 'Rupee Foradian'; color: #000000; ">2</span>
+                </p>
+            </td>
+            <td
+                style=" width: auto; vertical-align: bottom; border-top: none; border-left: none; border-bottom: 0.5px solid; border-right: 0.5px solid; ">
+                <p style="margin-bottom: 0px; line-height: 1"><span
+                        style=" font-size: 14.67px; font-family: 'Rupee Foradian'; color: #000000; ">{{risk_compliance}}</span></p>
+            </td>
+            <td
+                style=" width: auto; vertical-align: bottom; border-top: none; border-left: none; border-bottom: 0.5px solid; border-right: 0.5px solid; ">
+                <p style="margin-bottom: 0px; line-height: 1; text-align: right"><span
+                        style=" font-size: 14.67px; font-family: 'Rupee Foradian'; color: #000000; ">{{risk_compliance}}</span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td
+                style="width: auto; vertical-align: bottom; border-top: none; border-left: 0.5px solid; border-bottom: 0.5px solid; border-right: 0.5px solid; ">
+                <p style="margin-bottom: 0px; line-height: 1; text-align: center"><span
+                        style=" font-size: 14.67px; font-family: 'Rupee Foradian'; color: #000000; ">3</span>
+                </p>
+            </td>
+            <td
+                style=" width: auto; vertical-align: bottom; border-top: none; border-left: none; border-bottom: 0.5px solid; border-right: 0.5px solid; ">
+                <p style="margin-bottom: 0px; line-height: 1"><span
+                        style=" font-size: 14.67px; font-family: 'Rupee Foradian'; color: #000000; ">{{risk_compliance}}</span></p>
+            </td>
+            <td
+                style=" width: auto; vertical-align: bottom; border-top: none; border-left: none; border-bottom: 0.5px solid; border-right: 0.5px solid; ">
+                <p style="margin-bottom: 0px; line-height: 1; text-align: right"><span
+                        style=" font-size: 14.67px; font-family: 'Rupee Foradian'; color: #000000; ">{{risk_compliance}}</span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td
+                style="width: auto; vertical-align: bottom; border-top: none; border-left: 0.5px solid; border-bottom: 0.5px solid; border-right: 0.5px solid; ">
+                <p style="margin-bottom: 0px; line-height: 1; text-align: center"><span
+                        style=" font-size: 14.67px; font-family: 'Rupee Foradian'; color: #000000; ">4</span>
+                </p>
+            </td>
+            <td
+                style=" width: auto; vertical-align: bottom; border-top: none; border-left: none; border-bottom: 0.5px solid; border-right: 0.5px solid; ">
+                {{risk_compliance}}
+            </td>
+            <td
+                style=" width: auto; vertical-align: bottom; border-top: none; border-left: none; border-bottom: 0.5px solid; border-right: 0.5px solid; ">
+                <p style="margin-bottom: 0px; line-height: 1; text-align: right"><span
+                        style=" font-size: 14.67px; font-family: 'Rupee Foradian'; color: #000000; ">{{risk_compliance}}</span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td
+                style="width: auto; vertical-align: bottom; border-top: none; border-left: 0.5px solid; border-bottom: 0.5px solid; border-right: 0.5px solid; ">
+                <p style="margin-bottom: 0px; line-height: 1; text-align: center"><span
+                        style=" font-size: 14.67px; font-family: 'Rupee Foradian'; color: #000000; ">5</span>
+                </p>
+            </td>
+            <td
+                style=" width: auto; vertical-align: bottom; border-top: none; border-left: none; border-bottom: 0.5px solid; border-right: 0.5px solid; ">
+                <p style="margin-bottom: 0px; line-height: 1"><span
+                        style=" font-size: 14.67px; font-family: 'Rupee Foradian'; color: #000000; ">{{risk_compliance}}</span></p>
+            </td>
+            <td
+                style=" width: auto; vertical-align: bottom; border-top: none; border-left: none; border-bottom: 0.5px solid; border-right: 0.5px solid; ">
+                <p style="margin-bottom: 0px; line-height: 1; text-align: right"><span
+                        style=" font-size: 14.67px; font-family: 'Rupee Foradian'; color: #000000; ">{{risk_compliance}}</span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td
+                style="width: auto; vertical-align: bottom; border-top: none; border-left: 0.5px solid; border-bottom: 0.5px solid; border-right: 0.5px solid; ">
+                <p style="margin-bottom: 0px; line-height: 1; text-align: center"><span
+                        style=" font-size: 14.67px; font-family: 'Rupee Foradian'; color: #000000; ">6</span>
+                </p>
+            </td>
+            <td
+                style=" width: auto; vertical-align: bottom; border-top: none; border-left: none; border-bottom: 0.5px solid; border-right: 0.5px solid; ">
+                <p style="margin-bottom: 0px; line-height: 1"><span
+                        style=" font-size: 14.67px; font-family: 'Rupee Foradian'; color: #000000; ">{{risk_compliance}}
+            </td>
+            <td
+                style=" width: auto; vertical-align: bottom; border-top: none; border-left: none; border-bottom: 0.5px solid; border-right: 0.5px solid; ">
+                <p style="margin-bottom: 0px; line-height: 1; text-align: right"><span
+                        style=" font-size: 14.67px; font-family: 'Rupee Foradian'; color: #000000; ">{{risk_compliance}}</span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td
+                style="width: auto; vertical-align: bottom; border-top: none; border-left: 0.5px solid; border-bottom: 0.5px solid; border-right: 0.5px solid; ">
+                <p style="margin-bottom: 0px; line-height: 1; text-align: center"><span
+                        style=" font-size: 14.67px; font-family: 'Rupee Foradian'; color: #000000; ">7</span>
+                </p>
+            </td>
+            <td
+                style=" width: auto; vertical-align: bottom; border-top: none; border-left: none; border-bottom: 0.5px solid; border-right: 0.5px solid; ">
+                <p style="margin-bottom: 0px; line-height: 1"><span
+                        style=" font-size: 14.67px; font-family: 'Rupee Foradian'; color: #000000; ">{{risk_compliance}}</span></p>
+            </td>
+            <td
+                style=" width: auto; vertical-align: bottom; border-top: none; border-left: none; border-bottom: 0.5px solid; border-right: 0.5px solid; ">
+                <p style="margin-bottom: 0px; line-height: 1; text-align: right"><span
+                        style=" font-size: 14.67px; font-family: 'Rupee Foradian'; color: #000000; ">{{risk_compliance}}</span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2"
+                style=" width: auto; vertical-align: bottom; border-top: 0.5px solid; border-left: 0.5px solid; border-bottom: 0.5px solid; border-right: 0.5px solid;  ">
+                <p style="margin-bottom: 0px; line-height: 1; text-align: center"><span
+                        style=" font-size: 14.67px; font-family: 'Rupee Foradian'; color: #000000; font-weight: bold; ">Total</span>
+                </p>
+            </td>
+            <td
+                style=" width: auto; vertical-align: bottom; border-top: none; border-left: none; border-bottom: 0.5px solid; border-right: 0.5px solid; ">
+                <p style="margin-bottom: 0px; line-height: 1; text-align: right"><span
+                        style=" font-size: 14.67px; font-family: 'Rupee Foradian'; color: #000000; font-weight: bold; ">{{risk_compliance}}</span>
+                </p>
+            </td>
+        </tr>
+    </table>
+    <p style="margin-bottom: 0px; line-height: 1"> </p>
+    <p style="margin-bottom: 0px; line-height: 1"><span
+            style=" font-size: 14.67px; font-family: 'Rupee Foradian'; font-weight: bold; ">Overall Exposure of the Bank on NBFCs:</span></p>
+    <p style="margin-bottom: 0px; line-height: 1"> </p>
+    <table
+        style=" border-collapse: collapse; table-layout: fixed; border-top: 0.5px solid; border-left: 0.5px solid; border-bottom: 0.5px solid; border-right: 0.5px solid; ">
+        <tr>
+            <td style="width: auto;border: 0.5px solid">
+                <p style="text-align: center"><span style="font-weight: bold">Exposure to NBFC Sector</span></p>
+            </td>
+            <td colspan="2" style="width: auto;border: 0.5px solid">
+                <p style="text-align: center"><span style="font-weight: bold">As on</span></p>
+            </td>
+            <td style="border: 0.5px solid">
+                <p style="text-align: center"><span style="font-weight: bold">Exposure (₹ crore)</span></p>
+            </td>
+        </tr>
+        <tr>
+            <td style="width: auto;">NBFC outstanding</td>
+            <td colspan="2" style="width: auto;text-align:center">{{risk_compliance}}</td>
+            <td style="width: auto;text-align:right">{{risk_compliance}}</td>
+        </tr>
+        <tr>
+            <td style="width: auto;">NBFC - Undisbursed Sanctions - REF</td>
+            <td colspan="2" style="width: auto;text-align:center">{{risk_compliance}}</td>
+            <td style="width: auto;text-align:right">{{risk_compliance}}</td>
+        </tr>
+        <tr>
+            <td style="width: auto;">NBFC - Undisbursed Sanctions - Non REF</td>
+            <td colspan="2" style="width: auto;text-align:center">{{risk_compliance}}</td>
+            <td style="width: auto;text-align:right">{{risk_compliance}}</td>
+        </tr>
+        <tr>
+            <td style="width: auto;">NBFC-MFI outstanding</td>
+            <td colspan="2" style="width: auto;text-align:center">{{risk_compliance}}</td>
+            <td style="width: auto;text-align:right">{{risk_compliance}}</td>
+        </tr>
+        <tr>
+            <td style="width: auto;">MFI - Investment through AIF</td>
+            <td colspan="2" style="width: auto;text-align:center">{{risk_compliance}}</td>
+            <td style="width: auto;text-align:right">{{risk_compliance}}</td>
+        </tr>
+        <tr>
+            <td style="width: auto;">NBFC-MFI undisbursed sanctions</td>
+            <td colspan="2" style="width: auto;text-align:center">{{risk_compliance}}</td>
+            <td style="width: auto;text-align:right">{{risk_compliance}}</td>
+        </tr>
+        <tr>
+            <td style="width: auto;">Total - NBFC/MFI Vertical</td>
+            <td colspan="2" style="width: auto;text-align:center">{{risk_compliance}}</td>
+            <td style="width: auto;text-align:right">{{risk_compliance}}</td>
+        </tr>
+        <tr>
+            <td style="width: auto;">Treasury Exp(NBFC)</td>
+            <td colspan="2" style="width: auto;text-align:center">{{risk_compliance}}</td>
+            <td style="width: auto;text-align:right">{{risk_compliance}}</td>
+        </tr>
+        <tr>
+            <td style="width: auto;">CDA exposure to NBFC- Electronica, Ugro, MAS, Ratnafin and Samunnati</td>
+            <td colspan="2" style="width: auto;text-align:center">{{risk_compliance}}</td>
+            <td style="width: auto;text-align:right">{{risk_compliance}}</td>
+        </tr>
+        <tr>
+            <td style="width: auto;">Prayaas</td>
+            <td colspan="2" style="width: auto;text-align:center">{{risk_compliance}}</td>
+            <td style="width: auto;text-align:right">{{risk_compliance}}</td>
+        </tr>
+        <tr>
+            <td style="width: auto;">Co-Lending Direct Assignment (15% of sanctioned amount)
+            </td>
+            <td colspan="2" style="width: auto;text-align:center">{{risk_compliance}}</td>
+            <td style="width: auto;text-align:right">{{risk_compliance}}</td>
+        </tr>
+        <tr>
+            <td style="width: auto;">SIDBIs Exposure to NBFCs</td>
+            <td colspan="2" style="width: auto;text-align:center">{{risk_compliance}}</td>
+            <td style="width: auto;text-align:right">{{risk_compliance}}</td>
+        </tr>
+        <tr>
+            <td style="width: auto;">Overall NBFC Portfolio Exposure cap – 400% of capital funds () = Subject to 25% of total portfolio (=)
+            </td>
+            <td colspan="2" style="width: auto;text-align:center">{{risk_compliance}}</td>
+            <td style="width: auto;text-align:right">{{risk_compliance}}</td>
+        </tr>
+        <tr>
+            <td style="width: auto;font-weight:bold">Gap Available</td>
+            <td colspan="2"></td>
+            <td style="width: auto;text-align:right; font-weight:bold">{{risk_compliance}}</td>
+        </tr>
+    </table>
+    <p style="margin-bottom: 0px; line-height: 1"> </p>
+    <p style="margin-bottom: 13.33px; line-height: 1.15; text-align: center"><span
+            style=" font-size: 14.67px; font-family: 'Rupee Foradian'; color: #000000; font-weight: bold; text-decoration: underline; ">Compliance to Risk Rationale</span>
+    </p>
+    <table
+        style=" border-collapse: collapse; table-layout: fixed; border-top: 0.5px solid; border-left: 0.5px solid; border-bottom: 0.5px solid; border-right: 0.5px solid; ">
+        <tr>
+            <td
+                style=" background-color: #d9d9d9; vertical-align: middle; border-top: 0.5px solid; border-left: 0.5px solid; border-bottom: 0.5px solid; border-right: 0.5px solid; ">
+                <p style="margin-bottom: 13.33px; line-height: 1.15"> </p>
+            </td>
+            <td
+                style=" background-color: #d9d9d9; vertical-align: middle; border-top: 0.5px solid; border-left: 0.5px solid; border-bottom: 0.5px solid; border-right: 0.5px solid; ">
+                <p style=" margin-bottom: 13.33px; line-height: 1.15; text-align: center; "><span
+                        style=" font-size: 14.67px; font-family: 'Rupee Foradian'; color: #000000; font-weight: bold; font-style: italic; ">Risk Concerns &amp; Other comments by RiMV</span></p>
+            </td>
+            <td
+                style=" background-color: #d9d9d9; vertical-align: middle; border-top: 0.5px solid; border-left: 0.5px solid; border-bottom: 0.5px solid; border-right: 0.5px solid; ">
+                <p style=" margin-bottom: 13.33px; line-height: 1.15; text-align: center; "><span
+                        style=" font-size: 14.67px; font-family: 'Rupee Foradian'; color: #000000; font-weight: bold; font-style: italic; ">NBFCFV Comments</span></p>
+            </td>
+        <tr>
+            <td
+                style=" border-top: 0.5px solid; border-left: 0.5px solid; border-bottom: 0.5px solid; border-right: 0.5px solid; ">
+                <p style=" margin-bottom: 13.33px; line-height: 1.15; text-align: center; "><span
+                        style=" font-size: 14.67px; font-family: 'Rupee Foradian'; color: #000000; font-weight: bold; ">i</span>
+                </p>
+            </td>
+            <td colspan="2"
+                style=" border-top: 0.5px solid; border-left: 0.5px solid; border-bottom: 0.5px solid; border-right: 0.5px solid; ">
+                <p style="margin-bottom: 0px; line-height: 1.15; text-align: left"><span
+                        style=" font-size: 14.67px; font-family: 'Rupee Foradian'; color: #000000; font-weight: bold; ">Major weakness / risk concerns indicated in external rating report</span></p>
+            </td>
+        </tr>
+        <tr>
+            <td
+                style=" border-top: 0.5px solid; border-left: 0.5px solid; border-bottom: 0.5px solid; border-right: 0.5px solid; ">
+                <p style="margin-bottom: 11.07px; line-height: 1.15; margin-left: 48px"> </p>
+            </td>
+            <td colspan="2"
+                style=" border-top: 0.5px solid; border-left: 0.5px solid; border-bottom: 0.5px solid; border-right: 0.5px solid; ">
+                <p>{{risk_compliance}}</p>
+            </td>
+        </tr>
+        <tr>
+            <td
+                style=" border-top: 0.5px solid; border-left: 0.5px solid; border-bottom: 0.5px solid; border-right: 0.5px solid; ">
+                <p style="margin-bottom: 11.07px; line-height: 1.15;text-align: center;"><span
+                        style=" font-size: 14.67px; font-family: 'Rupee Foradian'; color: #000000; font-weight: bold; ">ii</span>
+                </p>
+            </td>
+            <td colspan="2"
+                style=" border-top: 0.5px solid; border-left: 0.5px solid; border-bottom: 0.5px solid; border-right: 0.5px solid; ">
+                <p style="margin-bottom: 0px; line-height: 1.15; text-align: left"><span
+                        style=" font-size: 14.67px; font-family: 'Rupee Foradian'; color: #000000; font-weight: bold; ">Risk Concerns:</span></p>
+            </td>
+        </tr>
+        <tr>
+            <td
+                style=" border-top: 0.5px solid; border-left: 0.5px solid; border-bottom: 0.5px solid; border-right: 0.5px solid; ">
+                <p style="margin-bottom: 11.07px; line-height: 1.15; margin-left: 48px"> </p>
+            </td>
+            <td colspan="2"
+                style=" border-top: 0.5px solid; border-left: 0.5px solid; border-bottom: 0.5px solid; border-right: 0.5px solid; ">
+                <p>{{risk_compliance}}</p>
+            </td>
+        </tr>
+        <tr>
+            <td
+                style=" border-top: 0.5px solid; border-left: 0.5px solid; border-bottom: 0.5px solid; border-right: 0.5px solid; ">
+                <p style="margin-bottom: 11.07px; line-height: 1.15;text-align: center;"><span
+                        style=" font-size: 14.67px; font-family: 'Rupee Foradian'; color: #000000; font-weight: bold; ">iii</span>
+                </p>
+            </td>
+            <td colspan="2"
+                style=" vertical-align: middle; border-top: 0.5px solid; border-left: 0.5px solid; border-bottom: 0.5px solid; border-right: 0.5px solid; ">
+                <p style="margin-bottom: 0px; line-height: 1.15; text-align: left"><span
+                        style=" font-size: 14.67px; font-family: 'Rupee Foradian'; color: #000000; font-weight: bold; ">Other important comments/ risk concerns covered in DAN [in brief] – Nil</span></p>
+            </td>
+        </tr>
+        <tr>
+            <td
+                style=" border-top: 0.5px solid; border-left: 0.5px solid; border-bottom: 0.5px solid; border-right: 0.5px solid; ">
+                <p style="margin-bottom: 11.07px; line-height: 1.15; margin-left: 48px"> </p>
+            </td>
+            <td colspan="2"
+                style=" border-top: 0.5px solid; border-left: 0.5px solid; border-bottom: 0.5px solid; border-right: 0.5px solid; ">
+                <p>{{risk_compliance}}</p>
+            </td>
+        </tr>
+        <tr>
+            <td
+                style=" border-top: 0.5px solid; border-left: 0.5px solid; border-bottom: 0.5px solid; border-right: 0.5px solid; ">
+                <p style="margin-bottom: 11.07px; line-height: 1.15;text-align: center;"><span
+                        style=" font-size: 14.67px; font-family: 'Rupee Foradian'; color: #000000; font-weight: bold; ">iv</span>
+                </p>
+            </td>
+            <td colspan="2"
+                style=" border-top: 0.5px solid; border-left: 0.5px solid; border-bottom: 0.5px solid; border-right: 0.5px solid; ">
+                <p style="margin-bottom: 0px; line-height: 1.15"><span
+                        style=" font-size: 14.67px; font-family: 'Rupee Foradian'; color: #000000; font-weight: bold; ">Deviation of norms (other than those mentioned in the DAN).</span></p>
+            </td>
+        </tr>
+        <tr>
+            <td
+                style=" border-top: 0.5px solid; border-left: 0.5px solid; border-bottom: 0.5px solid; border-right: 0.5px solid; ">
+                <p style="margin-bottom: 11.07px; line-height: 1.15; margin-left: 48px"> </p>
+            </td>
+            <td colspan="2"
+                style=" border-top: 0.5px solid; border-left: 0.5px solid; border-bottom: 0.5px solid; border-right: 0.5px solid; ">
+                <p>{{risk_compliance}}</p>
+            </td>
+        </tr>
+    </table>
+    <p style=" margin-bottom: 0px; line-height: 1.15; margin-top: 13.33px; text-align: right; "> </p>
+    <p style=" margin-bottom: 0px; line-height: 1.15; margin-top: 13.33px; text-align: right; "> </p>
+    <p style=" margin-bottom: 0px; line-height: 1.15; margin-top: 13.33px; text-align: right; "><span
+            style="font-size: 14.67px; font-family: 'Rupee Foradian'"></span></p>
+    <p style=" margin-bottom: 0px; line-height: 1.15; margin-top: 13.33px; text-align: right; "><span
+            style="font-size: 14.67px; font-family: 'Rupee Foradian'">Annexure- 4</span></p>
+    <p style=" margin-bottom: 0px; line-height: 1.15; margin-top: 13.33px; text-align: center; "><span
+            style="font-size: 20px; font-family: 'Rupee Foradian'">External Rating Report</span></p>
+    <p style="margin-bottom: 13.33px; line-height: 1.15"> </p>
+    <p style="margin-bottom: 13.33px; line-height: 1.15"><span style="font-size: 14.67px; color: #ff0000">[One best external report to be attached as is without summary]</span></p>
+    <p style="margin-bottom: 13.33px; line-height: 1.15"><span style="font-size: 14.67px; color: #ff0000"></span></p>
+    <p style=" margin-bottom: 0px; line-height: 1.15; margin-top: 13.33px; text-align: right; "><span
+            style="font-size: 14.67px; font-family: 'Rupee Foradian'">Annexure- 5</span></p>
+    <p style=" margin-bottom: 0px; line-height: 1.15; margin-top: 13.33px; text-align: center; "><span
+            style="font-size: 20px; font-family: 'Rupee Foradian'">Balance Sheet Analysis</span></p>
+    <p style="margin-bottom: 13.33px; line-height: 1.15"> </p>
+    <p style="margin-bottom: 13.33px; line-height: 1.15"><span style="font-size: 14.67px; color: #ff0000">[Excel format as analyzed through SaveRisk ]</span></p>
+    <p style="margin-bottom: 13.33px; line-height: 1.15"> </p>
+</body>
+
+</html>
